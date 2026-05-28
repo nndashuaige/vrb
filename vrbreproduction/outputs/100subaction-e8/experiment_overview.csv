@@ -1,0 +1,2 @@
+experiment_id,subactions_total,subactions_success,final_tuple_count,raw_candidate_total,deep_run_candidate_total,contact_gmm_pass,active_object_selected,object_track_success,reference_found,projection_success,mask_gate_pass,cotracker_success,fallback_tracker_success,articulated_success_count,articulated_failure_count,articulated_projection_quality,trajectory_success,heatmap_success,main_failure
+E8,100,60,131,24687,556,409,477,332,305,305,305,0,305,39,62,0.9598055952158165,305,131,missing_hand_or_object_bbox
