@@ -1,0 +1,7 @@
+metric,count,definition
+100 subactions,100,E14 configured first 100 P01_109 subactions
+有 new-contact candidate,81,rows with a selected first new-contact t0 candidate
+Cell2 contact/GMM pass,59,candidate reached/passed Cell2 contact point extraction + GMM
+reference found,23,candidate has non-null ref_idx
+homography available,21,candidate has H_contact_to_ref available
+final keep,20,status=keep / Cell4 heatmap pass

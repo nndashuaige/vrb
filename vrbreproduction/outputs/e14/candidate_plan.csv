@@ -1,0 +1,101 @@
+experiment_id,subaction_index,narration_id,narration,verb,noun,all_nouns,start_frame_0_based,stop_frame_0_based,raw_candidate_count,episode_filtered_candidate_count,deep_run_candidate_count,episode_decision,episode_reason,subaction_new_contact_count,episode_start_frames_0_based,episode_hands
+E14,0,P01_109_0,grab rucksack,grab,rucksack,['rucksack'],78,125,48,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,88,left
+E14,1,P01_109_1,open rucksack,open,rucksack,['rucksack'],152,225,97,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,161,right
+E14,2,P01_109_2,pick up eggs,pick-up,egg,['egg'],251,318,133,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,256,right
+E14,3,P01_109_3,put down eggs,put-down,egg,['egg'],318,373,36,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,362,left
+E14,4,P01_109_4,pick up onion and potato,pick-up,onion,"['onion', 'potato']",423,474,104,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,5,P01_109_5,put down onion and potato,put-down,onion,"['onion', 'potato']",479,522,31,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,6,P01_109_8,pick up potato,pick-up,potato,['potato'],499,621,140,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,527,right
+E14,7,P01_109_6,pick up potatoes,pick-up,potato,['potato'],542,578,74,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,8,P01_109_7,put down potatoes,put-down,potato,['potato'],549,733,190,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,628,left
+E14,9,P01_109_9,put down potato,put-down,potato,['potato'],624,751,136,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,628,left
+E14,10,P01_109_10,pick up beers,pick-up,beer,['beer'],737,844,174,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,774,left
+E14,11,P01_109_11,open freezer,open,freezer,['freezer'],875,1021,141,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,980,right
+E14,12,P01_109_12,open drawer,open,drawer,['drawer'],1044,1122,132,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1070,left
+E14,13,P01_109_13,put beer into drawer,put-into,beer,"['beer', 'drawer']",1138,1352,278,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1180,right
+E14,14,P01_109_14,put beer into drawer,put-into,beer,"['beer', 'drawer']",1229,1282,71,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1258,right
+E14,15,P01_109_15,put beer into drawer,put-into,beer,"['beer', 'drawer']",1297,1334,67,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,16,P01_109_16,close drawer,close,drawer,['drawer'],1344,1400,60,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1345,left
+E14,17,P01_109_17,close freezer,close,freezer,['freezer'],1418,1463,35,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1422,left
+E14,18,P01_109_18,pick up rucksack,pick-up,rucksack,['rucksack'],1484,1526,36,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1496,right
+E14,19,P01_109_19,put down rucksack,put-down,rucksack,['rucksack'],1656,1697,27,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,20,P01_109_20,close door,close,door,['door'],1811,1945,33,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,1827,left
+E14,21,P01_109_21,pick up cup,pick-up,cup,['cup'],2083,2119,6,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2088,left
+E14,22,P01_109_22,put down cup,put-down,cup,['cup'],2131,2192,25,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2142,right
+E14,23,P01_109_23,pick up spoon,pick-up,spoon,['spoon'],2205,2235,11,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2213,right
+E14,24,P01_109_24,open drawer,open,drawer,['drawer'],2268,2331,47,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2325,left
+E14,25,P01_109_25,put spoon into drawer,put-into,spoon,"['spoon', 'drawer']",2335,2377,29,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2341,right
+E14,26,P01_109_26,close drawer,close,drawer,['drawer'],2376,2409,0,0,0,no_contact_candidate,no_smoothed_contact_in_subaction,0,,
+E14,27,P01_109_27,pour hand wash,pour,wash:hand,['wash:hand'],2465,2504,10,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2468,right
+E14,28,P01_109_28,wash hands,wash,hand,['hand'],2477,2539,8,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2484,right
+E14,29,P01_109_29,turn on tap,turn-on,tap,['tap'],2544,2574,38,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2550,right
+E14,30,P01_109_30,rinse hands,rinse,hand,['hand'],2578,2962,164,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2708,left
+E14,31,P01_109_31,turn off tap,turn-off,tap,['tap'],2966,2988,10,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,2968,left
+E14,32,P01_109_32,shake hands,shake,hand,['hand'],3000,3071,24,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3009,left
+E14,33,P01_109_33,pick up cloth,pick-up,cloth,['cloth'],3083,3139,26,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3088,left
+E14,34,P01_109_34,dry hands,dry,hand,['hand'],3093,3348,112,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3121,left
+E14,35,P01_109_35,put down cloth,put-down,cloth,['cloth'],3348,3371,35,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3356,left
+E14,36,P01_109_36,pick up potatoes,pick-up,potato,['potato'],3373,3495,214,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3392,left
+E14,37,P01_109_37,put down potatoes,put-down,potato,['potato'],3516,3551,56,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3549,left
+E14,38,P01_109_38,move potatoes,move,potato,['potato'],3639,3705,42,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3654,left
+E14,39,P01_109_39,open cupboard,open,cupboard,['cupboard'],3718,3798,55,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3718,left
+E14,40,P01_109_40,move pans,move,pan,['pan'],3825,4047,301,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,3837,right
+E14,41,P01_109_41,pick up pan,pick-up,pan,['pan'],4037,4097,122,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,42,P01_109_42,put down pan,put-down,pan,['pan'],4208,4279,107,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4273,left
+E14,43,P01_109_44,put down pan,put-down,pan,['pan'],4268,4352,142,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4273,left
+E14,44,P01_109_43,pick up pan,pick-up,pan,['pan'],4329,4385,36,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4380,right
+E14,45,P01_109_45,put down pan,put-down,pan,['pan'],4378,4431,56,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4380,right
+E14,46,P01_109_46,pick up cutting board,pick-up,board:cutting,['board:cutting'],4509,4603,70,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4511,left
+E14,47,P01_109_47,close cupboard,close,cupboard,['cupboard'],4620,4663,26,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4648,left
+E14,48,P01_109_48,put down cutting board,put-down,board:cutting,['board:cutting'],4676,4723,53,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4692,left
+E14,49,P01_109_49,pick up eggs,pick-up,egg,['egg'],4763,4796,68,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,50,P01_109_50,put down eggs,put-down,egg,['egg'],4793,4826,54,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4821,right
+E14,51,P01_109_51,move kettle,move,kettle,['kettle'],4831,4866,35,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4856,left
+E14,52,P01_109_52,open drawer,open,drawer,['drawer'],4903,4941,13,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4907,right
+E14,53,P01_109_53,pick up peeler,pick-up,peeler,['peeler'],4937,4980,47,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4947,right
+E14,54,P01_109_54,close drawer,close,drawer,['drawer'],4976,5003,31,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,4978,left
+E14,55,P01_109_55,move cutting board,move,board:cutting,['board:cutting'],5013,5048,54,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,5019,left
+E14,56,P01_109_56,pick up potato,pick-up,potato,['potato'],5052,5121,112,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,5062,left
+E14,57,P01_109_57,move potato,move,potato,['potato'],5081,5093,24,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,58,P01_109_58,peel potato,peel,potato,['potato'],5181,9528,8679,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,7132,right
+E14,59,P01_109_59,put down potato,put-down,potato,['potato'],9493,9581,178,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,60,P01_109_60,put down peeler,put-down,peeler,['peeler'],9585,9606,31,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,61,P01_109_61,pick up knife,pick-up,knife,['knife'],9667,9761,3,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,9689,right
+E14,62,P01_109_62,grab potato,grab,potato,['potato'],9804,9834,62,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,63,P01_109_63,cut potato,cut,potato,['potato'],9830,10124,590,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,64,P01_109_64,pick up potato bit,pick-up,bit:potato,['bit:potato'],10118,10182,95,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,10144,left
+E14,65,P01_109_65,put down potato bit,put-down,bit:potato,['bit:potato'],10147,10190,59,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,10173,left
+E14,66,P01_109_66,move cutting board,move,board:cutting,['board:cutting'],10195,10231,41,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,10197,left
+E14,67,P01_109_67,put down knife,put-down,knife,['knife'],10236,10266,21,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,10261,right
+E14,68,P01_109_68,pick up knife,pick-up,knife,['knife'],10263,10299,55,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,10269,right
+E14,69,P01_109_69,slice potato,slice,potato,['potato'],10296,11899,3179,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,10374,left
+E14,70,P01_109_70,put down knife,put-down,knife,['knife'],11913,11934,37,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,71,P01_109_71,put down potato slices,put-down,slice:potato,['slice:potato'],11962,11993,23,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,11977,right
+E14,72,P01_109_72,pick up potato slices,pick-up,slice:potato,['slice:potato'],12006,12070,130,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,73,P01_109_73,put down potato slices,put-down,slice:potato,['slice:potato'],12069,12185,194,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12104,right
+E14,74,P01_109_74,pick up potato slices,pick-up,slice:potato,['slice:potato'],12180,12262,131,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12190,left
+E14,75,P01_109_75,put down potato slices,put-down,slice:potato,['slice:potato'],12266,12331,71,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12294,right
+E14,76,P01_109_76,pick up potato slice,pick-up,slice:potato,['slice:potato'],12324,12390,65,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12325,right
+E14,77,P01_109_78,pick up potato slice,pick-up,slice:potato,['slice:potato'],12335,12389,60,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12335,left
+E14,78,P01_109_79,put down potato slice,put-down,slice:potato,['slice:potato'],12388,12410,16,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,79,P01_109_77,put down potato slice,put-down,slice:potato,['slice:potato'],12389,12416,21,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12411,left
+E14,80,P01_109_80,pick up potato slices,pick-up,slice:potato,['slice:potato'],12415,12454,54,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12424,right
+E14,81,P01_109_81,put down potato slices,put-down,slice:potato,['slice:potato'],12457,12479,17,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12468,right
+E14,82,P01_109_82,pick up potato slice,pick-up,slice:potato,['slice:potato'],12483,12561,143,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12493,right
+E14,83,P01_109_83,put down potato slice,put-down,slice:potato,['slice:potato'],12561,12584,45,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12578,right
+E14,84,P01_109_84,pick up potato slice,pick-up,slice:potato,['slice:potato'],12633,12666,38,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12634,right
+E14,85,P01_109_85,put down potato slice,put-down,slice:potato,['slice:potato'],12669,12691,21,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12679,left
+E14,86,P01_109_86,pick up potato slice,pick-up,slice:potato,['slice:potato'],12722,12752,54,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12724,left
+E14,87,P01_109_87,put down potato slice,put-down,slice:potato,['slice:potato'],12757,12785,30,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12758,right
+E14,88,P01_109_88,pick up knife,pick-up,knife,['knife'],12875,12925,98,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12879,right
+E14,89,P01_109_89,cut potato slice,cut,slice:potato,['slice:potato'],12914,13035,241,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,12999,left
+E14,90,P01_109_90,put down knife,put-down,knife,['knife'],13024,13054,58,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,13047,right
+E14,91,P01_109_91,put down potato slice,put-down,slice:potato,['slice:potato'],13064,13089,34,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,13078,left
+E14,92,P01_109_92,pick up potato,pick-up,potato,['potato'],13095,13120,32,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,13108,right
+E14,93,P01_109_93,pick up peeler,pick-up,peeler,['peeler'],13125,13154,56,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,13134,right
+E14,94,P01_109_94,peel potato,peel,potato,['potato'],13151,15460,4620,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,95,P01_109_95,put down potato,put-down,potato,['potato'],15462,15502,80,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,15464,right
+E14,96,P01_109_96,pick up peeler blade,pick-up,blade:peeler,['blade:peeler'],15507,15574,132,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,15508,left
+E14,97,P01_109_97,fix peeler blade,fix,blade:peeler,['blade:peeler'],15573,15771,389,1,1,new_contact_episode,first_smoothed_contact_run_start_within_subaction,1,15760,left
+E14,98,P01_109_98,pick up potato,pick-up,potato,['potato'],15771,15798,56,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,
+E14,99,P01_109_99,peel potato,peel,potato,['potato'],15882,16102,442,0,0,continuation_contact_run,contact_present_but_run_started_before_subaction,0,,

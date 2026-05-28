@@ -1,0 +1,8 @@
+| stage | remaining |
+| --- | ---: |
+| 100 subactions | 100 |
+| 有 new-contact candidate | 81 |
+| Cell2 contact/GMM pass | 59 |
+| near-contact ref found | 81 |
+| homography available | 52 |
+| final keep | 47 |

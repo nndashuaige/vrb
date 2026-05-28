@@ -1,0 +1,3625 @@
+{
+  "scan_limit": 500,
+  "scanned_frames": 500,
+  "full_pipeline_frames": 11,
+  "summary": [
+    {
+      "cell": "Cell 1-test",
+      "stage": "contact_point_precheck",
+      "entered_frames": 500,
+      "kept_frames": 375,
+      "discarded_frames": 125
+    },
+    {
+      "cell": "Cell 2",
+      "stage": "contact_gmm",
+      "entered_frames": 375,
+      "kept_frames": 367,
+      "discarded_frames": 8
+    },
+    {
+      "cell": "Cell 3",
+      "stage": "homography_geometry",
+      "entered_frames": 367,
+      "kept_frames": 11,
+      "discarded_frames": 356
+    },
+    {
+      "cell": "Cell 4",
+      "stage": "label_heatmap",
+      "entered_frames": 11,
+      "kept_frames": 11,
+      "discarded_frames": 0
+    }
+  ],
+  "reason_counts": {
+    "Cell 1-test": {
+      "contact_with_object_frames": 386,
+      "valid": 375,
+      "discard_contact_points": 11,
+      "missing_frame": 0
+    },
+    "Cell 2": {
+      "gmm_failed:ValueError": 8
+    },
+    "Cell 3": {
+      "pairwise_homography_low_quality_f88_to_f87": 1,
+      "pairwise_homography_low_quality_f89_to_f88": 1,
+      "pairwise_homography_low_quality_f90_to_f89": 1,
+      "pairwise_homography_low_quality_f92_to_f91": 1,
+      "pairwise_homography_low_quality_f93_to_f92": 1,
+      "pairwise_homography_low_quality_f94_to_f93": 3,
+      "pairwise_homography_low_quality_f97_to_f96": 1,
+      "pairwise_homography_low_quality_f98_to_f97": 1,
+      "pairwise_homography_low_quality_f99_to_f98": 2,
+      "pairwise_homography_low_quality_f101_to_f100": 1,
+      "pairwise_homography_low_quality_f104_to_f103": 1,
+      "pairwise_homography_low_quality_f105_to_f104": 1,
+      "pairwise_homography_low_quality_f109_to_f108": 1,
+      "pairwise_homography_low_quality_f110_to_f109": 1,
+      "pairwise_homography_low_quality_f111_to_f110": 1,
+      "pairwise_homography_low_quality_f112_to_f111": 1,
+      "pairwise_homography_low_quality_f113_to_f112": 1,
+      "pairwise_homography_low_quality_f114_to_f113": 1,
+      "pairwise_homography_low_quality_f115_to_f114": 1,
+      "pairwise_homography_low_quality_f116_to_f115": 1,
+      "pairwise_homography_low_quality_f117_to_f116": 1,
+      "pairwise_homography_low_quality_f118_to_f117": 1,
+      "pairwise_homography_low_quality_f119_to_f118": 1,
+      "pairwise_homography_low_quality_f120_to_f119": 1,
+      "pairwise_homography_low_quality_f121_to_f120": 1,
+      "pairwise_homography_low_quality_f122_to_f121": 1,
+      "pairwise_homography_low_quality_f123_to_f122": 1,
+      "pairwise_homography_low_quality_f124_to_f123": 1,
+      "pairwise_homography_low_quality_f125_to_f124": 1,
+      "pairwise_homography_low_quality_f126_to_f125": 1,
+      "pairwise_homography_low_quality_f127_to_f126": 1,
+      "pairwise_homography_low_quality_f128_to_f127": 1,
+      "pairwise_homography_low_quality_f129_to_f128": 1,
+      "pairwise_homography_low_quality_f130_to_f129": 1,
+      "pairwise_homography_low_quality_f131_to_f130": 1,
+      "pairwise_homography_low_quality_f132_to_f131": 1,
+      "pairwise_homography_low_quality_f133_to_f132": 1,
+      "pairwise_homography_low_quality_f134_to_f133": 1,
+      "pairwise_homography_low_quality_f135_to_f134": 1,
+      "pairwise_homography_low_quality_f137_to_f136": 1,
+      "pairwise_homography_low_quality_f138_to_f137": 1,
+      "pairwise_homography_low_quality_f141_to_f140": 1,
+      "pairwise_homography_low_quality_f142_to_f141": 1,
+      "pairwise_homography_low_quality_f143_to_f142": 1,
+      "pairwise_homography_low_quality_f145_to_f144": 1,
+      "pairwise_homography_low_quality_f146_to_f145": 1,
+      "pairwise_homography_low_quality_f147_to_f146": 1,
+      "pairwise_homography_low_quality_f148_to_f147": 1,
+      "pairwise_homography_low_quality_f149_to_f148": 1,
+      "pairwise_homography_low_quality_f150_to_f149": 1,
+      "pairwise_homography_low_quality_f151_to_f150": 1,
+      "pairwise_homography_low_quality_f152_to_f151": 1,
+      "pairwise_homography_low_quality_f153_to_f152": 1,
+      "pairwise_homography_low_quality_f154_to_f153": 1,
+      "pairwise_homography_low_quality_f155_to_f154": 1,
+      "pairwise_homography_low_quality_f156_to_f155": 1,
+      "pairwise_homography_low_quality_f157_to_f156": 1,
+      "pairwise_homography_low_quality_f158_to_f157": 1,
+      "pairwise_homography_low_quality_f159_to_f158": 1,
+      "pairwise_homography_low_quality_f160_to_f159": 1,
+      "pairwise_homography_low_quality_f161_to_f160": 90,
+      "pairwise_homography_low_quality_f260_to_f259": 26,
+      "pairwise_homography_low_quality_f286_to_f285": 14,
+      "pairwise_homography_low_quality_f302_to_f301": 1,
+      "pairwise_homography_low_quality_f303_to_f302": 1,
+      "pairwise_homography_low_quality_f304_to_f303": 1,
+      "pairwise_homography_low_quality_f307_to_f306": 1,
+      "pairwise_homography_low_quality_f308_to_f307": 1,
+      "pairwise_homography_low_quality_f309_to_f308": 1,
+      "pairwise_homography_low_quality_f310_to_f309": 1,
+      "pairwise_homography_low_quality_f311_to_f310": 1,
+      "pairwise_homography_low_quality_f312_to_f311": 1,
+      "pairwise_homography_low_quality_f313_to_f312": 1,
+      "pairwise_homography_low_quality_f314_to_f313": 1,
+      "pairwise_homography_low_quality_f315_to_f314": 1,
+      "pairwise_homography_low_quality_f316_to_f315": 1,
+      "pairwise_homography_low_quality_f317_to_f316": 1,
+      "pairwise_homography_low_quality_f318_to_f317": 1,
+      "pairwise_homography_low_quality_f319_to_f318": 1,
+      "pairwise_homography_low_quality_f320_to_f319": 1,
+      "pairwise_homography_low_quality_f321_to_f320": 3,
+      "pairwise_homography_low_quality_f324_to_f323": 15,
+      "trajectory_out_of_bounds_t+3": 1,
+      "trajectory_out_of_bounds_t+2": 1,
+      "trajectory_out_of_bounds_t+1": 1,
+      "pairwise_homography_low_quality_f373_to_f372": 1,
+      "pairwise_homography_low_quality_f374_to_f373": 1,
+      "pairwise_homography_low_quality_f375_to_f374": 1,
+      "pairwise_homography_low_quality_f376_to_f375": 1,
+      "pairwise_homography_low_quality_f377_to_f376": 1,
+      "pairwise_homography_low_quality_f378_to_f377": 1,
+      "pairwise_homography_low_quality_f380_to_f379": 1,
+      "pairwise_homography_low_quality_f381_to_f380": 1,
+      "pairwise_homography_low_quality_f382_to_f381": 1,
+      "pairwise_homography_low_quality_f383_to_f382": 1,
+      "pairwise_homography_low_quality_f384_to_f383": 1,
+      "pairwise_homography_low_quality_f385_to_f384": 1,
+      "pairwise_homography_low_quality_f386_to_f385": 1,
+      "pairwise_homography_low_quality_f387_to_f386": 1,
+      "pairwise_homography_low_quality_f388_to_f387": 1,
+      "pairwise_homography_low_quality_f389_to_f388": 2,
+      "pairwise_homography_low_quality_f391_to_f390": 3,
+      "pairwise_homography_low_quality_f392_to_f391": 1,
+      "pairwise_homography_low_quality_f393_to_f392": 9,
+      "pairwise_homography_low_quality_f404_to_f403": 1,
+      "pairwise_homography_low_quality_f405_to_f404": 1,
+      "pairwise_homography_low_quality_f406_to_f405": 3,
+      "pairwise_homography_low_quality_f409_to_f408": 1,
+      "pairwise_homography_low_quality_f410_to_f409": 8,
+      "pairwise_homography_low_quality_f419_to_f418": 1,
+      "pairwise_homography_low_quality_f420_to_f419": 2,
+      "pairwise_homography_low_quality_f422_to_f421": 1,
+      "pairwise_homography_low_quality_f423_to_f422": 1,
+      "pairwise_homography_low_quality_f425_to_f424": 1,
+      "pairwise_homography_low_quality_f426_to_f425": 1,
+      "pairwise_homography_low_quality_f427_to_f426": 1,
+      "pairwise_homography_low_quality_f428_to_f427": 1,
+      "pairwise_homography_low_quality_f429_to_f428": 1,
+      "pairwise_homography_low_quality_f430_to_f429": 71
+    },
+    "Cell 4": {}
+  },
+  "records": [
+    {
+      "frame": 72,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 71,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 73,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 76,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 74,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 119,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 75,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 127,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 76,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 86,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 77,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 107,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 78,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 109,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 79,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 42,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 80,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 90,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 81,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 53,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 82,
+      "hand": "left",
+      "status": "keep",
+      "failed_cell": null,
+      "discard_reason": null,
+      "contact_points": 126,
+      "ref_idx": 67,
+      "heatmap_mode": "covariance"
+    },
+    {
+      "frame": 83,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f88_to_f87",
+      "contact_points": 62,
+      "ref_idx": 67
+    },
+    {
+      "frame": 84,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f89_to_f88",
+      "contact_points": 40,
+      "ref_idx": 67
+    },
+    {
+      "frame": 85,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f90_to_f89",
+      "contact_points": 31,
+      "ref_idx": 67
+    },
+    {
+      "frame": 87,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f92_to_f91",
+      "contact_points": 174,
+      "ref_idx": 67
+    },
+    {
+      "frame": 88,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f93_to_f92",
+      "contact_points": 87,
+      "ref_idx": 67
+    },
+    {
+      "frame": 89,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f94_to_f93",
+      "contact_points": 134,
+      "ref_idx": 67
+    },
+    {
+      "frame": 90,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f94_to_f93",
+      "contact_points": 193,
+      "ref_idx": 67
+    },
+    {
+      "frame": 91,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f94_to_f93",
+      "contact_points": 151,
+      "ref_idx": 67
+    },
+    {
+      "frame": 92,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f97_to_f96",
+      "contact_points": 158,
+      "ref_idx": 67
+    },
+    {
+      "frame": 93,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f98_to_f97",
+      "contact_points": 140,
+      "ref_idx": 67
+    },
+    {
+      "frame": 94,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f99_to_f98",
+      "contact_points": 134,
+      "ref_idx": 67
+    },
+    {
+      "frame": 95,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 96,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f99_to_f98",
+      "contact_points": 125,
+      "ref_idx": 67
+    },
+    {
+      "frame": 97,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 98,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f101_to_f100",
+      "contact_points": 109,
+      "ref_idx": 67
+    },
+    {
+      "frame": 99,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f104_to_f103",
+      "contact_points": 140,
+      "ref_idx": 67
+    },
+    {
+      "frame": 100,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f105_to_f104",
+      "contact_points": 87,
+      "ref_idx": 67
+    },
+    {
+      "frame": 104,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f109_to_f108",
+      "contact_points": 85,
+      "ref_idx": 67
+    },
+    {
+      "frame": 105,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f110_to_f109",
+      "contact_points": 222,
+      "ref_idx": 67
+    },
+    {
+      "frame": 106,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f111_to_f110",
+      "contact_points": 116,
+      "ref_idx": 67
+    },
+    {
+      "frame": 107,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f112_to_f111",
+      "contact_points": 144,
+      "ref_idx": 67
+    },
+    {
+      "frame": 108,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f113_to_f112",
+      "contact_points": 59,
+      "ref_idx": 67
+    },
+    {
+      "frame": 109,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f114_to_f113",
+      "contact_points": 82,
+      "ref_idx": 67
+    },
+    {
+      "frame": 110,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f115_to_f114",
+      "contact_points": 141,
+      "ref_idx": 67
+    },
+    {
+      "frame": 111,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f116_to_f115",
+      "contact_points": 96,
+      "ref_idx": 67
+    },
+    {
+      "frame": 112,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f117_to_f116",
+      "contact_points": 125,
+      "ref_idx": 67
+    },
+    {
+      "frame": 113,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f118_to_f117",
+      "contact_points": 152,
+      "ref_idx": 67
+    },
+    {
+      "frame": 114,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f119_to_f118",
+      "contact_points": 153,
+      "ref_idx": 67
+    },
+    {
+      "frame": 115,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f120_to_f119",
+      "contact_points": 155,
+      "ref_idx": 67
+    },
+    {
+      "frame": 116,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f121_to_f120",
+      "contact_points": 194,
+      "ref_idx": 67
+    },
+    {
+      "frame": 117,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f122_to_f121",
+      "contact_points": 192,
+      "ref_idx": 67
+    },
+    {
+      "frame": 118,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f123_to_f122",
+      "contact_points": 199,
+      "ref_idx": 67
+    },
+    {
+      "frame": 119,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f124_to_f123",
+      "contact_points": 228,
+      "ref_idx": 67
+    },
+    {
+      "frame": 120,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f125_to_f124",
+      "contact_points": 213,
+      "ref_idx": 67
+    },
+    {
+      "frame": 121,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f126_to_f125",
+      "contact_points": 224,
+      "ref_idx": 67
+    },
+    {
+      "frame": 122,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f127_to_f126",
+      "contact_points": 231,
+      "ref_idx": 67
+    },
+    {
+      "frame": 123,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f128_to_f127",
+      "contact_points": 223,
+      "ref_idx": 67
+    },
+    {
+      "frame": 124,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f129_to_f128",
+      "contact_points": 179,
+      "ref_idx": 67
+    },
+    {
+      "frame": 125,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f130_to_f129",
+      "contact_points": 220,
+      "ref_idx": 67
+    },
+    {
+      "frame": 126,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f131_to_f130",
+      "contact_points": 184,
+      "ref_idx": 67
+    },
+    {
+      "frame": 127,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f132_to_f131",
+      "contact_points": 96,
+      "ref_idx": 67
+    },
+    {
+      "frame": 128,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f133_to_f132",
+      "contact_points": 121,
+      "ref_idx": 67
+    },
+    {
+      "frame": 129,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f134_to_f133",
+      "contact_points": 128,
+      "ref_idx": 67
+    },
+    {
+      "frame": 130,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f135_to_f134",
+      "contact_points": 146,
+      "ref_idx": 67
+    },
+    {
+      "frame": 131,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 140
+    },
+    {
+      "frame": 132,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f137_to_f136",
+      "contact_points": 171,
+      "ref_idx": 67
+    },
+    {
+      "frame": 133,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f138_to_f137",
+      "contact_points": 131,
+      "ref_idx": 67
+    },
+    {
+      "frame": 134,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 155
+    },
+    {
+      "frame": 135,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 169
+    },
+    {
+      "frame": 136,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f141_to_f140",
+      "contact_points": 129,
+      "ref_idx": 67
+    },
+    {
+      "frame": 137,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f142_to_f141",
+      "contact_points": 131,
+      "ref_idx": 67
+    },
+    {
+      "frame": 138,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f143_to_f142",
+      "contact_points": 127,
+      "ref_idx": 67
+    },
+    {
+      "frame": 139,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 129
+    },
+    {
+      "frame": 140,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f145_to_f144",
+      "contact_points": 137,
+      "ref_idx": 67
+    },
+    {
+      "frame": 141,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f146_to_f145",
+      "contact_points": 177,
+      "ref_idx": 67
+    },
+    {
+      "frame": 142,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f147_to_f146",
+      "contact_points": 185,
+      "ref_idx": 67
+    },
+    {
+      "frame": 143,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f148_to_f147",
+      "contact_points": 178,
+      "ref_idx": 67
+    },
+    {
+      "frame": 144,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f149_to_f148",
+      "contact_points": 179,
+      "ref_idx": 67
+    },
+    {
+      "frame": 145,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f150_to_f149",
+      "contact_points": 158,
+      "ref_idx": 67
+    },
+    {
+      "frame": 146,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f151_to_f150",
+      "contact_points": 197,
+      "ref_idx": 67
+    },
+    {
+      "frame": 147,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f152_to_f151",
+      "contact_points": 224,
+      "ref_idx": 67
+    },
+    {
+      "frame": 148,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f153_to_f152",
+      "contact_points": 243,
+      "ref_idx": 67
+    },
+    {
+      "frame": 149,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f154_to_f153",
+      "contact_points": 129,
+      "ref_idx": 67
+    },
+    {
+      "frame": 150,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f155_to_f154",
+      "contact_points": 164,
+      "ref_idx": 67
+    },
+    {
+      "frame": 151,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f156_to_f155",
+      "contact_points": 176,
+      "ref_idx": 67
+    },
+    {
+      "frame": 152,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f157_to_f156",
+      "contact_points": 148,
+      "ref_idx": 67
+    },
+    {
+      "frame": 153,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f158_to_f157",
+      "contact_points": 85,
+      "ref_idx": 67
+    },
+    {
+      "frame": 154,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f159_to_f158",
+      "contact_points": 112,
+      "ref_idx": 67
+    },
+    {
+      "frame": 155,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f160_to_f159",
+      "contact_points": 90,
+      "ref_idx": 67
+    },
+    {
+      "frame": 156,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 73,
+      "ref_idx": 67
+    },
+    {
+      "frame": 157,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 78
+    },
+    {
+      "frame": 161,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 166,
+      "ref_idx": 67
+    },
+    {
+      "frame": 162,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 110,
+      "ref_idx": 67
+    },
+    {
+      "frame": 165,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 137,
+      "ref_idx": 67
+    },
+    {
+      "frame": 166,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 102,
+      "ref_idx": 67
+    },
+    {
+      "frame": 167,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 84,
+      "ref_idx": 67
+    },
+    {
+      "frame": 168,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 59,
+      "ref_idx": 67
+    },
+    {
+      "frame": 169,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 44,
+      "ref_idx": 67
+    },
+    {
+      "frame": 170,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 12,
+      "ref_idx": 67
+    },
+    {
+      "frame": 171,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 87,
+      "ref_idx": 67
+    },
+    {
+      "frame": 172,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 73,
+      "ref_idx": 67
+    },
+    {
+      "frame": 173,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 37,
+      "ref_idx": 67
+    },
+    {
+      "frame": 174,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 13,
+      "ref_idx": 67
+    },
+    {
+      "frame": 175,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 53,
+      "ref_idx": 67
+    },
+    {
+      "frame": 176,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 67,
+      "ref_idx": 67
+    },
+    {
+      "frame": 177,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 167,
+      "ref_idx": 67
+    },
+    {
+      "frame": 178,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 158,
+      "ref_idx": 67
+    },
+    {
+      "frame": 179,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 179,
+      "ref_idx": 67
+    },
+    {
+      "frame": 180,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 213,
+      "ref_idx": 67
+    },
+    {
+      "frame": 181,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 212,
+      "ref_idx": 67
+    },
+    {
+      "frame": 182,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 110,
+      "ref_idx": 67
+    },
+    {
+      "frame": 183,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 136,
+      "ref_idx": 67
+    },
+    {
+      "frame": 184,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 160,
+      "ref_idx": 67
+    },
+    {
+      "frame": 185,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 104,
+      "ref_idx": 67
+    },
+    {
+      "frame": 186,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 105,
+      "ref_idx": 67
+    },
+    {
+      "frame": 187,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 150,
+      "ref_idx": 67
+    },
+    {
+      "frame": 188,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 143,
+      "ref_idx": 67
+    },
+    {
+      "frame": 189,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 109,
+      "ref_idx": 67
+    },
+    {
+      "frame": 190,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 98,
+      "ref_idx": 67
+    },
+    {
+      "frame": 191,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 129,
+      "ref_idx": 67
+    },
+    {
+      "frame": 192,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 129,
+      "ref_idx": 67
+    },
+    {
+      "frame": 193,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 193,
+      "ref_idx": 67
+    },
+    {
+      "frame": 194,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 176,
+      "ref_idx": 67
+    },
+    {
+      "frame": 196,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 84,
+      "ref_idx": 67
+    },
+    {
+      "frame": 197,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 69
+    },
+    {
+      "frame": 198,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 40,
+      "ref_idx": 67
+    },
+    {
+      "frame": 199,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 116,
+      "ref_idx": 67
+    },
+    {
+      "frame": 200,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 133,
+      "ref_idx": 67
+    },
+    {
+      "frame": 201,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 67,
+      "ref_idx": 67
+    },
+    {
+      "frame": 202,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 44,
+      "ref_idx": 67
+    },
+    {
+      "frame": 203,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 155,
+      "ref_idx": 67
+    },
+    {
+      "frame": 204,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 110,
+      "ref_idx": 67
+    },
+    {
+      "frame": 205,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 91,
+      "ref_idx": 67
+    },
+    {
+      "frame": 206,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 62,
+      "ref_idx": 67
+    },
+    {
+      "frame": 207,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 30,
+      "ref_idx": 67
+    },
+    {
+      "frame": 208,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 100,
+      "ref_idx": 67
+    },
+    {
+      "frame": 209,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 112,
+      "ref_idx": 67
+    },
+    {
+      "frame": 210,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 58,
+      "ref_idx": 67
+    },
+    {
+      "frame": 211,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 121,
+      "ref_idx": 67
+    },
+    {
+      "frame": 212,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 113,
+      "ref_idx": 67
+    },
+    {
+      "frame": 213,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 92,
+      "ref_idx": 67
+    },
+    {
+      "frame": 214,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 103,
+      "ref_idx": 67
+    },
+    {
+      "frame": 215,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 97,
+      "ref_idx": 67
+    },
+    {
+      "frame": 216,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 98,
+      "ref_idx": 67
+    },
+    {
+      "frame": 217,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 56,
+      "ref_idx": 67
+    },
+    {
+      "frame": 218,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 65,
+      "ref_idx": 67
+    },
+    {
+      "frame": 219,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 45,
+      "ref_idx": 67
+    },
+    {
+      "frame": 220,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 99,
+      "ref_idx": 67
+    },
+    {
+      "frame": 221,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 111,
+      "ref_idx": 67
+    },
+    {
+      "frame": 222,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 71,
+      "ref_idx": 67
+    },
+    {
+      "frame": 223,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 115,
+      "ref_idx": 67
+    },
+    {
+      "frame": 224,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 132,
+      "ref_idx": 67
+    },
+    {
+      "frame": 225,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 127,
+      "ref_idx": 67
+    },
+    {
+      "frame": 226,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 108,
+      "ref_idx": 67
+    },
+    {
+      "frame": 227,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 76,
+      "ref_idx": 67
+    },
+    {
+      "frame": 228,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 96,
+      "ref_idx": 67
+    },
+    {
+      "frame": 229,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 114,
+      "ref_idx": 67
+    },
+    {
+      "frame": 230,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 111,
+      "ref_idx": 67
+    },
+    {
+      "frame": 231,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 104,
+      "ref_idx": 67
+    },
+    {
+      "frame": 232,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 103,
+      "ref_idx": 67
+    },
+    {
+      "frame": 233,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 100,
+      "ref_idx": 67
+    },
+    {
+      "frame": 234,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 80,
+      "ref_idx": 67
+    },
+    {
+      "frame": 235,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 157,
+      "ref_idx": 67
+    },
+    {
+      "frame": 236,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 140,
+      "ref_idx": 67
+    },
+    {
+      "frame": 237,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 192,
+      "ref_idx": 67
+    },
+    {
+      "frame": 238,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 60,
+      "ref_idx": 67
+    },
+    {
+      "frame": 239,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 54,
+      "ref_idx": 67
+    },
+    {
+      "frame": 240,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 56,
+      "ref_idx": 67
+    },
+    {
+      "frame": 241,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 40,
+      "ref_idx": 67
+    },
+    {
+      "frame": 242,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 57,
+      "ref_idx": 67
+    },
+    {
+      "frame": 243,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 63,
+      "ref_idx": 67
+    },
+    {
+      "frame": 244,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 45,
+      "ref_idx": 67
+    },
+    {
+      "frame": 245,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 45,
+      "ref_idx": 67
+    },
+    {
+      "frame": 246,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 169,
+      "ref_idx": 67
+    },
+    {
+      "frame": 247,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 248,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 56,
+      "ref_idx": 67
+    },
+    {
+      "frame": 249,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 198,
+      "ref_idx": 67
+    },
+    {
+      "frame": 250,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 165,
+      "ref_idx": 67
+    },
+    {
+      "frame": 251,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 192,
+      "ref_idx": 67
+    },
+    {
+      "frame": 252,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 172,
+      "ref_idx": 67
+    },
+    {
+      "frame": 253,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 189,
+      "ref_idx": 67
+    },
+    {
+      "frame": 254,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f161_to_f160",
+      "contact_points": 158,
+      "ref_idx": 67
+    },
+    {
+      "frame": 255,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 187,
+      "ref_idx": 67
+    },
+    {
+      "frame": 256,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 213,
+      "ref_idx": 67
+    },
+    {
+      "frame": 257,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 189,
+      "ref_idx": 67
+    },
+    {
+      "frame": 258,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 142,
+      "ref_idx": 67
+    },
+    {
+      "frame": 259,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 160,
+      "ref_idx": 67
+    },
+    {
+      "frame": 260,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 172,
+      "ref_idx": 67
+    },
+    {
+      "frame": 261,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 166,
+      "ref_idx": 67
+    },
+    {
+      "frame": 262,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 62,
+      "ref_idx": 67
+    },
+    {
+      "frame": 263,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 67,
+      "ref_idx": 67
+    },
+    {
+      "frame": 264,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 48,
+      "ref_idx": 67
+    },
+    {
+      "frame": 265,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 71,
+      "ref_idx": 67
+    },
+    {
+      "frame": 266,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 133,
+      "ref_idx": 67
+    },
+    {
+      "frame": 267,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 95,
+      "ref_idx": 67
+    },
+    {
+      "frame": 268,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 80,
+      "ref_idx": 67
+    },
+    {
+      "frame": 269,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 91,
+      "ref_idx": 67
+    },
+    {
+      "frame": 270,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 59,
+      "ref_idx": 67
+    },
+    {
+      "frame": 271,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 72,
+      "ref_idx": 67
+    },
+    {
+      "frame": 272,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 83,
+      "ref_idx": 67
+    },
+    {
+      "frame": 273,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 55,
+      "ref_idx": 67
+    },
+    {
+      "frame": 274,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 161,
+      "ref_idx": 67
+    },
+    {
+      "frame": 275,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 59,
+      "ref_idx": 67
+    },
+    {
+      "frame": 276,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 71,
+      "ref_idx": 67
+    },
+    {
+      "frame": 277,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 53,
+      "ref_idx": 67
+    },
+    {
+      "frame": 278,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 77,
+      "ref_idx": 67
+    },
+    {
+      "frame": 279,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 64,
+      "ref_idx": 67
+    },
+    {
+      "frame": 280,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f260_to_f259",
+      "contact_points": 73,
+      "ref_idx": 67
+    },
+    {
+      "frame": 281,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 67,
+      "ref_idx": 67
+    },
+    {
+      "frame": 282,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 67,
+      "ref_idx": 67
+    },
+    {
+      "frame": 283,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 24,
+      "ref_idx": 67
+    },
+    {
+      "frame": 284,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 119,
+      "ref_idx": 67
+    },
+    {
+      "frame": 285,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 160,
+      "ref_idx": 67
+    },
+    {
+      "frame": 286,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 142,
+      "ref_idx": 67
+    },
+    {
+      "frame": 287,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 63,
+      "ref_idx": 67
+    },
+    {
+      "frame": 288,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 121,
+      "ref_idx": 67
+    },
+    {
+      "frame": 289,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 290,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 142,
+      "ref_idx": 67
+    },
+    {
+      "frame": 291,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 292,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 179,
+      "ref_idx": 67
+    },
+    {
+      "frame": 293,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 113,
+      "ref_idx": 67
+    },
+    {
+      "frame": 294,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 61,
+      "ref_idx": 67
+    },
+    {
+      "frame": 295,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 179,
+      "ref_idx": 67
+    },
+    {
+      "frame": 296,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f286_to_f285",
+      "contact_points": 333,
+      "ref_idx": 67
+    },
+    {
+      "frame": 297,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f302_to_f301",
+      "contact_points": 229,
+      "ref_idx": 67
+    },
+    {
+      "frame": 298,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f303_to_f302",
+      "contact_points": 181,
+      "ref_idx": 67
+    },
+    {
+      "frame": 299,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f304_to_f303",
+      "contact_points": 175,
+      "ref_idx": 67
+    },
+    {
+      "frame": 300,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 161
+    },
+    {
+      "frame": 301,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 2",
+      "discard_reason": "gmm_failed:ValueError",
+      "contact_points": 225
+    },
+    {
+      "frame": 302,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f307_to_f306",
+      "contact_points": 220,
+      "ref_idx": 67
+    },
+    {
+      "frame": 303,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f308_to_f307",
+      "contact_points": 184,
+      "ref_idx": 67
+    },
+    {
+      "frame": 304,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f309_to_f308",
+      "contact_points": 199,
+      "ref_idx": 67
+    },
+    {
+      "frame": 305,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f310_to_f309",
+      "contact_points": 229,
+      "ref_idx": 67
+    },
+    {
+      "frame": 306,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f311_to_f310",
+      "contact_points": 233,
+      "ref_idx": 67
+    },
+    {
+      "frame": 307,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f312_to_f311",
+      "contact_points": 254,
+      "ref_idx": 67
+    },
+    {
+      "frame": 308,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f313_to_f312",
+      "contact_points": 299,
+      "ref_idx": 67
+    },
+    {
+      "frame": 309,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f314_to_f313",
+      "contact_points": 351,
+      "ref_idx": 67
+    },
+    {
+      "frame": 310,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f315_to_f314",
+      "contact_points": 357,
+      "ref_idx": 67
+    },
+    {
+      "frame": 311,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f316_to_f315",
+      "contact_points": 363,
+      "ref_idx": 67
+    },
+    {
+      "frame": 312,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f317_to_f316",
+      "contact_points": 340,
+      "ref_idx": 67
+    },
+    {
+      "frame": 313,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f318_to_f317",
+      "contact_points": 388,
+      "ref_idx": 67
+    },
+    {
+      "frame": 314,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f319_to_f318",
+      "contact_points": 390,
+      "ref_idx": 67
+    },
+    {
+      "frame": 315,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f320_to_f319",
+      "contact_points": 437,
+      "ref_idx": 67
+    },
+    {
+      "frame": 316,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f321_to_f320",
+      "contact_points": 506,
+      "ref_idx": 67
+    },
+    {
+      "frame": 317,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f321_to_f320",
+      "contact_points": 193,
+      "ref_idx": 67
+    },
+    {
+      "frame": 318,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f321_to_f320",
+      "contact_points": 67,
+      "ref_idx": 67
+    },
+    {
+      "frame": 319,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 61,
+      "ref_idx": 67
+    },
+    {
+      "frame": 320,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 96,
+      "ref_idx": 67
+    },
+    {
+      "frame": 321,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 101,
+      "ref_idx": 67
+    },
+    {
+      "frame": 322,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 319,
+      "ref_idx": 67
+    },
+    {
+      "frame": 323,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 296,
+      "ref_idx": 67
+    },
+    {
+      "frame": 324,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 265,
+      "ref_idx": 67
+    },
+    {
+      "frame": 325,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 239,
+      "ref_idx": 67
+    },
+    {
+      "frame": 326,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 191,
+      "ref_idx": 67
+    },
+    {
+      "frame": 327,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 178,
+      "ref_idx": 67
+    },
+    {
+      "frame": 328,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 134,
+      "ref_idx": 67
+    },
+    {
+      "frame": 329,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 85,
+      "ref_idx": 67
+    },
+    {
+      "frame": 330,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 64,
+      "ref_idx": 67
+    },
+    {
+      "frame": 331,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 60,
+      "ref_idx": 67
+    },
+    {
+      "frame": 332,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 52,
+      "ref_idx": 67
+    },
+    {
+      "frame": 333,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f324_to_f323",
+      "contact_points": 42,
+      "ref_idx": 67
+    },
+    {
+      "frame": 362,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "trajectory_out_of_bounds_t+3",
+      "contact_points": 98,
+      "ref_idx": 360
+    },
+    {
+      "frame": 363,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "trajectory_out_of_bounds_t+2",
+      "contact_points": 100,
+      "ref_idx": 360
+    },
+    {
+      "frame": 364,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "trajectory_out_of_bounds_t+1",
+      "contact_points": 134,
+      "ref_idx": 360
+    },
+    {
+      "frame": 366,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 368,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f373_to_f372",
+      "contact_points": 129,
+      "ref_idx": 360
+    },
+    {
+      "frame": 369,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f374_to_f373",
+      "contact_points": 130,
+      "ref_idx": 360
+    },
+    {
+      "frame": 370,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f375_to_f374",
+      "contact_points": 214,
+      "ref_idx": 360
+    },
+    {
+      "frame": 371,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f376_to_f375",
+      "contact_points": 204,
+      "ref_idx": 360
+    },
+    {
+      "frame": 372,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f377_to_f376",
+      "contact_points": 37,
+      "ref_idx": 360
+    },
+    {
+      "frame": 373,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f378_to_f377",
+      "contact_points": 66,
+      "ref_idx": 360
+    },
+    {
+      "frame": 375,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f380_to_f379",
+      "contact_points": 76,
+      "ref_idx": 360
+    },
+    {
+      "frame": 376,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f381_to_f380",
+      "contact_points": 85,
+      "ref_idx": 360
+    },
+    {
+      "frame": 377,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f382_to_f381",
+      "contact_points": 124,
+      "ref_idx": 360
+    },
+    {
+      "frame": 378,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f383_to_f382",
+      "contact_points": 124,
+      "ref_idx": 360
+    },
+    {
+      "frame": 379,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f384_to_f383",
+      "contact_points": 45,
+      "ref_idx": 360
+    },
+    {
+      "frame": 380,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f385_to_f384",
+      "contact_points": 178,
+      "ref_idx": 360
+    },
+    {
+      "frame": 381,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f386_to_f385",
+      "contact_points": 230,
+      "ref_idx": 360
+    },
+    {
+      "frame": 382,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f387_to_f386",
+      "contact_points": 31,
+      "ref_idx": 360
+    },
+    {
+      "frame": 383,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f388_to_f387",
+      "contact_points": 204,
+      "ref_idx": 360
+    },
+    {
+      "frame": 384,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f389_to_f388",
+      "contact_points": 49,
+      "ref_idx": 360
+    },
+    {
+      "frame": 385,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f389_to_f388",
+      "contact_points": 44,
+      "ref_idx": 360
+    },
+    {
+      "frame": 386,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f391_to_f390",
+      "contact_points": 42,
+      "ref_idx": 360
+    },
+    {
+      "frame": 387,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f391_to_f390",
+      "contact_points": 68,
+      "ref_idx": 360
+    },
+    {
+      "frame": 388,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f391_to_f390",
+      "contact_points": 65,
+      "ref_idx": 360
+    },
+    {
+      "frame": 389,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f392_to_f391",
+      "contact_points": 67,
+      "ref_idx": 360
+    },
+    {
+      "frame": 390,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 34,
+      "ref_idx": 360
+    },
+    {
+      "frame": 391,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 36,
+      "ref_idx": 360
+    },
+    {
+      "frame": 392,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 49,
+      "ref_idx": 360
+    },
+    {
+      "frame": 393,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 60,
+      "ref_idx": 360
+    },
+    {
+      "frame": 394,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 32,
+      "ref_idx": 360
+    },
+    {
+      "frame": 395,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 61,
+      "ref_idx": 360
+    },
+    {
+      "frame": 396,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 62,
+      "ref_idx": 360
+    },
+    {
+      "frame": 397,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 60,
+      "ref_idx": 360
+    },
+    {
+      "frame": 398,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f393_to_f392",
+      "contact_points": 65,
+      "ref_idx": 360
+    },
+    {
+      "frame": 399,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f404_to_f403",
+      "contact_points": 90,
+      "ref_idx": 360
+    },
+    {
+      "frame": 400,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f405_to_f404",
+      "contact_points": 100,
+      "ref_idx": 360
+    },
+    {
+      "frame": 401,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f406_to_f405",
+      "contact_points": 129,
+      "ref_idx": 360
+    },
+    {
+      "frame": 402,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f406_to_f405",
+      "contact_points": 115,
+      "ref_idx": 360
+    },
+    {
+      "frame": 403,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f406_to_f405",
+      "contact_points": 125,
+      "ref_idx": 360
+    },
+    {
+      "frame": 404,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f409_to_f408",
+      "contact_points": 147,
+      "ref_idx": 360
+    },
+    {
+      "frame": 405,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 135,
+      "ref_idx": 360
+    },
+    {
+      "frame": 406,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 29,
+      "ref_idx": 360
+    },
+    {
+      "frame": 407,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 48,
+      "ref_idx": 360
+    },
+    {
+      "frame": 408,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 249,
+      "ref_idx": 360
+    },
+    {
+      "frame": 409,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 153,
+      "ref_idx": 360
+    },
+    {
+      "frame": 410,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 83,
+      "ref_idx": 360
+    },
+    {
+      "frame": 412,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 12,
+      "ref_idx": 360
+    },
+    {
+      "frame": 413,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f410_to_f409",
+      "contact_points": 21,
+      "ref_idx": 360
+    },
+    {
+      "frame": 414,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f419_to_f418",
+      "contact_points": 30,
+      "ref_idx": 360
+    },
+    {
+      "frame": 415,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f420_to_f419",
+      "contact_points": 26,
+      "ref_idx": 360
+    },
+    {
+      "frame": 416,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f420_to_f419",
+      "contact_points": 40,
+      "ref_idx": 360
+    },
+    {
+      "frame": 417,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f422_to_f421",
+      "contact_points": 30,
+      "ref_idx": 360
+    },
+    {
+      "frame": 418,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f423_to_f422",
+      "contact_points": 28,
+      "ref_idx": 360
+    },
+    {
+      "frame": 419,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 420,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f425_to_f424",
+      "contact_points": 53,
+      "ref_idx": 360
+    },
+    {
+      "frame": 421,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f426_to_f425",
+      "contact_points": 64,
+      "ref_idx": 360
+    },
+    {
+      "frame": 422,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f427_to_f426",
+      "contact_points": 22,
+      "ref_idx": 360
+    },
+    {
+      "frame": 423,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f428_to_f427",
+      "contact_points": 34,
+      "ref_idx": 360
+    },
+    {
+      "frame": 424,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f429_to_f428",
+      "contact_points": 7,
+      "ref_idx": 360
+    },
+    {
+      "frame": 425,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 9,
+      "ref_idx": 360
+    },
+    {
+      "frame": 426,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 427,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 428,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 429,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 1-test",
+      "discard_reason": "discard_contact_points"
+    },
+    {
+      "frame": 430,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 33,
+      "ref_idx": 360
+    },
+    {
+      "frame": 431,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 37,
+      "ref_idx": 360
+    },
+    {
+      "frame": 432,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 12,
+      "ref_idx": 360
+    },
+    {
+      "frame": 433,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 16,
+      "ref_idx": 360
+    },
+    {
+      "frame": 434,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 23,
+      "ref_idx": 360
+    },
+    {
+      "frame": 435,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 22,
+      "ref_idx": 360
+    },
+    {
+      "frame": 436,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 36,
+      "ref_idx": 360
+    },
+    {
+      "frame": 437,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 63,
+      "ref_idx": 360
+    },
+    {
+      "frame": 438,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 49,
+      "ref_idx": 360
+    },
+    {
+      "frame": 439,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 30,
+      "ref_idx": 360
+    },
+    {
+      "frame": 440,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 57,
+      "ref_idx": 360
+    },
+    {
+      "frame": 441,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 37,
+      "ref_idx": 360
+    },
+    {
+      "frame": 442,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 54,
+      "ref_idx": 360
+    },
+    {
+      "frame": 443,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 36,
+      "ref_idx": 360
+    },
+    {
+      "frame": 444,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 26,
+      "ref_idx": 360
+    },
+    {
+      "frame": 445,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 33,
+      "ref_idx": 360
+    },
+    {
+      "frame": 446,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 53,
+      "ref_idx": 360
+    },
+    {
+      "frame": 447,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 66,
+      "ref_idx": 360
+    },
+    {
+      "frame": 448,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 88,
+      "ref_idx": 360
+    },
+    {
+      "frame": 449,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 60,
+      "ref_idx": 360
+    },
+    {
+      "frame": 450,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 59,
+      "ref_idx": 360
+    },
+    {
+      "frame": 451,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 54,
+      "ref_idx": 360
+    },
+    {
+      "frame": 452,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 61,
+      "ref_idx": 360
+    },
+    {
+      "frame": 453,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 40,
+      "ref_idx": 360
+    },
+    {
+      "frame": 454,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 66,
+      "ref_idx": 360
+    },
+    {
+      "frame": 455,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 46,
+      "ref_idx": 360
+    },
+    {
+      "frame": 456,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 54,
+      "ref_idx": 360
+    },
+    {
+      "frame": 457,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 23,
+      "ref_idx": 360
+    },
+    {
+      "frame": 458,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 301,
+      "ref_idx": 360
+    },
+    {
+      "frame": 459,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 50,
+      "ref_idx": 360
+    },
+    {
+      "frame": 460,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 57,
+      "ref_idx": 360
+    },
+    {
+      "frame": 461,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 29,
+      "ref_idx": 360
+    },
+    {
+      "frame": 462,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 29,
+      "ref_idx": 360
+    },
+    {
+      "frame": 463,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 91,
+      "ref_idx": 360
+    },
+    {
+      "frame": 464,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 91,
+      "ref_idx": 360
+    },
+    {
+      "frame": 465,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 113,
+      "ref_idx": 360
+    },
+    {
+      "frame": 466,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 129,
+      "ref_idx": 360
+    },
+    {
+      "frame": 467,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 94,
+      "ref_idx": 360
+    },
+    {
+      "frame": 468,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 91,
+      "ref_idx": 360
+    },
+    {
+      "frame": 469,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 56,
+      "ref_idx": 360
+    },
+    {
+      "frame": 470,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 43,
+      "ref_idx": 360
+    },
+    {
+      "frame": 471,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 38,
+      "ref_idx": 360
+    },
+    {
+      "frame": 472,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 41,
+      "ref_idx": 360
+    },
+    {
+      "frame": 473,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 30,
+      "ref_idx": 360
+    },
+    {
+      "frame": 474,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 39,
+      "ref_idx": 360
+    },
+    {
+      "frame": 475,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 15,
+      "ref_idx": 360
+    },
+    {
+      "frame": 476,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 15,
+      "ref_idx": 360
+    },
+    {
+      "frame": 477,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 48,
+      "ref_idx": 360
+    },
+    {
+      "frame": 478,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 53,
+      "ref_idx": 360
+    },
+    {
+      "frame": 479,
+      "hand": "right",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 39,
+      "ref_idx": 360
+    },
+    {
+      "frame": 480,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 47,
+      "ref_idx": 360
+    },
+    {
+      "frame": 481,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 8,
+      "ref_idx": 360
+    },
+    {
+      "frame": 482,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 88,
+      "ref_idx": 360
+    },
+    {
+      "frame": 483,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 64,
+      "ref_idx": 360
+    },
+    {
+      "frame": 484,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 73,
+      "ref_idx": 360
+    },
+    {
+      "frame": 485,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 100,
+      "ref_idx": 360
+    },
+    {
+      "frame": 486,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 111,
+      "ref_idx": 360
+    },
+    {
+      "frame": 487,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 148,
+      "ref_idx": 360
+    },
+    {
+      "frame": 488,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 80,
+      "ref_idx": 360
+    },
+    {
+      "frame": 489,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 77,
+      "ref_idx": 360
+    },
+    {
+      "frame": 490,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 133,
+      "ref_idx": 360
+    },
+    {
+      "frame": 491,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 65,
+      "ref_idx": 360
+    },
+    {
+      "frame": 492,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 15,
+      "ref_idx": 360
+    },
+    {
+      "frame": 493,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 21,
+      "ref_idx": 360
+    },
+    {
+      "frame": 494,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 40,
+      "ref_idx": 360
+    },
+    {
+      "frame": 495,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 30,
+      "ref_idx": 360
+    },
+    {
+      "frame": 496,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 105,
+      "ref_idx": 360
+    },
+    {
+      "frame": 497,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 34,
+      "ref_idx": 360
+    },
+    {
+      "frame": 498,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 42,
+      "ref_idx": 360
+    },
+    {
+      "frame": 499,
+      "hand": "left",
+      "status": "discard",
+      "failed_cell": "Cell 3",
+      "discard_reason": "pairwise_homography_low_quality_f430_to_f429",
+      "contact_points": 55,
+      "ref_idx": 360
+    }
+  ]
+}
