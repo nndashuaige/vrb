@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "a13f9af50f3b84c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0331541993e8089f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c860bb7ebd7cdf96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/learning_note/过程和问题记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "过程和问题记录"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22e4e15f52c13990",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1c31a897f8394d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cc020fdce7f1f57",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d50ac1e65f326d26",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "86fa557603dc3094",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "545dbb2f1e0aff26",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a846e3498011c4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a3c49f1b05864fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "819be15b7a15af8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "343d640711d01f1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1c8dfe8a4460a615",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "0a9cab360efb442c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "c860bb7ebd7cdf96",
+  "lastOpenFiles": [
+    "notebooks/数据处理小批量测试前100个subaction_E4_episode_filter.executed.ipynb",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/summary.md",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/charts/timeline_E4.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/charts/timeline_E2.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/charts/failure_reasons.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/charts/pipeline_funnel.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/candidate_plan.csv",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/candidate_diagnostics.csv",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/subaction_summary.csv",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiment_overview.csv",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiment_results.json",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_98_P01_109_98/frame_015798_right/diagnostics",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_98_P01_109_98/frame_015791_right/diagnostics",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_98_P01_109_98/frame_015785_left/diagnostics",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_98_P01_109_98/frame_015778_left/diagnostics",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_98_P01_109_98/frame_015771_left/diagnostics",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_62_P01_109_62/frame_009834_right/diagnostics/problem3_ref_full_overlay.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_62_P01_109_62/frame_009834_right/diagnostics/problem3_ref_crop.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_62_P01_109_62/frame_009827_left/diagnostics/problem3_ref_full_overlay.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_62_P01_109_62/frame_009827_left/diagnostics/problem3_ref_crop.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_62_P01_109_62/frame_009819_left/diagnostics/problem3_ref_full_overlay.png",
+    "outputs/数据处理小批量测试前100个subaction_E4_episode_filter/experiments/E4/pipeline_outputs/subaction_62_P01_109_62/frame_009811_right/diagnostics/problem3_ref_full_overlay.png",
+    "docs/learning_note/过程和问题记录.md",
+    "docs/learning_note/vrb零散学习笔记_副本.md",
+    "outputs/数据处理小批量测试前100个subaction/successful_frames/README.md",
+    "outputs/数据处理小批量测试前100个subaction/summary.md",
+    "outputs/数据处理小批量测试前10个subaction/summary.md",
+    "docs/learning_note/网络结构绘制2_副本2.md",
+    "docs/learning_note/网络结构绘制2.md",
+    "docs/learning_note/数据处理复现门控汇总.md",
+    "docs/learning_note/vrb零散学习笔记.md",
+    "docs/learningnote/网络结构绘制2_副本2.md",
+    "docs/learningnote/网络结构绘制2.md",
+    "docs/learningnote/数据处理复现门控汇总.md",
+    "docs/learningnote/vrb零散学习笔记.md",
+    "docs/meetings/会议记录整理_20250507.md",
+    "docs/meetings/会议记录整理_20250521.md",
+    "outputs/数据处理小批量测试10000帧/frame_level_500/summary.md",
+    "outputs/数据处理小批量测试10000帧/summary.md",
+    "README.md",
+    "网络结构学习/网络结构绘制2.md",
+    "external/epic-kitchens-download-scripts/README.md",
+    "docs/network-structure/网络结构绘制2_副本2.md",
+    "docs/network-structure/网络结构绘制2.md",
+    "docs/network-structure/数据处理复现门控汇总.md",
+    "docs/network-structure/vrb零散学习笔记.md"
+  ]
+}
