@@ -1,0 +1,501 @@
+experiment_id,subaction_index,narration_id,narration,verb,noun,all_nouns,start_frame_0_based,stop_frame_0_based,raw_candidate_count,episode_filtered_candidate_count,deep_run_candidate_count,episode_decision,episode_id,episode_reason,episode_object_key,episode_prev_subaction_index,episode_no_contact_streak,episode_no_hand_streak
+E0,0,P01_109_0,grab rucksack,grab,rucksack,['rucksack'],78,125,1,1,1,,,,,,,
+E0,1,P01_109_1,open rucksack,open,rucksack,['rucksack'],152,225,1,1,1,,,,,,,
+E0,2,P01_109_2,pick up eggs,pick-up,egg,['egg'],251,318,1,1,1,,,,,,,
+E0,3,P01_109_3,put down eggs,put-down,egg,['egg'],318,373,1,1,1,,,,,,,
+E0,4,P01_109_4,pick up onion and potato,pick-up,onion,"['onion', 'potato']",423,474,1,1,1,,,,,,,
+E0,5,P01_109_5,put down onion and potato,put-down,onion,"['onion', 'potato']",479,522,1,1,1,,,,,,,
+E0,6,P01_109_8,pick up potato,pick-up,potato,['potato'],499,621,1,1,1,,,,,,,
+E0,7,P01_109_6,pick up potatoes,pick-up,potato,['potato'],542,578,1,1,1,,,,,,,
+E0,8,P01_109_7,put down potatoes,put-down,potato,['potato'],549,733,1,1,1,,,,,,,
+E0,9,P01_109_9,put down potato,put-down,potato,['potato'],624,751,1,1,1,,,,,,,
+E0,10,P01_109_10,pick up beers,pick-up,beer,['beer'],737,844,1,1,1,,,,,,,
+E0,11,P01_109_11,open freezer,open,freezer,['freezer'],875,1021,1,1,1,,,,,,,
+E0,12,P01_109_12,open drawer,open,drawer,['drawer'],1044,1122,1,1,1,,,,,,,
+E0,13,P01_109_13,put beer into drawer,put-into,beer,"['beer', 'drawer']",1138,1352,1,1,1,,,,,,,
+E0,14,P01_109_14,put beer into drawer,put-into,beer,"['beer', 'drawer']",1229,1282,1,1,1,,,,,,,
+E0,15,P01_109_15,put beer into drawer,put-into,beer,"['beer', 'drawer']",1297,1334,1,1,1,,,,,,,
+E0,16,P01_109_16,close drawer,close,drawer,['drawer'],1344,1400,1,1,1,,,,,,,
+E0,17,P01_109_17,close freezer,close,freezer,['freezer'],1418,1463,1,1,1,,,,,,,
+E0,18,P01_109_18,pick up rucksack,pick-up,rucksack,['rucksack'],1484,1526,1,1,1,,,,,,,
+E0,19,P01_109_19,put down rucksack,put-down,rucksack,['rucksack'],1656,1697,1,1,1,,,,,,,
+E0,20,P01_109_20,close door,close,door,['door'],1811,1945,1,1,1,,,,,,,
+E0,21,P01_109_21,pick up cup,pick-up,cup,['cup'],2083,2119,1,1,1,,,,,,,
+E0,22,P01_109_22,put down cup,put-down,cup,['cup'],2131,2192,1,1,1,,,,,,,
+E0,23,P01_109_23,pick up spoon,pick-up,spoon,['spoon'],2205,2235,1,1,1,,,,,,,
+E0,24,P01_109_24,open drawer,open,drawer,['drawer'],2268,2331,1,1,1,,,,,,,
+E0,25,P01_109_25,put spoon into drawer,put-into,spoon,"['spoon', 'drawer']",2335,2377,1,1,1,,,,,,,
+E0,26,P01_109_26,close drawer,close,drawer,['drawer'],2376,2409,0,0,0,,,,,,,
+E0,27,P01_109_27,pour hand wash,pour,wash:hand,['wash:hand'],2465,2504,1,1,1,,,,,,,
+E0,28,P01_109_28,wash hands,wash,hand,['hand'],2477,2539,1,1,1,,,,,,,
+E0,29,P01_109_29,turn on tap,turn-on,tap,['tap'],2544,2574,1,1,1,,,,,,,
+E0,30,P01_109_30,rinse hands,rinse,hand,['hand'],2578,2962,1,1,1,,,,,,,
+E0,31,P01_109_31,turn off tap,turn-off,tap,['tap'],2966,2988,1,1,1,,,,,,,
+E0,32,P01_109_32,shake hands,shake,hand,['hand'],3000,3071,1,1,1,,,,,,,
+E0,33,P01_109_33,pick up cloth,pick-up,cloth,['cloth'],3083,3139,1,1,1,,,,,,,
+E0,34,P01_109_34,dry hands,dry,hand,['hand'],3093,3348,1,1,1,,,,,,,
+E0,35,P01_109_35,put down cloth,put-down,cloth,['cloth'],3348,3371,1,1,1,,,,,,,
+E0,36,P01_109_36,pick up potatoes,pick-up,potato,['potato'],3373,3495,1,1,1,,,,,,,
+E0,37,P01_109_37,put down potatoes,put-down,potato,['potato'],3516,3551,1,1,1,,,,,,,
+E0,38,P01_109_38,move potatoes,move,potato,['potato'],3639,3705,1,1,1,,,,,,,
+E0,39,P01_109_39,open cupboard,open,cupboard,['cupboard'],3718,3798,1,1,1,,,,,,,
+E0,40,P01_109_40,move pans,move,pan,['pan'],3825,4047,1,1,1,,,,,,,
+E0,41,P01_109_41,pick up pan,pick-up,pan,['pan'],4037,4097,1,1,1,,,,,,,
+E0,42,P01_109_42,put down pan,put-down,pan,['pan'],4208,4279,1,1,1,,,,,,,
+E0,43,P01_109_44,put down pan,put-down,pan,['pan'],4268,4352,1,1,1,,,,,,,
+E0,44,P01_109_43,pick up pan,pick-up,pan,['pan'],4329,4385,1,1,1,,,,,,,
+E0,45,P01_109_45,put down pan,put-down,pan,['pan'],4378,4431,1,1,1,,,,,,,
+E0,46,P01_109_46,pick up cutting board,pick-up,board:cutting,['board:cutting'],4509,4603,1,1,1,,,,,,,
+E0,47,P01_109_47,close cupboard,close,cupboard,['cupboard'],4620,4663,1,1,1,,,,,,,
+E0,48,P01_109_48,put down cutting board,put-down,board:cutting,['board:cutting'],4676,4723,1,1,1,,,,,,,
+E0,49,P01_109_49,pick up eggs,pick-up,egg,['egg'],4763,4796,1,1,1,,,,,,,
+E0,50,P01_109_50,put down eggs,put-down,egg,['egg'],4793,4826,1,1,1,,,,,,,
+E0,51,P01_109_51,move kettle,move,kettle,['kettle'],4831,4866,1,1,1,,,,,,,
+E0,52,P01_109_52,open drawer,open,drawer,['drawer'],4903,4941,1,1,1,,,,,,,
+E0,53,P01_109_53,pick up peeler,pick-up,peeler,['peeler'],4937,4980,1,1,1,,,,,,,
+E0,54,P01_109_54,close drawer,close,drawer,['drawer'],4976,5003,1,1,1,,,,,,,
+E0,55,P01_109_55,move cutting board,move,board:cutting,['board:cutting'],5013,5048,1,1,1,,,,,,,
+E0,56,P01_109_56,pick up potato,pick-up,potato,['potato'],5052,5121,1,1,1,,,,,,,
+E0,57,P01_109_57,move potato,move,potato,['potato'],5081,5093,1,1,1,,,,,,,
+E0,58,P01_109_58,peel potato,peel,potato,['potato'],5181,9528,1,1,1,,,,,,,
+E0,59,P01_109_59,put down potato,put-down,potato,['potato'],9493,9581,1,1,1,,,,,,,
+E0,60,P01_109_60,put down peeler,put-down,peeler,['peeler'],9585,9606,1,1,1,,,,,,,
+E0,61,P01_109_61,pick up knife,pick-up,knife,['knife'],9667,9761,1,1,1,,,,,,,
+E0,62,P01_109_62,grab potato,grab,potato,['potato'],9804,9834,1,1,1,,,,,,,
+E0,63,P01_109_63,cut potato,cut,potato,['potato'],9830,10124,1,1,1,,,,,,,
+E0,64,P01_109_64,pick up potato bit,pick-up,bit:potato,['bit:potato'],10118,10182,1,1,1,,,,,,,
+E0,65,P01_109_65,put down potato bit,put-down,bit:potato,['bit:potato'],10147,10190,1,1,1,,,,,,,
+E0,66,P01_109_66,move cutting board,move,board:cutting,['board:cutting'],10195,10231,1,1,1,,,,,,,
+E0,67,P01_109_67,put down knife,put-down,knife,['knife'],10236,10266,1,1,1,,,,,,,
+E0,68,P01_109_68,pick up knife,pick-up,knife,['knife'],10263,10299,1,1,1,,,,,,,
+E0,69,P01_109_69,slice potato,slice,potato,['potato'],10296,11899,1,1,1,,,,,,,
+E0,70,P01_109_70,put down knife,put-down,knife,['knife'],11913,11934,1,1,1,,,,,,,
+E0,71,P01_109_71,put down potato slices,put-down,slice:potato,['slice:potato'],11962,11993,1,1,1,,,,,,,
+E0,72,P01_109_72,pick up potato slices,pick-up,slice:potato,['slice:potato'],12006,12070,1,1,1,,,,,,,
+E0,73,P01_109_73,put down potato slices,put-down,slice:potato,['slice:potato'],12069,12185,1,1,1,,,,,,,
+E0,74,P01_109_74,pick up potato slices,pick-up,slice:potato,['slice:potato'],12180,12262,1,1,1,,,,,,,
+E0,75,P01_109_75,put down potato slices,put-down,slice:potato,['slice:potato'],12266,12331,1,1,1,,,,,,,
+E0,76,P01_109_76,pick up potato slice,pick-up,slice:potato,['slice:potato'],12324,12390,1,1,1,,,,,,,
+E0,77,P01_109_78,pick up potato slice,pick-up,slice:potato,['slice:potato'],12335,12389,1,1,1,,,,,,,
+E0,78,P01_109_79,put down potato slice,put-down,slice:potato,['slice:potato'],12388,12410,1,1,1,,,,,,,
+E0,79,P01_109_77,put down potato slice,put-down,slice:potato,['slice:potato'],12389,12416,1,1,1,,,,,,,
+E0,80,P01_109_80,pick up potato slices,pick-up,slice:potato,['slice:potato'],12415,12454,1,1,1,,,,,,,
+E0,81,P01_109_81,put down potato slices,put-down,slice:potato,['slice:potato'],12457,12479,1,1,1,,,,,,,
+E0,82,P01_109_82,pick up potato slice,pick-up,slice:potato,['slice:potato'],12483,12561,1,1,1,,,,,,,
+E0,83,P01_109_83,put down potato slice,put-down,slice:potato,['slice:potato'],12561,12584,1,1,1,,,,,,,
+E0,84,P01_109_84,pick up potato slice,pick-up,slice:potato,['slice:potato'],12633,12666,1,1,1,,,,,,,
+E0,85,P01_109_85,put down potato slice,put-down,slice:potato,['slice:potato'],12669,12691,1,1,1,,,,,,,
+E0,86,P01_109_86,pick up potato slice,pick-up,slice:potato,['slice:potato'],12722,12752,1,1,1,,,,,,,
+E0,87,P01_109_87,put down potato slice,put-down,slice:potato,['slice:potato'],12757,12785,1,1,1,,,,,,,
+E0,88,P01_109_88,pick up knife,pick-up,knife,['knife'],12875,12925,1,1,1,,,,,,,
+E0,89,P01_109_89,cut potato slice,cut,slice:potato,['slice:potato'],12914,13035,1,1,1,,,,,,,
+E0,90,P01_109_90,put down knife,put-down,knife,['knife'],13024,13054,1,1,1,,,,,,,
+E0,91,P01_109_91,put down potato slice,put-down,slice:potato,['slice:potato'],13064,13089,1,1,1,,,,,,,
+E0,92,P01_109_92,pick up potato,pick-up,potato,['potato'],13095,13120,1,1,1,,,,,,,
+E0,93,P01_109_93,pick up peeler,pick-up,peeler,['peeler'],13125,13154,1,1,1,,,,,,,
+E0,94,P01_109_94,peel potato,peel,potato,['potato'],13151,15460,1,1,1,,,,,,,
+E0,95,P01_109_95,put down potato,put-down,potato,['potato'],15462,15502,1,1,1,,,,,,,
+E0,96,P01_109_96,pick up peeler blade,pick-up,blade:peeler,['blade:peeler'],15507,15574,1,1,1,,,,,,,
+E0,97,P01_109_97,fix peeler blade,fix,blade:peeler,['blade:peeler'],15573,15771,1,1,1,,,,,,,
+E0,98,P01_109_98,pick up potato,pick-up,potato,['potato'],15771,15798,1,1,1,,,,,,,
+E0,99,P01_109_99,peel potato,peel,potato,['potato'],15882,16102,1,1,1,,,,,,,
+E1,0,P01_109_0,grab rucksack,grab,rucksack,['rucksack'],78,125,1,1,1,,,,,,,
+E1,1,P01_109_1,open rucksack,open,rucksack,['rucksack'],152,225,1,1,1,,,,,,,
+E1,2,P01_109_2,pick up eggs,pick-up,egg,['egg'],251,318,1,1,1,,,,,,,
+E1,3,P01_109_3,put down eggs,put-down,egg,['egg'],318,373,1,1,1,,,,,,,
+E1,4,P01_109_4,pick up onion and potato,pick-up,onion,"['onion', 'potato']",423,474,1,1,1,,,,,,,
+E1,5,P01_109_5,put down onion and potato,put-down,onion,"['onion', 'potato']",479,522,1,1,1,,,,,,,
+E1,6,P01_109_8,pick up potato,pick-up,potato,['potato'],499,621,1,1,1,,,,,,,
+E1,7,P01_109_6,pick up potatoes,pick-up,potato,['potato'],542,578,1,1,1,,,,,,,
+E1,8,P01_109_7,put down potatoes,put-down,potato,['potato'],549,733,1,1,1,,,,,,,
+E1,9,P01_109_9,put down potato,put-down,potato,['potato'],624,751,1,1,1,,,,,,,
+E1,10,P01_109_10,pick up beers,pick-up,beer,['beer'],737,844,1,1,1,,,,,,,
+E1,11,P01_109_11,open freezer,open,freezer,['freezer'],875,1021,1,1,1,,,,,,,
+E1,12,P01_109_12,open drawer,open,drawer,['drawer'],1044,1122,1,1,1,,,,,,,
+E1,13,P01_109_13,put beer into drawer,put-into,beer,"['beer', 'drawer']",1138,1352,1,1,1,,,,,,,
+E1,14,P01_109_14,put beer into drawer,put-into,beer,"['beer', 'drawer']",1229,1282,1,1,1,,,,,,,
+E1,15,P01_109_15,put beer into drawer,put-into,beer,"['beer', 'drawer']",1297,1334,1,1,1,,,,,,,
+E1,16,P01_109_16,close drawer,close,drawer,['drawer'],1344,1400,1,1,1,,,,,,,
+E1,17,P01_109_17,close freezer,close,freezer,['freezer'],1418,1463,1,1,1,,,,,,,
+E1,18,P01_109_18,pick up rucksack,pick-up,rucksack,['rucksack'],1484,1526,1,1,1,,,,,,,
+E1,19,P01_109_19,put down rucksack,put-down,rucksack,['rucksack'],1656,1697,1,1,1,,,,,,,
+E1,20,P01_109_20,close door,close,door,['door'],1811,1945,1,1,1,,,,,,,
+E1,21,P01_109_21,pick up cup,pick-up,cup,['cup'],2083,2119,1,1,1,,,,,,,
+E1,22,P01_109_22,put down cup,put-down,cup,['cup'],2131,2192,1,1,1,,,,,,,
+E1,23,P01_109_23,pick up spoon,pick-up,spoon,['spoon'],2205,2235,1,1,1,,,,,,,
+E1,24,P01_109_24,open drawer,open,drawer,['drawer'],2268,2331,1,1,1,,,,,,,
+E1,25,P01_109_25,put spoon into drawer,put-into,spoon,"['spoon', 'drawer']",2335,2377,1,1,1,,,,,,,
+E1,26,P01_109_26,close drawer,close,drawer,['drawer'],2376,2409,0,0,0,,,,,,,
+E1,27,P01_109_27,pour hand wash,pour,wash:hand,['wash:hand'],2465,2504,1,1,1,,,,,,,
+E1,28,P01_109_28,wash hands,wash,hand,['hand'],2477,2539,1,1,1,,,,,,,
+E1,29,P01_109_29,turn on tap,turn-on,tap,['tap'],2544,2574,1,1,1,,,,,,,
+E1,30,P01_109_30,rinse hands,rinse,hand,['hand'],2578,2962,1,1,1,,,,,,,
+E1,31,P01_109_31,turn off tap,turn-off,tap,['tap'],2966,2988,1,1,1,,,,,,,
+E1,32,P01_109_32,shake hands,shake,hand,['hand'],3000,3071,1,1,1,,,,,,,
+E1,33,P01_109_33,pick up cloth,pick-up,cloth,['cloth'],3083,3139,1,1,1,,,,,,,
+E1,34,P01_109_34,dry hands,dry,hand,['hand'],3093,3348,1,1,1,,,,,,,
+E1,35,P01_109_35,put down cloth,put-down,cloth,['cloth'],3348,3371,1,1,1,,,,,,,
+E1,36,P01_109_36,pick up potatoes,pick-up,potato,['potato'],3373,3495,1,1,1,,,,,,,
+E1,37,P01_109_37,put down potatoes,put-down,potato,['potato'],3516,3551,1,1,1,,,,,,,
+E1,38,P01_109_38,move potatoes,move,potato,['potato'],3639,3705,1,1,1,,,,,,,
+E1,39,P01_109_39,open cupboard,open,cupboard,['cupboard'],3718,3798,1,1,1,,,,,,,
+E1,40,P01_109_40,move pans,move,pan,['pan'],3825,4047,1,1,1,,,,,,,
+E1,41,P01_109_41,pick up pan,pick-up,pan,['pan'],4037,4097,1,1,1,,,,,,,
+E1,42,P01_109_42,put down pan,put-down,pan,['pan'],4208,4279,1,1,1,,,,,,,
+E1,43,P01_109_44,put down pan,put-down,pan,['pan'],4268,4352,1,1,1,,,,,,,
+E1,44,P01_109_43,pick up pan,pick-up,pan,['pan'],4329,4385,1,1,1,,,,,,,
+E1,45,P01_109_45,put down pan,put-down,pan,['pan'],4378,4431,1,1,1,,,,,,,
+E1,46,P01_109_46,pick up cutting board,pick-up,board:cutting,['board:cutting'],4509,4603,1,1,1,,,,,,,
+E1,47,P01_109_47,close cupboard,close,cupboard,['cupboard'],4620,4663,1,1,1,,,,,,,
+E1,48,P01_109_48,put down cutting board,put-down,board:cutting,['board:cutting'],4676,4723,1,1,1,,,,,,,
+E1,49,P01_109_49,pick up eggs,pick-up,egg,['egg'],4763,4796,1,1,1,,,,,,,
+E1,50,P01_109_50,put down eggs,put-down,egg,['egg'],4793,4826,1,1,1,,,,,,,
+E1,51,P01_109_51,move kettle,move,kettle,['kettle'],4831,4866,1,1,1,,,,,,,
+E1,52,P01_109_52,open drawer,open,drawer,['drawer'],4903,4941,1,1,1,,,,,,,
+E1,53,P01_109_53,pick up peeler,pick-up,peeler,['peeler'],4937,4980,1,1,1,,,,,,,
+E1,54,P01_109_54,close drawer,close,drawer,['drawer'],4976,5003,1,1,1,,,,,,,
+E1,55,P01_109_55,move cutting board,move,board:cutting,['board:cutting'],5013,5048,1,1,1,,,,,,,
+E1,56,P01_109_56,pick up potato,pick-up,potato,['potato'],5052,5121,1,1,1,,,,,,,
+E1,57,P01_109_57,move potato,move,potato,['potato'],5081,5093,1,1,1,,,,,,,
+E1,58,P01_109_58,peel potato,peel,potato,['potato'],5181,9528,1,1,1,,,,,,,
+E1,59,P01_109_59,put down potato,put-down,potato,['potato'],9493,9581,1,1,1,,,,,,,
+E1,60,P01_109_60,put down peeler,put-down,peeler,['peeler'],9585,9606,1,1,1,,,,,,,
+E1,61,P01_109_61,pick up knife,pick-up,knife,['knife'],9667,9761,1,1,1,,,,,,,
+E1,62,P01_109_62,grab potato,grab,potato,['potato'],9804,9834,1,1,1,,,,,,,
+E1,63,P01_109_63,cut potato,cut,potato,['potato'],9830,10124,1,1,1,,,,,,,
+E1,64,P01_109_64,pick up potato bit,pick-up,bit:potato,['bit:potato'],10118,10182,1,1,1,,,,,,,
+E1,65,P01_109_65,put down potato bit,put-down,bit:potato,['bit:potato'],10147,10190,1,1,1,,,,,,,
+E1,66,P01_109_66,move cutting board,move,board:cutting,['board:cutting'],10195,10231,1,1,1,,,,,,,
+E1,67,P01_109_67,put down knife,put-down,knife,['knife'],10236,10266,1,1,1,,,,,,,
+E1,68,P01_109_68,pick up knife,pick-up,knife,['knife'],10263,10299,1,1,1,,,,,,,
+E1,69,P01_109_69,slice potato,slice,potato,['potato'],10296,11899,1,1,1,,,,,,,
+E1,70,P01_109_70,put down knife,put-down,knife,['knife'],11913,11934,1,1,1,,,,,,,
+E1,71,P01_109_71,put down potato slices,put-down,slice:potato,['slice:potato'],11962,11993,1,1,1,,,,,,,
+E1,72,P01_109_72,pick up potato slices,pick-up,slice:potato,['slice:potato'],12006,12070,1,1,1,,,,,,,
+E1,73,P01_109_73,put down potato slices,put-down,slice:potato,['slice:potato'],12069,12185,1,1,1,,,,,,,
+E1,74,P01_109_74,pick up potato slices,pick-up,slice:potato,['slice:potato'],12180,12262,1,1,1,,,,,,,
+E1,75,P01_109_75,put down potato slices,put-down,slice:potato,['slice:potato'],12266,12331,1,1,1,,,,,,,
+E1,76,P01_109_76,pick up potato slice,pick-up,slice:potato,['slice:potato'],12324,12390,1,1,1,,,,,,,
+E1,77,P01_109_78,pick up potato slice,pick-up,slice:potato,['slice:potato'],12335,12389,1,1,1,,,,,,,
+E1,78,P01_109_79,put down potato slice,put-down,slice:potato,['slice:potato'],12388,12410,1,1,1,,,,,,,
+E1,79,P01_109_77,put down potato slice,put-down,slice:potato,['slice:potato'],12389,12416,1,1,1,,,,,,,
+E1,80,P01_109_80,pick up potato slices,pick-up,slice:potato,['slice:potato'],12415,12454,1,1,1,,,,,,,
+E1,81,P01_109_81,put down potato slices,put-down,slice:potato,['slice:potato'],12457,12479,1,1,1,,,,,,,
+E1,82,P01_109_82,pick up potato slice,pick-up,slice:potato,['slice:potato'],12483,12561,1,1,1,,,,,,,
+E1,83,P01_109_83,put down potato slice,put-down,slice:potato,['slice:potato'],12561,12584,1,1,1,,,,,,,
+E1,84,P01_109_84,pick up potato slice,pick-up,slice:potato,['slice:potato'],12633,12666,1,1,1,,,,,,,
+E1,85,P01_109_85,put down potato slice,put-down,slice:potato,['slice:potato'],12669,12691,1,1,1,,,,,,,
+E1,86,P01_109_86,pick up potato slice,pick-up,slice:potato,['slice:potato'],12722,12752,1,1,1,,,,,,,
+E1,87,P01_109_87,put down potato slice,put-down,slice:potato,['slice:potato'],12757,12785,1,1,1,,,,,,,
+E1,88,P01_109_88,pick up knife,pick-up,knife,['knife'],12875,12925,1,1,1,,,,,,,
+E1,89,P01_109_89,cut potato slice,cut,slice:potato,['slice:potato'],12914,13035,1,1,1,,,,,,,
+E1,90,P01_109_90,put down knife,put-down,knife,['knife'],13024,13054,1,1,1,,,,,,,
+E1,91,P01_109_91,put down potato slice,put-down,slice:potato,['slice:potato'],13064,13089,1,1,1,,,,,,,
+E1,92,P01_109_92,pick up potato,pick-up,potato,['potato'],13095,13120,1,1,1,,,,,,,
+E1,93,P01_109_93,pick up peeler,pick-up,peeler,['peeler'],13125,13154,1,1,1,,,,,,,
+E1,94,P01_109_94,peel potato,peel,potato,['potato'],13151,15460,1,1,1,,,,,,,
+E1,95,P01_109_95,put down potato,put-down,potato,['potato'],15462,15502,1,1,1,,,,,,,
+E1,96,P01_109_96,pick up peeler blade,pick-up,blade:peeler,['blade:peeler'],15507,15574,1,1,1,,,,,,,
+E1,97,P01_109_97,fix peeler blade,fix,blade:peeler,['blade:peeler'],15573,15771,1,1,1,,,,,,,
+E1,98,P01_109_98,pick up potato,pick-up,potato,['potato'],15771,15798,1,1,1,,,,,,,
+E1,99,P01_109_99,peel potato,peel,potato,['potato'],15882,16102,1,1,1,,,,,,,
+E2,0,P01_109_0,grab rucksack,grab,rucksack,['rucksack'],78,125,48,48,5,,,,,,,
+E2,1,P01_109_1,open rucksack,open,rucksack,['rucksack'],152,225,97,97,5,,,,,,,
+E2,2,P01_109_2,pick up eggs,pick-up,egg,['egg'],251,318,133,133,5,,,,,,,
+E2,3,P01_109_3,put down eggs,put-down,egg,['egg'],318,373,36,36,5,,,,,,,
+E2,4,P01_109_4,pick up onion and potato,pick-up,onion,"['onion', 'potato']",423,474,104,104,5,,,,,,,
+E2,5,P01_109_5,put down onion and potato,put-down,onion,"['onion', 'potato']",479,522,31,31,5,,,,,,,
+E2,6,P01_109_8,pick up potato,pick-up,potato,['potato'],499,621,140,140,5,,,,,,,
+E2,7,P01_109_6,pick up potatoes,pick-up,potato,['potato'],542,578,74,74,5,,,,,,,
+E2,8,P01_109_7,put down potatoes,put-down,potato,['potato'],549,733,190,190,5,,,,,,,
+E2,9,P01_109_9,put down potato,put-down,potato,['potato'],624,751,136,136,5,,,,,,,
+E2,10,P01_109_10,pick up beers,pick-up,beer,['beer'],737,844,174,174,5,,,,,,,
+E2,11,P01_109_11,open freezer,open,freezer,['freezer'],875,1021,141,141,5,,,,,,,
+E2,12,P01_109_12,open drawer,open,drawer,['drawer'],1044,1122,132,132,5,,,,,,,
+E2,13,P01_109_13,put beer into drawer,put-into,beer,"['beer', 'drawer']",1138,1352,278,278,5,,,,,,,
+E2,14,P01_109_14,put beer into drawer,put-into,beer,"['beer', 'drawer']",1229,1282,71,71,5,,,,,,,
+E2,15,P01_109_15,put beer into drawer,put-into,beer,"['beer', 'drawer']",1297,1334,67,67,5,,,,,,,
+E2,16,P01_109_16,close drawer,close,drawer,['drawer'],1344,1400,60,60,5,,,,,,,
+E2,17,P01_109_17,close freezer,close,freezer,['freezer'],1418,1463,35,35,5,,,,,,,
+E2,18,P01_109_18,pick up rucksack,pick-up,rucksack,['rucksack'],1484,1526,36,36,5,,,,,,,
+E2,19,P01_109_19,put down rucksack,put-down,rucksack,['rucksack'],1656,1697,27,27,5,,,,,,,
+E2,20,P01_109_20,close door,close,door,['door'],1811,1945,33,33,5,,,,,,,
+E2,21,P01_109_21,pick up cup,pick-up,cup,['cup'],2083,2119,6,6,5,,,,,,,
+E2,22,P01_109_22,put down cup,put-down,cup,['cup'],2131,2192,25,25,5,,,,,,,
+E2,23,P01_109_23,pick up spoon,pick-up,spoon,['spoon'],2205,2235,11,11,5,,,,,,,
+E2,24,P01_109_24,open drawer,open,drawer,['drawer'],2268,2331,47,47,5,,,,,,,
+E2,25,P01_109_25,put spoon into drawer,put-into,spoon,"['spoon', 'drawer']",2335,2377,29,29,5,,,,,,,
+E2,26,P01_109_26,close drawer,close,drawer,['drawer'],2376,2409,0,0,0,,,,,,,
+E2,27,P01_109_27,pour hand wash,pour,wash:hand,['wash:hand'],2465,2504,10,10,5,,,,,,,
+E2,28,P01_109_28,wash hands,wash,hand,['hand'],2477,2539,8,8,5,,,,,,,
+E2,29,P01_109_29,turn on tap,turn-on,tap,['tap'],2544,2574,38,38,5,,,,,,,
+E2,30,P01_109_30,rinse hands,rinse,hand,['hand'],2578,2962,164,164,5,,,,,,,
+E2,31,P01_109_31,turn off tap,turn-off,tap,['tap'],2966,2988,10,10,5,,,,,,,
+E2,32,P01_109_32,shake hands,shake,hand,['hand'],3000,3071,24,24,5,,,,,,,
+E2,33,P01_109_33,pick up cloth,pick-up,cloth,['cloth'],3083,3139,26,26,5,,,,,,,
+E2,34,P01_109_34,dry hands,dry,hand,['hand'],3093,3348,112,112,5,,,,,,,
+E2,35,P01_109_35,put down cloth,put-down,cloth,['cloth'],3348,3371,35,35,5,,,,,,,
+E2,36,P01_109_36,pick up potatoes,pick-up,potato,['potato'],3373,3495,214,214,5,,,,,,,
+E2,37,P01_109_37,put down potatoes,put-down,potato,['potato'],3516,3551,56,56,5,,,,,,,
+E2,38,P01_109_38,move potatoes,move,potato,['potato'],3639,3705,42,42,5,,,,,,,
+E2,39,P01_109_39,open cupboard,open,cupboard,['cupboard'],3718,3798,55,55,5,,,,,,,
+E2,40,P01_109_40,move pans,move,pan,['pan'],3825,4047,301,301,5,,,,,,,
+E2,41,P01_109_41,pick up pan,pick-up,pan,['pan'],4037,4097,122,122,5,,,,,,,
+E2,42,P01_109_42,put down pan,put-down,pan,['pan'],4208,4279,107,107,5,,,,,,,
+E2,43,P01_109_44,put down pan,put-down,pan,['pan'],4268,4352,142,142,5,,,,,,,
+E2,44,P01_109_43,pick up pan,pick-up,pan,['pan'],4329,4385,36,36,5,,,,,,,
+E2,45,P01_109_45,put down pan,put-down,pan,['pan'],4378,4431,56,56,5,,,,,,,
+E2,46,P01_109_46,pick up cutting board,pick-up,board:cutting,['board:cutting'],4509,4603,70,70,5,,,,,,,
+E2,47,P01_109_47,close cupboard,close,cupboard,['cupboard'],4620,4663,26,26,5,,,,,,,
+E2,48,P01_109_48,put down cutting board,put-down,board:cutting,['board:cutting'],4676,4723,53,53,5,,,,,,,
+E2,49,P01_109_49,pick up eggs,pick-up,egg,['egg'],4763,4796,68,68,5,,,,,,,
+E2,50,P01_109_50,put down eggs,put-down,egg,['egg'],4793,4826,54,54,5,,,,,,,
+E2,51,P01_109_51,move kettle,move,kettle,['kettle'],4831,4866,35,35,5,,,,,,,
+E2,52,P01_109_52,open drawer,open,drawer,['drawer'],4903,4941,13,13,5,,,,,,,
+E2,53,P01_109_53,pick up peeler,pick-up,peeler,['peeler'],4937,4980,47,47,5,,,,,,,
+E2,54,P01_109_54,close drawer,close,drawer,['drawer'],4976,5003,31,31,5,,,,,,,
+E2,55,P01_109_55,move cutting board,move,board:cutting,['board:cutting'],5013,5048,54,54,5,,,,,,,
+E2,56,P01_109_56,pick up potato,pick-up,potato,['potato'],5052,5121,112,112,5,,,,,,,
+E2,57,P01_109_57,move potato,move,potato,['potato'],5081,5093,24,24,5,,,,,,,
+E2,58,P01_109_58,peel potato,peel,potato,['potato'],5181,9528,8679,8679,5,,,,,,,
+E2,59,P01_109_59,put down potato,put-down,potato,['potato'],9493,9581,178,178,5,,,,,,,
+E2,60,P01_109_60,put down peeler,put-down,peeler,['peeler'],9585,9606,31,31,5,,,,,,,
+E2,61,P01_109_61,pick up knife,pick-up,knife,['knife'],9667,9761,3,3,3,,,,,,,
+E2,62,P01_109_62,grab potato,grab,potato,['potato'],9804,9834,62,62,5,,,,,,,
+E2,63,P01_109_63,cut potato,cut,potato,['potato'],9830,10124,590,590,5,,,,,,,
+E2,64,P01_109_64,pick up potato bit,pick-up,bit:potato,['bit:potato'],10118,10182,95,95,5,,,,,,,
+E2,65,P01_109_65,put down potato bit,put-down,bit:potato,['bit:potato'],10147,10190,59,59,5,,,,,,,
+E2,66,P01_109_66,move cutting board,move,board:cutting,['board:cutting'],10195,10231,41,41,5,,,,,,,
+E2,67,P01_109_67,put down knife,put-down,knife,['knife'],10236,10266,21,21,5,,,,,,,
+E2,68,P01_109_68,pick up knife,pick-up,knife,['knife'],10263,10299,55,55,5,,,,,,,
+E2,69,P01_109_69,slice potato,slice,potato,['potato'],10296,11899,3179,3179,5,,,,,,,
+E2,70,P01_109_70,put down knife,put-down,knife,['knife'],11913,11934,37,37,5,,,,,,,
+E2,71,P01_109_71,put down potato slices,put-down,slice:potato,['slice:potato'],11962,11993,23,23,5,,,,,,,
+E2,72,P01_109_72,pick up potato slices,pick-up,slice:potato,['slice:potato'],12006,12070,130,130,5,,,,,,,
+E2,73,P01_109_73,put down potato slices,put-down,slice:potato,['slice:potato'],12069,12185,194,194,5,,,,,,,
+E2,74,P01_109_74,pick up potato slices,pick-up,slice:potato,['slice:potato'],12180,12262,131,131,5,,,,,,,
+E2,75,P01_109_75,put down potato slices,put-down,slice:potato,['slice:potato'],12266,12331,71,71,5,,,,,,,
+E2,76,P01_109_76,pick up potato slice,pick-up,slice:potato,['slice:potato'],12324,12390,65,65,5,,,,,,,
+E2,77,P01_109_78,pick up potato slice,pick-up,slice:potato,['slice:potato'],12335,12389,60,60,5,,,,,,,
+E2,78,P01_109_79,put down potato slice,put-down,slice:potato,['slice:potato'],12388,12410,16,16,5,,,,,,,
+E2,79,P01_109_77,put down potato slice,put-down,slice:potato,['slice:potato'],12389,12416,21,21,5,,,,,,,
+E2,80,P01_109_80,pick up potato slices,pick-up,slice:potato,['slice:potato'],12415,12454,54,54,5,,,,,,,
+E2,81,P01_109_81,put down potato slices,put-down,slice:potato,['slice:potato'],12457,12479,17,17,5,,,,,,,
+E2,82,P01_109_82,pick up potato slice,pick-up,slice:potato,['slice:potato'],12483,12561,143,143,5,,,,,,,
+E2,83,P01_109_83,put down potato slice,put-down,slice:potato,['slice:potato'],12561,12584,45,45,5,,,,,,,
+E2,84,P01_109_84,pick up potato slice,pick-up,slice:potato,['slice:potato'],12633,12666,38,38,5,,,,,,,
+E2,85,P01_109_85,put down potato slice,put-down,slice:potato,['slice:potato'],12669,12691,21,21,5,,,,,,,
+E2,86,P01_109_86,pick up potato slice,pick-up,slice:potato,['slice:potato'],12722,12752,54,54,5,,,,,,,
+E2,87,P01_109_87,put down potato slice,put-down,slice:potato,['slice:potato'],12757,12785,30,30,5,,,,,,,
+E2,88,P01_109_88,pick up knife,pick-up,knife,['knife'],12875,12925,98,98,5,,,,,,,
+E2,89,P01_109_89,cut potato slice,cut,slice:potato,['slice:potato'],12914,13035,241,241,5,,,,,,,
+E2,90,P01_109_90,put down knife,put-down,knife,['knife'],13024,13054,58,58,5,,,,,,,
+E2,91,P01_109_91,put down potato slice,put-down,slice:potato,['slice:potato'],13064,13089,34,34,5,,,,,,,
+E2,92,P01_109_92,pick up potato,pick-up,potato,['potato'],13095,13120,32,32,5,,,,,,,
+E2,93,P01_109_93,pick up peeler,pick-up,peeler,['peeler'],13125,13154,56,56,5,,,,,,,
+E2,94,P01_109_94,peel potato,peel,potato,['potato'],13151,15460,4620,4620,5,,,,,,,
+E2,95,P01_109_95,put down potato,put-down,potato,['potato'],15462,15502,80,80,5,,,,,,,
+E2,96,P01_109_96,pick up peeler blade,pick-up,blade:peeler,['blade:peeler'],15507,15574,132,132,5,,,,,,,
+E2,97,P01_109_97,fix peeler blade,fix,blade:peeler,['blade:peeler'],15573,15771,389,389,5,,,,,,,
+E2,98,P01_109_98,pick up potato,pick-up,potato,['potato'],15771,15798,56,56,5,,,,,,,
+E2,99,P01_109_99,peel potato,peel,potato,['potato'],15882,16102,442,442,5,,,,,,,
+E3,0,P01_109_0,grab rucksack,grab,rucksack,['rucksack'],78,125,48,48,5,,,,,,,
+E3,1,P01_109_1,open rucksack,open,rucksack,['rucksack'],152,225,97,97,5,,,,,,,
+E3,2,P01_109_2,pick up eggs,pick-up,egg,['egg'],251,318,133,133,5,,,,,,,
+E3,3,P01_109_3,put down eggs,put-down,egg,['egg'],318,373,36,36,5,,,,,,,
+E3,4,P01_109_4,pick up onion and potato,pick-up,onion,"['onion', 'potato']",423,474,104,104,5,,,,,,,
+E3,5,P01_109_5,put down onion and potato,put-down,onion,"['onion', 'potato']",479,522,31,31,5,,,,,,,
+E3,6,P01_109_8,pick up potato,pick-up,potato,['potato'],499,621,140,140,5,,,,,,,
+E3,7,P01_109_6,pick up potatoes,pick-up,potato,['potato'],542,578,74,74,5,,,,,,,
+E3,8,P01_109_7,put down potatoes,put-down,potato,['potato'],549,733,190,190,5,,,,,,,
+E3,9,P01_109_9,put down potato,put-down,potato,['potato'],624,751,136,136,5,,,,,,,
+E3,10,P01_109_10,pick up beers,pick-up,beer,['beer'],737,844,174,174,5,,,,,,,
+E3,11,P01_109_11,open freezer,open,freezer,['freezer'],875,1021,141,141,5,,,,,,,
+E3,12,P01_109_12,open drawer,open,drawer,['drawer'],1044,1122,132,132,5,,,,,,,
+E3,13,P01_109_13,put beer into drawer,put-into,beer,"['beer', 'drawer']",1138,1352,278,278,5,,,,,,,
+E3,14,P01_109_14,put beer into drawer,put-into,beer,"['beer', 'drawer']",1229,1282,71,71,5,,,,,,,
+E3,15,P01_109_15,put beer into drawer,put-into,beer,"['beer', 'drawer']",1297,1334,67,67,5,,,,,,,
+E3,16,P01_109_16,close drawer,close,drawer,['drawer'],1344,1400,60,60,5,,,,,,,
+E3,17,P01_109_17,close freezer,close,freezer,['freezer'],1418,1463,35,35,5,,,,,,,
+E3,18,P01_109_18,pick up rucksack,pick-up,rucksack,['rucksack'],1484,1526,36,36,5,,,,,,,
+E3,19,P01_109_19,put down rucksack,put-down,rucksack,['rucksack'],1656,1697,27,27,5,,,,,,,
+E3,20,P01_109_20,close door,close,door,['door'],1811,1945,33,33,5,,,,,,,
+E3,21,P01_109_21,pick up cup,pick-up,cup,['cup'],2083,2119,6,6,5,,,,,,,
+E3,22,P01_109_22,put down cup,put-down,cup,['cup'],2131,2192,25,25,5,,,,,,,
+E3,23,P01_109_23,pick up spoon,pick-up,spoon,['spoon'],2205,2235,11,11,5,,,,,,,
+E3,24,P01_109_24,open drawer,open,drawer,['drawer'],2268,2331,47,47,5,,,,,,,
+E3,25,P01_109_25,put spoon into drawer,put-into,spoon,"['spoon', 'drawer']",2335,2377,29,29,5,,,,,,,
+E3,26,P01_109_26,close drawer,close,drawer,['drawer'],2376,2409,0,0,0,,,,,,,
+E3,27,P01_109_27,pour hand wash,pour,wash:hand,['wash:hand'],2465,2504,10,10,5,,,,,,,
+E3,28,P01_109_28,wash hands,wash,hand,['hand'],2477,2539,8,8,5,,,,,,,
+E3,29,P01_109_29,turn on tap,turn-on,tap,['tap'],2544,2574,38,38,5,,,,,,,
+E3,30,P01_109_30,rinse hands,rinse,hand,['hand'],2578,2962,164,164,5,,,,,,,
+E3,31,P01_109_31,turn off tap,turn-off,tap,['tap'],2966,2988,10,10,5,,,,,,,
+E3,32,P01_109_32,shake hands,shake,hand,['hand'],3000,3071,24,24,5,,,,,,,
+E3,33,P01_109_33,pick up cloth,pick-up,cloth,['cloth'],3083,3139,26,26,5,,,,,,,
+E3,34,P01_109_34,dry hands,dry,hand,['hand'],3093,3348,112,112,5,,,,,,,
+E3,35,P01_109_35,put down cloth,put-down,cloth,['cloth'],3348,3371,35,35,5,,,,,,,
+E3,36,P01_109_36,pick up potatoes,pick-up,potato,['potato'],3373,3495,214,214,5,,,,,,,
+E3,37,P01_109_37,put down potatoes,put-down,potato,['potato'],3516,3551,56,56,5,,,,,,,
+E3,38,P01_109_38,move potatoes,move,potato,['potato'],3639,3705,42,42,5,,,,,,,
+E3,39,P01_109_39,open cupboard,open,cupboard,['cupboard'],3718,3798,55,55,5,,,,,,,
+E3,40,P01_109_40,move pans,move,pan,['pan'],3825,4047,301,301,5,,,,,,,
+E3,41,P01_109_41,pick up pan,pick-up,pan,['pan'],4037,4097,122,122,5,,,,,,,
+E3,42,P01_109_42,put down pan,put-down,pan,['pan'],4208,4279,107,107,5,,,,,,,
+E3,43,P01_109_44,put down pan,put-down,pan,['pan'],4268,4352,142,142,5,,,,,,,
+E3,44,P01_109_43,pick up pan,pick-up,pan,['pan'],4329,4385,36,36,5,,,,,,,
+E3,45,P01_109_45,put down pan,put-down,pan,['pan'],4378,4431,56,56,5,,,,,,,
+E3,46,P01_109_46,pick up cutting board,pick-up,board:cutting,['board:cutting'],4509,4603,70,70,5,,,,,,,
+E3,47,P01_109_47,close cupboard,close,cupboard,['cupboard'],4620,4663,26,26,5,,,,,,,
+E3,48,P01_109_48,put down cutting board,put-down,board:cutting,['board:cutting'],4676,4723,53,53,5,,,,,,,
+E3,49,P01_109_49,pick up eggs,pick-up,egg,['egg'],4763,4796,68,68,5,,,,,,,
+E3,50,P01_109_50,put down eggs,put-down,egg,['egg'],4793,4826,54,54,5,,,,,,,
+E3,51,P01_109_51,move kettle,move,kettle,['kettle'],4831,4866,35,35,5,,,,,,,
+E3,52,P01_109_52,open drawer,open,drawer,['drawer'],4903,4941,13,13,5,,,,,,,
+E3,53,P01_109_53,pick up peeler,pick-up,peeler,['peeler'],4937,4980,47,47,5,,,,,,,
+E3,54,P01_109_54,close drawer,close,drawer,['drawer'],4976,5003,31,31,5,,,,,,,
+E3,55,P01_109_55,move cutting board,move,board:cutting,['board:cutting'],5013,5048,54,54,5,,,,,,,
+E3,56,P01_109_56,pick up potato,pick-up,potato,['potato'],5052,5121,112,112,5,,,,,,,
+E3,57,P01_109_57,move potato,move,potato,['potato'],5081,5093,24,24,5,,,,,,,
+E3,58,P01_109_58,peel potato,peel,potato,['potato'],5181,9528,8679,8679,5,,,,,,,
+E3,59,P01_109_59,put down potato,put-down,potato,['potato'],9493,9581,178,178,5,,,,,,,
+E3,60,P01_109_60,put down peeler,put-down,peeler,['peeler'],9585,9606,31,31,5,,,,,,,
+E3,61,P01_109_61,pick up knife,pick-up,knife,['knife'],9667,9761,3,3,3,,,,,,,
+E3,62,P01_109_62,grab potato,grab,potato,['potato'],9804,9834,62,62,5,,,,,,,
+E3,63,P01_109_63,cut potato,cut,potato,['potato'],9830,10124,590,590,5,,,,,,,
+E3,64,P01_109_64,pick up potato bit,pick-up,bit:potato,['bit:potato'],10118,10182,95,95,5,,,,,,,
+E3,65,P01_109_65,put down potato bit,put-down,bit:potato,['bit:potato'],10147,10190,59,59,5,,,,,,,
+E3,66,P01_109_66,move cutting board,move,board:cutting,['board:cutting'],10195,10231,41,41,5,,,,,,,
+E3,67,P01_109_67,put down knife,put-down,knife,['knife'],10236,10266,21,21,5,,,,,,,
+E3,68,P01_109_68,pick up knife,pick-up,knife,['knife'],10263,10299,55,55,5,,,,,,,
+E3,69,P01_109_69,slice potato,slice,potato,['potato'],10296,11899,3179,3179,5,,,,,,,
+E3,70,P01_109_70,put down knife,put-down,knife,['knife'],11913,11934,37,37,5,,,,,,,
+E3,71,P01_109_71,put down potato slices,put-down,slice:potato,['slice:potato'],11962,11993,23,23,5,,,,,,,
+E3,72,P01_109_72,pick up potato slices,pick-up,slice:potato,['slice:potato'],12006,12070,130,130,5,,,,,,,
+E3,73,P01_109_73,put down potato slices,put-down,slice:potato,['slice:potato'],12069,12185,194,194,5,,,,,,,
+E3,74,P01_109_74,pick up potato slices,pick-up,slice:potato,['slice:potato'],12180,12262,131,131,5,,,,,,,
+E3,75,P01_109_75,put down potato slices,put-down,slice:potato,['slice:potato'],12266,12331,71,71,5,,,,,,,
+E3,76,P01_109_76,pick up potato slice,pick-up,slice:potato,['slice:potato'],12324,12390,65,65,5,,,,,,,
+E3,77,P01_109_78,pick up potato slice,pick-up,slice:potato,['slice:potato'],12335,12389,60,60,5,,,,,,,
+E3,78,P01_109_79,put down potato slice,put-down,slice:potato,['slice:potato'],12388,12410,16,16,5,,,,,,,
+E3,79,P01_109_77,put down potato slice,put-down,slice:potato,['slice:potato'],12389,12416,21,21,5,,,,,,,
+E3,80,P01_109_80,pick up potato slices,pick-up,slice:potato,['slice:potato'],12415,12454,54,54,5,,,,,,,
+E3,81,P01_109_81,put down potato slices,put-down,slice:potato,['slice:potato'],12457,12479,17,17,5,,,,,,,
+E3,82,P01_109_82,pick up potato slice,pick-up,slice:potato,['slice:potato'],12483,12561,143,143,5,,,,,,,
+E3,83,P01_109_83,put down potato slice,put-down,slice:potato,['slice:potato'],12561,12584,45,45,5,,,,,,,
+E3,84,P01_109_84,pick up potato slice,pick-up,slice:potato,['slice:potato'],12633,12666,38,38,5,,,,,,,
+E3,85,P01_109_85,put down potato slice,put-down,slice:potato,['slice:potato'],12669,12691,21,21,5,,,,,,,
+E3,86,P01_109_86,pick up potato slice,pick-up,slice:potato,['slice:potato'],12722,12752,54,54,5,,,,,,,
+E3,87,P01_109_87,put down potato slice,put-down,slice:potato,['slice:potato'],12757,12785,30,30,5,,,,,,,
+E3,88,P01_109_88,pick up knife,pick-up,knife,['knife'],12875,12925,98,98,5,,,,,,,
+E3,89,P01_109_89,cut potato slice,cut,slice:potato,['slice:potato'],12914,13035,241,241,5,,,,,,,
+E3,90,P01_109_90,put down knife,put-down,knife,['knife'],13024,13054,58,58,5,,,,,,,
+E3,91,P01_109_91,put down potato slice,put-down,slice:potato,['slice:potato'],13064,13089,34,34,5,,,,,,,
+E3,92,P01_109_92,pick up potato,pick-up,potato,['potato'],13095,13120,32,32,5,,,,,,,
+E3,93,P01_109_93,pick up peeler,pick-up,peeler,['peeler'],13125,13154,56,56,5,,,,,,,
+E3,94,P01_109_94,peel potato,peel,potato,['potato'],13151,15460,4620,4620,5,,,,,,,
+E3,95,P01_109_95,put down potato,put-down,potato,['potato'],15462,15502,80,80,5,,,,,,,
+E3,96,P01_109_96,pick up peeler blade,pick-up,blade:peeler,['blade:peeler'],15507,15574,132,132,5,,,,,,,
+E3,97,P01_109_97,fix peeler blade,fix,blade:peeler,['blade:peeler'],15573,15771,389,389,5,,,,,,,
+E3,98,P01_109_98,pick up potato,pick-up,potato,['potato'],15771,15798,56,56,5,,,,,,,
+E3,99,P01_109_99,peel potato,peel,potato,['potato'],15882,16102,442,442,5,,,,,,,
+E4,0,P01_109_0,grab rucksack,grab,rucksack,['rucksack'],78,125,48,48,5,new_contact_episode,P01_109_ep0001,first_seen_object_noun,rucksack,,0.0,0.0
+E4,1,P01_109_1,open rucksack,open,rucksack,['rucksack'],152,225,97,0,0,continuation_same_object,P01_109_ep0001,same_noun_without_release_gap,rucksack,0.0,0.0,0.0
+E4,2,P01_109_2,pick up eggs,pick-up,egg,['egg'],251,318,133,133,5,new_contact_episode,P01_109_ep0002,first_seen_object_noun,egg,,0.0,0.0
+E4,3,P01_109_3,put down eggs,put-down,egg,['egg'],318,373,36,0,0,continuation_same_object,P01_109_ep0002,same_noun_without_release_gap,egg,2.0,0.0,0.0
+E4,4,P01_109_4,pick up onion and potato,pick-up,onion,"['onion', 'potato']",423,474,104,104,5,new_contact_episode,P01_109_ep0003,first_seen_object_noun,onion,,0.0,0.0
+E4,5,P01_109_5,put down onion and potato,put-down,onion,"['onion', 'potato']",479,522,31,0,0,continuation_same_object,P01_109_ep0003,same_noun_without_release_gap,onion,4.0,0.0,0.0
+E4,6,P01_109_8,pick up potato,pick-up,potato,['potato'],499,621,140,0,0,continuation_same_object,P01_109_ep0003,same_noun_without_release_gap,potato,5.0,0.0,0.0
+E4,7,P01_109_6,pick up potatoes,pick-up,potato,['potato'],542,578,74,0,0,continuation_same_object,P01_109_ep0003,same_noun_without_release_gap,potato,6.0,0.0,0.0
+E4,8,P01_109_7,put down potatoes,put-down,potato,['potato'],549,733,190,0,0,continuation_same_object,P01_109_ep0003,same_noun_without_release_gap,potato,7.0,0.0,0.0
+E4,9,P01_109_9,put down potato,put-down,potato,['potato'],624,751,136,0,0,continuation_same_object,P01_109_ep0003,same_noun_without_release_gap,potato,8.0,0.0,0.0
+E4,10,P01_109_10,pick up beers,pick-up,beer,['beer'],737,844,174,174,5,new_contact_episode,P01_109_ep0004,first_seen_object_noun,beer,,0.0,0.0
+E4,11,P01_109_11,open freezer,open,freezer,['freezer'],875,1021,141,141,5,new_contact_episode,P01_109_ep0005,first_seen_object_noun,freezer,,0.0,0.0
+E4,12,P01_109_12,open drawer,open,drawer,['drawer'],1044,1122,132,132,5,new_contact_episode,P01_109_ep0006,first_seen_object_noun,drawer,,0.0,0.0
+E4,13,P01_109_13,put beer into drawer,put-into,beer,"['beer', 'drawer']",1138,1352,278,0,0,continuation_same_object,P01_109_ep0006,same_noun_without_release_gap,beer,12.0,0.0,0.0
+E4,14,P01_109_14,put beer into drawer,put-into,beer,"['beer', 'drawer']",1229,1282,71,0,0,continuation_same_object,P01_109_ep0006,same_noun_without_release_gap,beer,13.0,0.0,0.0
+E4,15,P01_109_15,put beer into drawer,put-into,beer,"['beer', 'drawer']",1297,1334,67,0,0,continuation_same_object,P01_109_ep0006,same_noun_without_release_gap,beer,14.0,0.0,0.0
+E4,16,P01_109_16,close drawer,close,drawer,['drawer'],1344,1400,60,0,0,continuation_same_object,P01_109_ep0006,same_noun_without_release_gap,drawer,15.0,4.0,0.0
+E4,17,P01_109_17,close freezer,close,freezer,['freezer'],1418,1463,35,35,5,new_contact_episode,P01_109_ep0007,release_or_no_hand_gap,freezer,11.0,30.0,0.0
+E4,18,P01_109_18,pick up rucksack,pick-up,rucksack,['rucksack'],1484,1526,36,36,5,new_contact_episode,P01_109_ep0008,release_or_no_hand_gap,rucksack,1.0,33.0,27.0
+E4,19,P01_109_19,put down rucksack,put-down,rucksack,['rucksack'],1656,1697,27,0,0,continuation_same_object,P01_109_ep0008,same_noun_without_release_gap,rucksack,18.0,4.0,0.0
+E4,20,P01_109_20,close door,close,door,['door'],1811,1945,33,33,5,new_contact_episode,P01_109_ep0009,first_seen_object_noun,door,,0.0,0.0
+E4,21,P01_109_21,pick up cup,pick-up,cup,['cup'],2083,2119,6,6,5,new_contact_episode,P01_109_ep0010,first_seen_object_noun,cup,,0.0,0.0
+E4,22,P01_109_22,put down cup,put-down,cup,['cup'],2131,2192,25,25,5,new_contact_episode,P01_109_ep0011,release_or_no_hand_gap,cup,21.0,47.0,36.0
+E4,23,P01_109_23,pick up spoon,pick-up,spoon,['spoon'],2205,2235,11,11,5,new_contact_episode,P01_109_ep0012,first_seen_object_noun,spoon,,0.0,0.0
+E4,24,P01_109_24,open drawer,open,drawer,['drawer'],2268,2331,47,47,5,new_contact_episode,P01_109_ep0013,release_or_no_hand_gap,drawer,16.0,169.0,158.0
+E4,25,P01_109_25,put spoon into drawer,put-into,spoon,"['spoon', 'drawer']",2335,2377,29,0,0,continuation_same_object,P01_109_ep0013,same_noun_without_release_gap,spoon,24.0,0.0,0.0
+E4,26,P01_109_26,close drawer,close,drawer,['drawer'],2376,2409,0,0,0,no_contact_candidate,,no_smoothed_contact_in_subaction,drawer,,0.0,0.0
+E4,27,P01_109_27,pour hand wash,pour,wash:hand,['wash:hand'],2465,2504,10,10,5,new_contact_episode,P01_109_ep0014,first_seen_object_noun,wash:hand,,0.0,0.0
+E4,28,P01_109_28,wash hands,wash,hand,['hand'],2477,2539,8,0,0,continuation_same_object,P01_109_ep0014,same_noun_without_release_gap,hand,27.0,0.0,0.0
+E4,29,P01_109_29,turn on tap,turn-on,tap,['tap'],2544,2574,38,38,5,new_contact_episode,P01_109_ep0015,first_seen_object_noun,tap,,0.0,0.0
+E4,30,P01_109_30,rinse hands,rinse,hand,['hand'],2578,2962,164,164,5,new_contact_episode,P01_109_ep0016,release_or_no_hand_gap,hand,28.0,134.0,0.0
+E4,31,P01_109_31,turn off tap,turn-off,tap,['tap'],2966,2988,10,10,5,new_contact_episode,P01_109_ep0017,release_or_no_hand_gap,tap,29.0,134.0,0.0
+E4,32,P01_109_32,shake hands,shake,hand,['hand'],3000,3071,24,24,5,new_contact_episode,P01_109_ep0018,release_or_no_hand_gap,hand,30.0,24.0,0.0
+E4,33,P01_109_33,pick up cloth,pick-up,cloth,['cloth'],3083,3139,26,26,5,new_contact_episode,P01_109_ep0019,first_seen_object_noun,cloth,,0.0,0.0
+E4,34,P01_109_34,dry hands,dry,hand,['hand'],3093,3348,112,112,5,new_contact_episode,P01_109_ep0020,release_or_no_hand_gap,hand,32.0,36.0,2.0
+E4,35,P01_109_35,put down cloth,put-down,cloth,['cloth'],3348,3371,35,35,5,new_contact_episode,P01_109_ep0021,release_or_no_hand_gap,cloth,33.0,35.0,11.0
+E4,36,P01_109_36,pick up potatoes,pick-up,potato,['potato'],3373,3495,214,214,5,new_contact_episode,P01_109_ep0022,release_or_no_hand_gap,potato,9.0,169.0,158.0
+E4,37,P01_109_37,put down potatoes,put-down,potato,['potato'],3516,3551,56,0,0,continuation_same_object,P01_109_ep0022,same_noun_without_release_gap,potato,36.0,0.0,0.0
+E4,38,P01_109_38,move potatoes,move,potato,['potato'],3639,3705,42,42,5,new_contact_episode,P01_109_ep0023,release_or_no_hand_gap,potato,37.0,78.0,29.0
+E4,39,P01_109_39,open cupboard,open,cupboard,['cupboard'],3718,3798,55,55,5,new_contact_episode,P01_109_ep0024,first_seen_object_noun,cupboard,,0.0,0.0
+E4,40,P01_109_40,move pans,move,pan,['pan'],3825,4047,301,301,5,new_contact_episode,P01_109_ep0025,first_seen_object_noun,pan,,0.0,0.0
+E4,41,P01_109_41,pick up pan,pick-up,pan,['pan'],4037,4097,122,0,0,continuation_same_object,P01_109_ep0025,same_noun_without_release_gap,pan,40.0,0.0,0.0
+E4,42,P01_109_42,put down pan,put-down,pan,['pan'],4208,4279,107,0,0,continuation_same_object,P01_109_ep0025,same_noun_without_release_gap,pan,41.0,0.0,0.0
+E4,43,P01_109_44,put down pan,put-down,pan,['pan'],4268,4352,142,0,0,continuation_same_object,P01_109_ep0025,same_noun_without_release_gap,pan,42.0,0.0,0.0
+E4,44,P01_109_43,pick up pan,pick-up,pan,['pan'],4329,4385,36,0,0,continuation_same_object,P01_109_ep0025,same_noun_without_release_gap,pan,43.0,0.0,0.0
+E4,45,P01_109_45,put down pan,put-down,pan,['pan'],4378,4431,56,0,0,continuation_same_object,P01_109_ep0025,same_noun_without_release_gap,pan,44.0,0.0,0.0
+E4,46,P01_109_46,pick up cutting board,pick-up,board:cutting,['board:cutting'],4509,4603,70,70,5,new_contact_episode,P01_109_ep0026,first_seen_object_noun,board:cutting,,0.0,0.0
+E4,47,P01_109_47,close cupboard,close,cupboard,['cupboard'],4620,4663,26,26,5,new_contact_episode,P01_109_ep0027,release_or_no_hand_gap,cupboard,39.0,50.0,23.0
+E4,48,P01_109_48,put down cutting board,put-down,board:cutting,['board:cutting'],4676,4723,53,53,5,new_contact_episode,P01_109_ep0028,release_or_no_hand_gap,board:cutting,46.0,19.0,7.0
+E4,49,P01_109_49,pick up eggs,pick-up,egg,['egg'],4763,4796,68,68,5,new_contact_episode,P01_109_ep0029,release_or_no_hand_gap,egg,3.0,169.0,158.0
+E4,50,P01_109_50,put down eggs,put-down,egg,['egg'],4793,4826,54,0,0,continuation_same_object,P01_109_ep0029,same_noun_without_release_gap,egg,49.0,0.0,0.0
+E4,51,P01_109_51,move kettle,move,kettle,['kettle'],4831,4866,35,35,5,new_contact_episode,P01_109_ep0030,first_seen_object_noun,kettle,,0.0,0.0
+E4,52,P01_109_52,open drawer,open,drawer,['drawer'],4903,4941,13,13,5,new_contact_episode,P01_109_ep0031,release_or_no_hand_gap,drawer,25.0,134.0,29.0
+E4,53,P01_109_53,pick up peeler,pick-up,peeler,['peeler'],4937,4980,47,47,5,new_contact_episode,P01_109_ep0032,first_seen_object_noun,peeler,,0.0,0.0
+E4,54,P01_109_54,close drawer,close,drawer,['drawer'],4976,5003,31,31,5,new_contact_episode,P01_109_ep0033,release_or_no_hand_gap,drawer,52.0,17.0,3.0
+E4,55,P01_109_55,move cutting board,move,board:cutting,['board:cutting'],5013,5048,54,54,5,new_contact_episode,P01_109_ep0034,release_or_no_hand_gap,board:cutting,48.0,37.0,3.0
+E4,56,P01_109_56,pick up potato,pick-up,potato,['potato'],5052,5121,112,112,5,new_contact_episode,P01_109_ep0035,release_or_no_hand_gap,potato,38.0,50.0,23.0
+E4,57,P01_109_57,move potato,move,potato,['potato'],5081,5093,24,0,0,continuation_same_object,P01_109_ep0035,same_noun_without_release_gap,potato,56.0,0.0,0.0
+E4,58,P01_109_58,peel potato,peel,potato,['potato'],5181,9528,8679,0,0,continuation_same_object,P01_109_ep0035,same_noun_without_release_gap,potato,57.0,0.0,0.0
+E4,59,P01_109_59,put down potato,put-down,potato,['potato'],9493,9581,178,0,0,continuation_same_object,P01_109_ep0035,same_noun_without_release_gap,potato,58.0,0.0,0.0
+E4,60,P01_109_60,put down peeler,put-down,peeler,['peeler'],9585,9606,31,31,5,new_contact_episode,P01_109_ep0036,large_temporal_gap,peeler,53.0,0.0,0.0
+E4,61,P01_109_61,pick up knife,pick-up,knife,['knife'],9667,9761,3,3,3,new_contact_episode,P01_109_ep0037,first_seen_object_noun,knife,,0.0,0.0
+E4,62,P01_109_62,grab potato,grab,potato,['potato'],9804,9834,62,62,5,new_contact_episode,P01_109_ep0038,release_or_no_hand_gap,potato,59.0,75.0,68.0
+E4,63,P01_109_63,cut potato,cut,potato,['potato'],9830,10124,590,0,0,continuation_same_object,P01_109_ep0038,same_noun_without_release_gap,potato,62.0,0.0,0.0
+E4,64,P01_109_64,pick up potato bit,pick-up,bit:potato,['bit:potato'],10118,10182,95,0,0,continuation_same_object,P01_109_ep0038,same_noun_without_release_gap,bit:potato,63.0,0.0,0.0
+E4,65,P01_109_65,put down potato bit,put-down,bit:potato,['bit:potato'],10147,10190,59,0,0,continuation_same_object,P01_109_ep0038,same_noun_without_release_gap,bit:potato,64.0,0.0,0.0
+E4,66,P01_109_66,move cutting board,move,board:cutting,['board:cutting'],10195,10231,41,41,5,new_contact_episode,P01_109_ep0039,release_or_no_hand_gap,board:cutting,55.0,75.0,68.0
+E4,67,P01_109_67,put down knife,put-down,knife,['knife'],10236,10266,21,21,5,new_contact_episode,P01_109_ep0040,release_or_no_hand_gap,knife,61.0,75.0,68.0
+E4,68,P01_109_68,pick up knife,pick-up,knife,['knife'],10263,10299,55,0,0,continuation_same_object,P01_109_ep0040,same_noun_without_release_gap,knife,67.0,6.0,0.0
+E4,69,P01_109_69,slice potato,slice,potato,['potato'],10296,11899,3179,0,0,continuation_same_object,P01_109_ep0038,same_noun_without_release_gap,potato,65.0,6.0,0.0
+E4,70,P01_109_70,put down knife,put-down,knife,['knife'],11913,11934,37,37,5,new_contact_episode,P01_109_ep0041,large_temporal_gap,knife,68.0,0.0,0.0
+E4,71,P01_109_71,put down potato slices,put-down,slice:potato,['slice:potato'],11962,11993,23,0,0,continuation_same_object,P01_109_ep0038,same_noun_without_release_gap,slice:potato,69.0,0.0,0.0
+E4,72,P01_109_72,pick up potato slices,pick-up,slice:potato,['slice:potato'],12006,12070,130,130,5,new_contact_episode,P01_109_ep0042,release_or_no_hand_gap,slice:potato,71.0,15.0,0.0
+E4,73,P01_109_73,put down potato slices,put-down,slice:potato,['slice:potato'],12069,12185,194,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,72.0,0.0,0.0
+E4,74,P01_109_74,pick up potato slices,pick-up,slice:potato,['slice:potato'],12180,12262,131,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,73.0,0.0,0.0
+E4,75,P01_109_75,put down potato slices,put-down,slice:potato,['slice:potato'],12266,12331,71,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,74.0,0.0,0.0
+E4,76,P01_109_76,pick up potato slice,pick-up,slice:potato,['slice:potato'],12324,12390,65,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,75.0,0.0,0.0
+E4,77,P01_109_78,pick up potato slice,pick-up,slice:potato,['slice:potato'],12335,12389,60,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,76.0,0.0,0.0
+E4,78,P01_109_79,put down potato slice,put-down,slice:potato,['slice:potato'],12388,12410,16,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,77.0,0.0,0.0
+E4,79,P01_109_77,put down potato slice,put-down,slice:potato,['slice:potato'],12389,12416,21,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,78.0,0.0,0.0
+E4,80,P01_109_80,pick up potato slices,pick-up,slice:potato,['slice:potato'],12415,12454,54,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,79.0,0.0,0.0
+E4,81,P01_109_81,put down potato slices,put-down,slice:potato,['slice:potato'],12457,12479,17,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,80.0,0.0,0.0
+E4,82,P01_109_82,pick up potato slice,pick-up,slice:potato,['slice:potato'],12483,12561,143,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,81.0,3.0,0.0
+E4,83,P01_109_83,put down potato slice,put-down,slice:potato,['slice:potato'],12561,12584,45,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,82.0,0.0,0.0
+E4,84,P01_109_84,pick up potato slice,pick-up,slice:potato,['slice:potato'],12633,12666,38,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,83.0,3.0,0.0
+E4,85,P01_109_85,put down potato slice,put-down,slice:potato,['slice:potato'],12669,12691,21,0,0,continuation_same_object,P01_109_ep0042,same_noun_without_release_gap,slice:potato,84.0,0.0,0.0
+E4,86,P01_109_86,pick up potato slice,pick-up,slice:potato,['slice:potato'],12722,12752,54,54,5,new_contact_episode,P01_109_ep0043,release_or_no_hand_gap,slice:potato,85.0,8.0,0.0
+E4,87,P01_109_87,put down potato slice,put-down,slice:potato,['slice:potato'],12757,12785,30,0,0,continuation_same_object,P01_109_ep0043,same_noun_without_release_gap,slice:potato,86.0,0.0,0.0
+E4,88,P01_109_88,pick up knife,pick-up,knife,['knife'],12875,12925,98,98,5,new_contact_episode,P01_109_ep0044,release_or_no_hand_gap,knife,70.0,19.0,0.0
+E4,89,P01_109_89,cut potato slice,cut,slice:potato,['slice:potato'],12914,13035,241,241,5,new_contact_episode,P01_109_ep0045,release_or_no_hand_gap,slice:potato,87.0,19.0,0.0
+E4,90,P01_109_90,put down knife,put-down,knife,['knife'],13024,13054,58,0,0,continuation_same_object,P01_109_ep0044,same_noun_without_release_gap,knife,88.0,0.0,0.0
+E4,91,P01_109_91,put down potato slice,put-down,slice:potato,['slice:potato'],13064,13089,34,0,0,continuation_same_object,P01_109_ep0045,same_noun_without_release_gap,slice:potato,89.0,0.0,0.0
+E4,92,P01_109_92,pick up potato,pick-up,potato,['potato'],13095,13120,32,32,5,new_contact_episode,P01_109_ep0046,release_or_no_hand_gap,potato,91.0,8.0,0.0
+E4,93,P01_109_93,pick up peeler,pick-up,peeler,['peeler'],13125,13154,56,56,5,new_contact_episode,P01_109_ep0047,release_or_no_hand_gap,peeler,60.0,75.0,68.0
+E4,94,P01_109_94,peel potato,peel,potato,['potato'],13151,15460,4620,0,0,continuation_same_object,P01_109_ep0046,same_noun_without_release_gap,potato,92.0,0.0,0.0
+E4,95,P01_109_95,put down potato,put-down,potato,['potato'],15462,15502,80,0,0,continuation_same_object,P01_109_ep0046,same_noun_without_release_gap,potato,94.0,0.0,0.0
+E4,96,P01_109_96,pick up peeler blade,pick-up,blade:peeler,['blade:peeler'],15507,15574,132,132,5,new_contact_episode,P01_109_ep0048,large_temporal_gap,blade:peeler,93.0,0.0,0.0
+E4,97,P01_109_97,fix peeler blade,fix,blade:peeler,['blade:peeler'],15573,15771,389,0,0,continuation_same_object,P01_109_ep0048,same_noun_without_release_gap,blade:peeler,96.0,0.0,0.0
+E4,98,P01_109_98,pick up potato,pick-up,potato,['potato'],15771,15798,56,56,5,new_contact_episode,P01_109_ep0049,large_temporal_gap,potato,95.0,0.0,0.0
+E4,99,P01_109_99,peel potato,peel,potato,['potato'],15882,16102,442,0,0,continuation_same_object,P01_109_ep0049,same_noun_without_release_gap,potato,98.0,0.0,0.0

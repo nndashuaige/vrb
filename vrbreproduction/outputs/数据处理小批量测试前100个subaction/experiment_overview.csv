@@ -1,0 +1,5 @@
+experiment_id,experiment,contact_strategy,reference_strategy,subactions_total,subactions_success,candidates_total,cell2_pass,ref_found,homography_available,geometry_pass,heatmap_pass,main_failure,description
+E0,E0_current_first_contact_inside_subaction,first_contact,inside_subaction,100,1,100,85,1,1,1,1,no_strict_humanless_frame,当前失败基线：每个 subaction 只取 first contact，reference 只能在 subaction 内向前找。
+E1,E1_first_contact_reference_window_120,first_contact,window_before_start_120,100,12,100,85,23,14,12,12,no_strict_humanless_frame,只放宽 reference 搜索范围，用来验证 no_strict_humanless_frame 是否由 subaction 起点限制导致。
+E2,E2_all_contacts_reference_window_120,all_contacts,window_before_start_120,100,18,494,396,124,61,44,44,no_strict_humanless_frame,主方案：subaction 内扫描所有 contact frames，同时允许从 subaction 前 120 帧找 reference。
+E3,E3_all_contacts_full_previous_reference,all_contacts,full_previous,100,48,494,396,396,254,154,154,projected_object_polygon_invalid,上限对照：all contact frames，reference 可以从视频开头向前找。
