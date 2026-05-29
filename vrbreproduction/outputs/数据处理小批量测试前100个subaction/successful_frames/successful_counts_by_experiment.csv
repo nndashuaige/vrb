@@ -1,5 +1,0 @@
-experiment_id,subactions_total,candidates_total,cell2_pass,ref_found,homography_available,geometry_pass,heatmap_pass,successful_samples,successful_subactions
-E0,100,100,85,1,1,1,1,1,1
-E1,100,100,85,23,14,12,12,12,12
-E2,100,494,396,124,61,44,44,44,18
-E3,100,494,396,396,254,154,154,154,48

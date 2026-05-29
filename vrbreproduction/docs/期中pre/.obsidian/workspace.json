@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrim_pre_outline.md",
+                "file": "代码阅读指引.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrim_pre_outline"
+              "title": "代码阅读指引"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a1df26cbd9208db6",
@@ -185,7 +186,8 @@
   },
   "active": "b056fe6a325122da",
   "lastOpenFiles": [
-    "Intrim_pre_outline_en.md",
-    "Intrim_pre_outline.md"
+    "Intrim_pre_outline.md",
+    "代码阅读指引.md",
+    "Intrim_pre_outline_en.md"
   ]
 }
