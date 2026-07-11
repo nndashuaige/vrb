@@ -1,0 +1,18 @@
+{
+  "sample_key": "subaction_33_P01_109_33__episode_01_left__frame_003088_left",
+  "already_clean": false,
+  "mediapipe_fallback_used": false,
+  "hand_box_count": 0,
+  "sam_scores": [],
+  "mask_area_ratio": 0.0,
+  "mask_fallback_bbox": false,
+  "mask_touches_bottom": false,
+  "overlap_heatmap_top": 0.0,
+  "overlap_crop150": 0.0,
+  "passed": {
+    "lama": false
+  },
+  "skin_ratio_after": {},
+  "boundary_delta": {},
+  "elapsed_sec": 0.011342763900756836
+}

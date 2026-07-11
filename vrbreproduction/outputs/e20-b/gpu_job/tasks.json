@@ -1,0 +1,3354 @@
+{
+  "experiment_id": "E20B",
+  "created_utc": "2026-07-08T09:39:02Z",
+  "video_id": "P01_109",
+  "image_hw": [
+    256,
+    456
+  ],
+  "seed": 20260707,
+  "box_score_thresholds": {
+    "primary": 0.5,
+    "low": 0.1,
+    "neighbor": 0.5
+  },
+  "samples": [
+    {
+      "sample_key": "subaction_00_P01_109_0__episode_01_left__frame_000088_left",
+      "rel_sample_dir": "subaction_00_P01_109_0/episode_01_left/frame_000088_left",
+      "image": "images/subaction_00_P01_109_0__episode_01_left__frame_000088_left.png",
+      "subaction_index": 0,
+      "narration_id": "P01_109_0",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 69,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [
+        [
+          156.00000286102295,
+          228.0,
+          185.00000095367432,
+          253.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          153.99999690055847,
+          219.0,
+          185.00000095367432,
+          250.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        131,
+        77,
+        281,
+        227
+      ],
+      "heatmap_top_bbox_px": [
+        199,
+        143,
+        219,
+        166
+      ]
+    },
+    {
+      "sample_key": "subaction_01_P01_109_1__episode_01_right__frame_000161_right",
+      "rel_sample_dir": "subaction_01_P01_109_1/episode_01_right/frame_000161_right",
+      "image": "images/subaction_01_P01_109_1__episode_01_right__frame_000161_right.png",
+      "subaction_index": 1,
+      "narration_id": "P01_109_1",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 90,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          131.00000309944153,
+          194.0,
+          173.00000596046448,
+          244.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          131.00000309944153,
+          194.0,
+          173.00000596046448,
+          244.0
+        ],
+        [
+          251.99998998641968,
+          244.0,
+          275.00001096725464,
+          254.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          128.00000095367432,
+          197.0,
+          174.99999833106995,
+          247.0
+        ],
+        [
+          246.00001287460327,
+          239.0,
+          275.00001096725464,
+          254.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        167,
+        106,
+        317,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        234,
+        207,
+        253,
+        254
+      ]
+    },
+    {
+      "sample_key": "subaction_06_P01_109_8__episode_01_right__frame_000527_right",
+      "rel_sample_dir": "subaction_06_P01_109_8/episode_01_right/frame_000527_right",
+      "image": "images/subaction_06_P01_109_8__episode_01_right__frame_000527_right.png",
+      "subaction_index": 6,
+      "narration_id": "P01_109_8",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 511,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          3.000000022351742,
+          185.0,
+          87.99999725818634,
+          253.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          3.000000022351742,
+          185.0,
+          87.99999725818634,
+          253.0
+        ],
+        [
+          210.00000071525574,
+          2.0,
+          404.0000081062317,
+          157.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          224.9999978542328,
+          2.0,
+          422.9999899864197,
+          186.0
+        ],
+        [
+          195.0000035762787,
+          2.0,
+          387.9999876022339,
+          128.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        189,
+        76,
+        339,
+        226
+      ],
+      "heatmap_top_bbox_px": [
+        257,
+        139,
+        274,
+        185
+      ]
+    },
+    {
+      "sample_key": "subaction_08_P01_109_7__episode_01_left__frame_000628_left",
+      "rel_sample_dir": "subaction_08_P01_109_7/episode_01_left/frame_000628_left",
+      "image": "images/subaction_08_P01_109_7__episode_01_left__frame_000628_left.png",
+      "subaction_index": 8,
+      "narration_id": "P01_109_7",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 609,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [
+        [
+          12.000000089406967,
+          1.0,
+          149.0000023841858,
+          191.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          8.999999642372131,
+          3.0,
+          142.00000190734863,
+          150.0
+        ],
+        [
+          28.000000208616257,
+          2.0,
+          143.9999942779541,
+          124.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        169,
+        106,
+        319,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        234,
+        178,
+        262,
+        215
+      ]
+    },
+    {
+      "sample_key": "subaction_09_P01_109_9__episode_01_left__frame_000628_left",
+      "rel_sample_dir": "subaction_09_P01_109_9/episode_01_left/frame_000628_left",
+      "image": "images/subaction_09_P01_109_9__episode_01_left__frame_000628_left.png",
+      "subaction_index": 9,
+      "narration_id": "P01_109_9",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 609,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [
+        [
+          12.000000089406967,
+          1.0,
+          149.0000023841858,
+          191.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          8.999999642372131,
+          3.0,
+          142.00000190734863,
+          150.0
+        ],
+        [
+          28.000000208616257,
+          2.0,
+          143.9999942779541,
+          124.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        169,
+        106,
+        319,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        234,
+        178,
+        262,
+        215
+      ]
+    },
+    {
+      "sample_key": "subaction_10_P01_109_10__episode_01_left__frame_000774_left",
+      "rel_sample_dir": "subaction_10_P01_109_10/episode_01_left/frame_000774_left",
+      "image": "images/subaction_10_P01_109_10__episode_01_left__frame_000774_left.png",
+      "subaction_index": 10,
+      "narration_id": "P01_109_10",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 711,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [
+        [
+          251.99998998641968,
+          242.0,
+          269.0000066757202,
+          252.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          250.99999380111694,
+          242.0,
+          269.0000066757202,
+          252.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        119,
+        80,
+        269,
+        230
+      ],
+      "heatmap_top_bbox_px": [
+        219,
+        225,
+        238,
+        242
+      ]
+    },
+    {
+      "sample_key": "subaction_12_P01_109_12__episode_01_left__frame_001070_left",
+      "rel_sample_dir": "subaction_12_P01_109_12/episode_01_left/frame_001070_left",
+      "image": "images/subaction_12_P01_109_12__episode_01_left__frame_001070_left.png",
+      "subaction_index": 12,
+      "narration_id": "P01_109_12",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 1068,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          283.00000762939453,
+          2.0,
+          342.0,
+          80.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          283.00000762939453,
+          2.0,
+          342.0,
+          80.0
+        ],
+        [
+          34.99999898672104,
+          238.0,
+          80.00000059604645,
+          253.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          284.00000381469727,
+          2.0,
+          341.00000381469727,
+          78.0
+        ],
+        [
+          34.99999898672104,
+          238.0,
+          78.99999761581421,
+          254.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        0,
+        106,
+        150,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        47,
+        237,
+        84,
+        256
+      ]
+    },
+    {
+      "sample_key": "subaction_13_P01_109_13__episode_01_right__frame_001182_right",
+      "rel_sample_dir": "subaction_13_P01_109_13/episode_01_right/frame_001182_right",
+      "image": "images/subaction_13_P01_109_13__episode_01_right__frame_001182_right.png",
+      "subaction_index": 13,
+      "narration_id": "P01_109_13",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 1146,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          240.00000858306885,
+          0.0,
+          319.00000619888306,
+          54.0
+        ],
+        [
+          97.99999988079071,
+          211.0,
+          178.9999966621399,
+          253.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          240.00000858306885,
+          0.0,
+          319.00000619888306,
+          54.0
+        ],
+        [
+          97.99999988079071,
+          211.0,
+          178.9999966621399,
+          253.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          236.99999284744263,
+          0.0,
+          314.9999942779541,
+          52.0
+        ],
+        [
+          87.99999725818634,
+          234.0,
+          141.0000057220459,
+          254.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        240.00000858306885,
+        0.0,
+        319.00000619888306,
+        54.0
+      ],
+      "crop_bbox_150": [
+        189,
+        0,
+        339,
+        150
+      ],
+      "heatmap_top_bbox_px": [
+        257,
+        12,
+        273,
+        57
+      ]
+    },
+    {
+      "sample_key": "subaction_14_P01_109_14__episode_01_right__frame_001258_right",
+      "rel_sample_dir": "subaction_14_P01_109_14/episode_01_right/frame_001258_right",
+      "image": "images/subaction_14_P01_109_14__episode_01_right__frame_001258_right.png",
+      "subaction_index": 14,
+      "narration_id": "P01_109_14",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 1256,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          160.0000011920929,
+          1.0,
+          241.00000476837158,
+          54.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          160.0000011920929,
+          1.0,
+          241.00000476837158,
+          54.0
+        ],
+        [
+          305.00000524520874,
+          218.0,
+          368.00000953674316,
+          251.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          166.00000548362732,
+          1.0,
+          249.00000143051147,
+          52.0
+        ],
+        [
+          160.99999737739563,
+          0.0,
+          244.99998950958252,
+          57.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        175,
+        0,
+        325,
+        150
+      ],
+      "heatmap_top_bbox_px": [
+        241,
+        2,
+        258,
+        28
+      ]
+    },
+    {
+      "sample_key": "subaction_16_P01_109_16__episode_01_left__frame_001345_left",
+      "rel_sample_dir": "subaction_16_P01_109_16/episode_01_left/frame_001345_left",
+      "image": "images/subaction_16_P01_109_16__episode_01_left__frame_001345_left.png",
+      "subaction_index": 16,
+      "narration_id": "P01_109_16",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 1258,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          170.00000381469727,
+          1.0,
+          250.99999380111694,
+          50.0
+        ],
+        [
+          304.000009059906,
+          215.0,
+          364.99999380111694,
+          250.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          170.00000381469727,
+          1.0,
+          250.99999380111694,
+          50.0
+        ],
+        [
+          304.000009059906,
+          215.0,
+          364.99999380111694,
+          250.0
+        ],
+        [
+          306.0000014305115,
+          221.0,
+          326.0000066757202,
+          251.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          161.99999356269836,
+          1.0,
+          250.99999380111694,
+          49.0
+        ],
+        [
+          306.0000014305115,
+          214.0,
+          370.00000190734863,
+          251.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        168,
+        56,
+        318,
+        206
+      ],
+      "heatmap_top_bbox_px": [
+        237,
+        116,
+        260,
+        141
+      ]
+    },
+    {
+      "sample_key": "subaction_17_P01_109_17__episode_01_left__frame_001422_left",
+      "rel_sample_dir": "subaction_17_P01_109_17/episode_01_left/frame_001422_left",
+      "image": "images/subaction_17_P01_109_17__episode_01_left__frame_001422_left.png",
+      "subaction_index": 17,
+      "narration_id": "P01_109_17",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 1420,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          239.0000123977661,
+          234.0,
+          271.9999952316284,
+          253.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          239.0000123977661,
+          234.0,
+          271.9999952316284,
+          253.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          0.0,
+          176.0,
+          32.999999821186066,
+          251.0
+        ],
+        [
+          241.00000476837158,
+          231.0,
+          272.99999141693115,
+          252.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        0,
+        106,
+        150,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        0,
+        169,
+        34,
+        217
+      ]
+    },
+    {
+      "sample_key": "subaction_18_P01_109_18__episode_01_right__frame_001496_right",
+      "rel_sample_dir": "subaction_18_P01_109_18/episode_01_right/frame_001496_right",
+      "image": "images/subaction_18_P01_109_18__episode_01_right__frame_001496_right.png",
+      "subaction_index": 18,
+      "narration_id": "P01_109_18",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 1467,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          235.00000047683716,
+          196.0,
+          269.0000066757202,
+          244.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          235.00000047683716,
+          196.0,
+          269.0000066757202,
+          244.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          233.0000081062317,
+          193.0,
+          268.0000104904175,
+          240.0
+        ],
+        [
+          235.00000047683716,
+          198.0,
+          269.0000066757202,
+          241.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        177,
+        84,
+        327,
+        234
+      ],
+      "heatmap_top_bbox_px": [
+        239,
+        145,
+        268,
+        169
+      ]
+    },
+    {
+      "sample_key": "subaction_20_P01_109_20__episode_01_left__frame_001827_left",
+      "rel_sample_dir": "subaction_20_P01_109_20/episode_01_left/frame_001827_left",
+      "image": "images/subaction_20_P01_109_20__episode_01_left__frame_001827_left.png",
+      "subaction_index": 20,
+      "narration_id": "P01_109_20",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 1826,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          299.0000009536743,
+          86.0,
+          341.00000381469727,
+          135.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          299.0000009536743,
+          86.0,
+          341.00000381469727,
+          135.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          299.99999713897705,
+          83.0,
+          344.9999885559082,
+          136.0
+        ],
+        [
+          296.0000123977661,
+          95.0,
+          337.99998807907104,
+          139.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        242,
+        34,
+        392,
+        184
+      ],
+      "heatmap_top_bbox_px": [
+        290,
+        74,
+        328,
+        124
+      ]
+    },
+    {
+      "sample_key": "subaction_21_P01_109_21__episode_01_left__frame_002088_left",
+      "rel_sample_dir": "subaction_21_P01_109_21/episode_01_left/frame_002088_left",
+      "image": "images/subaction_21_P01_109_21__episode_01_left__frame_002088_left.png",
+      "subaction_index": 21,
+      "narration_id": "P01_109_21",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2087,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [],
+      "neighbor_hand_bboxes_px": [
+        [
+          333.0000071525574,
+          111.0,
+          386.99999141693115,
+          180.0
+        ],
+        [
+          318.0000100135803,
+          121.0,
+          370.00000190734863,
+          182.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        278,
+        65,
+        428,
+        215
+      ],
+      "heatmap_top_bbox_px": [
+        324,
+        109,
+        383,
+        184
+      ]
+    },
+    {
+      "sample_key": "subaction_22_P01_109_22__episode_01_right__frame_002142_right",
+      "rel_sample_dir": "subaction_22_P01_109_22/episode_01_right/frame_002142_right",
+      "image": "images/subaction_22_P01_109_22__episode_01_right__frame_002142_right.png",
+      "subaction_index": 22,
+      "narration_id": "P01_109_22",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2140,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [
+        [
+          278.9999957084656,
+          25.0,
+          382.0000104904175,
+          134.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          287.9999885559082,
+          37.0,
+          371.9999942779541,
+          119.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        236,
+        0,
+        386,
+        150
+      ],
+      "heatmap_top_bbox_px": [
+        296,
+        34,
+        343,
+        91
+      ]
+    },
+    {
+      "sample_key": "subaction_23_P01_109_23__episode_01_right__frame_002214_right",
+      "rel_sample_dir": "subaction_23_P01_109_23/episode_01_right/frame_002214_right",
+      "image": "images/subaction_23_P01_109_23__episode_01_right__frame_002214_right.png",
+      "subaction_index": 23,
+      "narration_id": "P01_109_23",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2211,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          341.00000381469727,
+          107.0,
+          391.99999952316284,
+          186.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          341.00000381469727,
+          107.0,
+          391.99999952316284,
+          186.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          341.00000381469727,
+          107.0,
+          391.0000033378601,
+          186.0
+        ],
+        [
+          341.00000381469727,
+          103.0,
+          397.00000762939453,
+          180.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        300,
+        68,
+        450,
+        218
+      ],
+      "heatmap_top_bbox_px": [
+        362,
+        100,
+        384,
+        191
+      ]
+    },
+    {
+      "sample_key": "subaction_24_P01_109_24__episode_01_left__frame_002325_left",
+      "rel_sample_dir": "subaction_24_P01_109_24/episode_01_left/frame_002325_left",
+      "image": "images/subaction_24_P01_109_24__episode_01_left__frame_002325_left.png",
+      "subaction_index": 24,
+      "narration_id": "P01_109_24",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2311,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [
+        [
+          278.9999957084656,
+          212.0,
+          328.9999952316284,
+          250.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          155.00000667572021,
+          221.0,
+          189.999995470047,
+          254.0
+        ],
+        [
+          278.9999957084656,
+          207.0,
+          326.0000066757202,
+          254.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        140,
+        106,
+        290,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        204,
+        184,
+        223,
+        202
+      ]
+    },
+    {
+      "sample_key": "subaction_25_P01_109_25__episode_01_right__frame_002341_right",
+      "rel_sample_dir": "subaction_25_P01_109_25/episode_01_right/frame_002341_right",
+      "image": "images/subaction_25_P01_109_25__episode_01_right__frame_002341_right.png",
+      "subaction_index": 25,
+      "narration_id": "P01_109_25",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2338,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          168.99999403953552,
+          209.0,
+          217.0000011920929,
+          251.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          168.99999403953552,
+          209.0,
+          217.0000011920929,
+          251.0
+        ],
+        [
+          292.00000047683716,
+          211.0,
+          336.9999918937683,
+          249.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          168.99999403953552,
+          208.0,
+          217.99999737739563,
+          252.0
+        ],
+        [
+          292.9999966621399,
+          210.0,
+          334.0000033378601,
+          252.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        244,
+        106,
+        394,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        315,
+        198,
+        333,
+        242
+      ]
+    },
+    {
+      "sample_key": "subaction_27_P01_109_27__episode_01_right__frame_002468_right",
+      "rel_sample_dir": "subaction_27_P01_109_27/episode_01_right/frame_002468_right",
+      "image": "images/subaction_27_P01_109_27__episode_01_right__frame_002468_right.png",
+      "subaction_index": 27,
+      "narration_id": "P01_109_27",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2462,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          263.9999985694885,
+          84.0,
+          306.9999976158142,
+          129.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          263.9999985694885,
+          84.0,
+          306.9999976158142,
+          129.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          263.9999985694885,
+          86.0,
+          306.9999976158142,
+          131.0
+        ],
+        [
+          263.0000023841858,
+          82.0,
+          307.99999380111694,
+          130.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        222,
+        6,
+        372,
+        156
+      ],
+      "heatmap_top_bbox_px": [
+        269,
+        73,
+        312,
+        90
+      ]
+    },
+    {
+      "sample_key": "subaction_28_P01_109_28__episode_01_right__frame_002484_right",
+      "rel_sample_dir": "subaction_28_P01_109_28/episode_01_right/frame_002484_right",
+      "image": "images/subaction_28_P01_109_28__episode_01_right__frame_002484_right.png",
+      "subaction_index": 28,
+      "narration_id": "P01_109_28",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2462,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          263.9999985694885,
+          84.0,
+          306.9999976158142,
+          129.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          263.9999985694885,
+          84.0,
+          306.9999976158142,
+          129.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          263.9999985694885,
+          86.0,
+          306.9999976158142,
+          131.0
+        ],
+        [
+          263.0000023841858,
+          82.0,
+          307.99999380111694,
+          130.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        208,
+        21,
+        358,
+        171
+      ],
+      "heatmap_top_bbox_px": [
+        262,
+        82,
+        312,
+        110
+      ]
+    },
+    {
+      "sample_key": "subaction_29_P01_109_29__episode_01_right__frame_002550_right",
+      "rel_sample_dir": "subaction_29_P01_109_29/episode_01_right/frame_002550_right",
+      "image": "images/subaction_29_P01_109_29__episode_01_right__frame_002550_right.png",
+      "subaction_index": 29,
+      "narration_id": "P01_109_29",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2508,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          233.0000081062317,
+          152.0,
+          270.9999990463257,
+          233.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          233.0000081062317,
+          152.0,
+          270.9999990463257,
+          233.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          246.00001287460327,
+          158.0,
+          277.0000033378601,
+          248.0
+        ],
+        [
+          233.0000081062317,
+          154.0,
+          259.99998664855957,
+          224.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        99,
+        67,
+        249,
+        217
+      ],
+      "heatmap_top_bbox_px": [
+        165,
+        134,
+        186,
+        151
+      ]
+    },
+    {
+      "sample_key": "subaction_30_P01_109_30__episode_01_left__frame_002708_left",
+      "rel_sample_dir": "subaction_30_P01_109_30/episode_01_left/frame_002708_left",
+      "image": "images/subaction_30_P01_109_30__episode_01_left__frame_002708_left.png",
+      "subaction_index": 30,
+      "narration_id": "P01_109_30",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2697,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          221.99999570846558,
+          136.0,
+          258.99999046325684,
+          192.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          221.99999570846558,
+          136.0,
+          258.99999046325684,
+          192.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          205.00000619888306,
+          142.0,
+          242.00000095367432,
+          201.0
+        ],
+        [
+          223.00000548362732,
+          136.0,
+          256.99999809265137,
+          196.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        123,
+        51,
+        273,
+        201
+      ],
+      "heatmap_top_bbox_px": [
+        189,
+        118,
+        207,
+        135
+      ]
+    },
+    {
+      "sample_key": "subaction_31_P01_109_31__episode_01_left__frame_002968_left",
+      "rel_sample_dir": "subaction_31_P01_109_31/episode_01_left/frame_002968_left",
+      "image": "images/subaction_31_P01_109_31__episode_01_left__frame_002968_left.png",
+      "subaction_index": 31,
+      "narration_id": "P01_109_31",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2941,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          210.99999690055847,
+          128.0,
+          264.99999475479126,
+          193.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          210.99999690055847,
+          128.0,
+          264.99999475479126,
+          193.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          206.0000023841858,
+          132.0,
+          241.00000476837158,
+          198.0
+        ],
+        [
+          227.00000381469727,
+          140.0,
+          269.0000066757202,
+          195.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        111,
+        51,
+        261,
+        201
+      ],
+      "heatmap_top_bbox_px": [
+        178,
+        118,
+        196,
+        135
+      ]
+    },
+    {
+      "sample_key": "subaction_32_P01_109_32__episode_01_left__frame_003009_left",
+      "rel_sample_dir": "subaction_32_P01_109_32/episode_01_left/frame_003009_left",
+      "image": "images/subaction_32_P01_109_32__episode_01_left__frame_003009_left.png",
+      "subaction_index": 32,
+      "narration_id": "P01_109_32",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 2941,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          210.99999690055847,
+          128.0,
+          264.99999475479126,
+          193.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          210.99999690055847,
+          128.0,
+          264.99999475479126,
+          193.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          206.0000023841858,
+          132.0,
+          241.00000476837158,
+          198.0
+        ],
+        [
+          227.00000381469727,
+          140.0,
+          269.0000066757202,
+          195.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        190,
+        106,
+        340,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        242,
+        87,
+        292,
+        256
+      ]
+    },
+    {
+      "sample_key": "subaction_33_P01_109_33__episode_01_left__frame_003088_left",
+      "rel_sample_dir": "subaction_33_P01_109_33/episode_01_left/frame_003088_left",
+      "image": "images/subaction_33_P01_109_33__episode_01_left__frame_003088_left.png",
+      "subaction_index": 33,
+      "narration_id": "P01_109_33",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 3086,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [],
+      "neighbor_hand_bboxes_px": [
+        [
+          142.00000190734863,
+          182.0,
+          180.00000643730164,
+          225.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        87,
+        106,
+        237,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        145,
+        203,
+        181,
+        220
+      ]
+    },
+    {
+      "sample_key": "subaction_34_P01_109_34__episode_01_left__frame_003122_left",
+      "rel_sample_dir": "subaction_34_P01_109_34/episode_01_left/frame_003122_left",
+      "image": "images/subaction_34_P01_109_34__episode_01_left__frame_003122_left.png",
+      "subaction_index": 34,
+      "narration_id": "P01_109_34",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 3119,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [],
+      "neighbor_hand_bboxes_px": [
+        [
+          199.99999809265137,
+          181.0,
+          235.9999966621399,
+          222.0
+        ],
+        [
+          297.00000858306885,
+          232.0,
+          328.9999952316284,
+          249.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        145,
+        106,
+        295,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        210,
+        174,
+        237,
+        215
+      ]
+    },
+    {
+      "sample_key": "subaction_35_P01_109_35__episode_01_left__frame_003356_left",
+      "rel_sample_dir": "subaction_35_P01_109_35/episode_01_left/frame_003356_left",
+      "image": "images/subaction_35_P01_109_35__episode_01_left__frame_003356_left.png",
+      "subaction_index": 35,
+      "narration_id": "P01_109_35",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 3354,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          210.00000071525574,
+          200.0,
+          263.0000023841858,
+          250.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          210.00000071525574,
+          200.0,
+          263.0000023841858,
+          250.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          214.99999523162842,
+          195.0,
+          265.999990940094,
+          251.0
+        ],
+        [
+          148.00000619888306,
+          203.0,
+          203.9999964237213,
+          252.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        117,
+        106,
+        267,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        177,
+        194,
+        202,
+        233
+      ]
+    },
+    {
+      "sample_key": "subaction_47_P01_109_47__episode_01_left__frame_004648_left",
+      "rel_sample_dir": "subaction_47_P01_109_47/episode_01_left/frame_004648_left",
+      "image": "images/subaction_47_P01_109_47__episode_01_left__frame_004648_left.png",
+      "subaction_index": 47,
+      "narration_id": "P01_109_47",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 4636,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [],
+      "neighbor_hand_bboxes_px": [
+        [
+          112.00000083446503,
+          223.0,
+          167.9999978542328,
+          253.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        119,
+        97,
+        269,
+        247
+      ],
+      "heatmap_top_bbox_px": [
+        182,
+        164,
+        213,
+        184
+      ]
+    },
+    {
+      "sample_key": "subaction_48_P01_109_48__episode_01_left__frame_004692_left",
+      "rel_sample_dir": "subaction_48_P01_109_48/episode_01_left/frame_004692_left",
+      "image": "images/subaction_48_P01_109_48__episode_01_left__frame_004692_left.png",
+      "subaction_index": 48,
+      "narration_id": "P01_109_48",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 4636,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [],
+      "neighbor_hand_bboxes_px": [
+        [
+          112.00000083446503,
+          223.0,
+          167.9999978542328,
+          253.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        261,
+        106,
+        411,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        325,
+        172,
+        347,
+        192
+      ]
+    },
+    {
+      "sample_key": "subaction_50_P01_109_50__episode_01_right__frame_004821_right",
+      "rel_sample_dir": "subaction_50_P01_109_50/episode_01_right/frame_004821_right",
+      "image": "images/subaction_50_P01_109_50__episode_01_right__frame_004821_right.png",
+      "subaction_index": 50,
+      "narration_id": "P01_109_50",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 4659,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          101.99999821186066,
+          186.0,
+          138.0000035762787,
+          225.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          101.99999821186066,
+          186.0,
+          138.0000035762787,
+          225.0
+        ],
+        [
+          358.9999895095825,
+          235.0,
+          378.99999475479126,
+          253.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          96.99999690055847,
+          187.0,
+          135.00000143051147,
+          226.0
+        ],
+        [
+          354.00000858306885,
+          227.0,
+          377.0000023841858,
+          254.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        115,
+        0,
+        265,
+        150
+      ],
+      "heatmap_top_bbox_px": [
+        148,
+        0,
+        222,
+        58
+      ]
+    },
+    {
+      "sample_key": "subaction_53_P01_109_53__episode_01_right__frame_004947_right",
+      "rel_sample_dir": "subaction_53_P01_109_53/episode_01_right/frame_004947_right",
+      "image": "images/subaction_53_P01_109_53__episode_01_right__frame_004947_right.png",
+      "subaction_index": 53,
+      "narration_id": "P01_109_53",
+      "hand": "right",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 4937,
+      "noun": null,
+      "hand_bboxes_px": [],
+      "hand_bboxes_low_px": [],
+      "neighbor_hand_bboxes_px": [
+        [
+          277.99999952316284,
+          209.0,
+          332.00001096725464,
+          249.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        125,
+        96,
+        275,
+        246
+      ],
+      "heatmap_top_bbox_px": [
+        192,
+        155,
+        211,
+        184
+      ]
+    },
+    {
+      "sample_key": "subaction_55_P01_109_55__episode_01_left__frame_005019_left",
+      "rel_sample_dir": "subaction_55_P01_109_55/episode_01_left/frame_005019_left",
+      "image": "images/subaction_55_P01_109_55__episode_01_left__frame_005019_left.png",
+      "subaction_index": 55,
+      "narration_id": "P01_109_55",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 4959,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          199.99999809265137,
+          145.0,
+          239.0000123977661,
+          199.0
+        ],
+        [
+          185.00000095367432,
+          234.0,
+          224.9999978542328,
+          250.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          199.99999809265137,
+          145.0,
+          239.0000123977661,
+          199.0
+        ],
+        [
+          185.00000095367432,
+          234.0,
+          224.9999978542328,
+          250.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          203.00000023841858,
+          144.0,
+          241.00000476837158,
+          201.0
+        ],
+        [
+          186.99999332427979,
+          232.0,
+          228.0,
+          251.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        61,
+        45,
+        211,
+        195
+      ],
+      "heatmap_top_bbox_px": [
+        114,
+        109,
+        157,
+        130
+      ]
+    },
+    {
+      "sample_key": "subaction_56_P01_109_56__episode_01_left__frame_005062_left",
+      "rel_sample_dir": "subaction_56_P01_109_56/episode_01_left/frame_005062_left",
+      "image": "images/subaction_56_P01_109_56__episode_01_left__frame_005062_left.png",
+      "subaction_index": 56,
+      "narration_id": "P01_109_56",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 4959,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          199.99999809265137,
+          145.0,
+          239.0000123977661,
+          199.0
+        ],
+        [
+          185.00000095367432,
+          234.0,
+          224.9999978542328,
+          250.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          199.99999809265137,
+          145.0,
+          239.0000123977661,
+          199.0
+        ],
+        [
+          185.00000095367432,
+          234.0,
+          224.9999978542328,
+          250.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          203.00000023841858,
+          144.0,
+          241.00000476837158,
+          201.0
+        ],
+        [
+          186.99999332427979,
+          232.0,
+          228.0,
+          251.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        70,
+        3,
+        220,
+        153
+      ],
+      "heatmap_top_bbox_px": [
+        125,
+        43,
+        174,
+        115
+      ]
+    },
+    {
+      "sample_key": "subaction_58_P01_109_58__episode_01_right__frame_007132_right",
+      "rel_sample_dir": "subaction_58_P01_109_58/episode_01_right/frame_007132_right",
+      "image": "images/subaction_58_P01_109_58__episode_01_right__frame_007132_right.png",
+      "subaction_index": 58,
+      "narration_id": "P01_109_58",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 7130,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          256.99999809265137,
+          138.0,
+          326.0000066757202,
+          207.0
+        ],
+        [
+          153.99999690055847,
+          109.0,
+          203.00000023841858,
+          177.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          256.99999809265137,
+          138.0,
+          326.0000066757202,
+          207.0
+        ],
+        [
+          153.99999690055847,
+          109.0,
+          203.00000023841858,
+          177.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          153.00000071525574,
+          112.0,
+          200.9999942779541,
+          178.0
+        ],
+        [
+          254.00000953674316,
+          135.0,
+          322.999990940094,
+          205.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        256.99999809265137,
+        138.0,
+        326.0000066757202,
+        207.0
+      ],
+      "crop_bbox_150": [
+        191,
+        75,
+        341,
+        225
+      ],
+      "heatmap_top_bbox_px": [
+        252,
+        133,
+        284,
+        168
+      ]
+    },
+    {
+      "sample_key": "subaction_64_P01_109_64__episode_01_left__frame_010144_left",
+      "rel_sample_dir": "subaction_64_P01_109_64/episode_01_left/frame_010144_left",
+      "image": "images/subaction_64_P01_109_64__episode_01_left__frame_010144_left.png",
+      "subaction_index": 64,
+      "narration_id": "P01_109_64",
+      "hand": "left",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 10142,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          287.9999885559082,
+          153.0,
+          335.9999957084656,
+          224.0
+        ],
+        [
+          146.00000023841858,
+          126.0,
+          188.00000309944153,
+          197.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          287.9999885559082,
+          153.0,
+          335.9999957084656,
+          224.0
+        ],
+        [
+          146.00000023841858,
+          126.0,
+          188.00000309944153,
+          197.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          143.9999942779541,
+          129.0,
+          191.00000524520874,
+          196.0
+        ],
+        [
+          289.00001192092896,
+          153.0,
+          339.0000114440918,
+          223.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        146.00000023841858,
+        126.0,
+        188.00000309944153,
+        197.0
+      ],
+      "crop_bbox_150": [
+        118,
+        68,
+        268,
+        218
+      ],
+      "heatmap_top_bbox_px": [
+        182,
+        124,
+        203,
+        156
+      ]
+    },
+    {
+      "sample_key": "subaction_66_P01_109_66__episode_01_left__frame_010197_left",
+      "rel_sample_dir": "subaction_66_P01_109_66/episode_01_left/frame_010197_left",
+      "image": "images/subaction_66_P01_109_66__episode_01_left__frame_010197_left.png",
+      "subaction_index": 66,
+      "narration_id": "P01_109_66",
+      "hand": "left",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 10195,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          271.9999952316284,
+          154.0,
+          315.99999046325684,
+          225.0
+        ],
+        [
+          138.99999976158142,
+          86.0,
+          185.00000095367432,
+          137.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          271.9999952316284,
+          154.0,
+          315.99999046325684,
+          225.0
+        ],
+        [
+          138.99999976158142,
+          86.0,
+          185.00000095367432,
+          137.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          273.9999876022339,
+          154.0,
+          318.0000100135803,
+          225.0
+        ],
+        [
+          139.99999594688416,
+          86.0,
+          186.99999332427979,
+          139.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        138.99999976158142,
+        86.0,
+        185.00000095367432,
+        137.0
+      ],
+      "crop_bbox_150": [
+        95,
+        43,
+        245,
+        193
+      ],
+      "heatmap_top_bbox_px": [
+        160,
+        86,
+        194,
+        142
+      ]
+    },
+    {
+      "sample_key": "subaction_67_P01_109_67__episode_01_right__frame_010261_right",
+      "rel_sample_dir": "subaction_67_P01_109_67/episode_01_right/frame_010261_right",
+      "image": "images/subaction_67_P01_109_67__episode_01_right__frame_010261_right.png",
+      "subaction_index": 67,
+      "narration_id": "P01_109_67",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 10114,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          300.9999933242798,
+          129.0,
+          363.9999976158142,
+          217.0
+        ],
+        [
+          198.0000057220459,
+          108.0,
+          251.99998998641968,
+          181.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          300.9999933242798,
+          129.0,
+          363.9999976158142,
+          217.0
+        ],
+        [
+          198.0000057220459,
+          108.0,
+          251.99998998641968,
+          181.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          303.00001287460327,
+          129.0,
+          365.9999899864197,
+          216.0
+        ],
+        [
+          192.9999976158142,
+          112.0,
+          249.9999976158142,
+          182.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        300.9999933242798,
+        129.0,
+        363.9999976158142,
+        217.0
+      ],
+      "crop_bbox_150": [
+        274,
+        40,
+        424,
+        190
+      ],
+      "heatmap_top_bbox_px": [
+        339,
+        91,
+        364,
+        137
+      ]
+    },
+    {
+      "sample_key": "subaction_68_P01_109_68__episode_01_right__frame_010269_right",
+      "rel_sample_dir": "subaction_68_P01_109_68/episode_01_right/frame_010269_right",
+      "image": "images/subaction_68_P01_109_68__episode_01_right__frame_010269_right.png",
+      "subaction_index": 68,
+      "narration_id": "P01_109_68",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 10114,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          300.9999933242798,
+          129.0,
+          363.9999976158142,
+          217.0
+        ],
+        [
+          198.0000057220459,
+          108.0,
+          251.99998998641968,
+          181.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          300.9999933242798,
+          129.0,
+          363.9999976158142,
+          217.0
+        ],
+        [
+          198.0000057220459,
+          108.0,
+          251.99998998641968,
+          181.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          303.00001287460327,
+          129.0,
+          365.9999899864197,
+          216.0
+        ],
+        [
+          192.9999976158142,
+          112.0,
+          249.9999976158142,
+          182.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        300.9999933242798,
+        129.0,
+        363.9999976158142,
+        217.0
+      ],
+      "crop_bbox_150": [
+        262,
+        54,
+        412,
+        204
+      ],
+      "heatmap_top_bbox_px": [
+        313,
+        93,
+        355,
+        159
+      ]
+    },
+    {
+      "sample_key": "subaction_69_P01_109_69__episode_01_left__frame_010374_left",
+      "rel_sample_dir": "subaction_69_P01_109_69/episode_01_left/frame_010374_left",
+      "image": "images/subaction_69_P01_109_69__episode_01_left__frame_010374_left.png",
+      "subaction_index": 69,
+      "narration_id": "P01_109_69",
+      "hand": "left",
+      "reference_mode": "active_hand_invisible_pre_contact",
+      "ref_idx": 10242,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          285.99999618530273,
+          128.0,
+          344.9999885559082,
+          194.0
+        ],
+        [
+          129.99999332427979,
+          178.0,
+          182.99999499320984,
+          249.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          285.99999618530273,
+          128.0,
+          344.9999885559082,
+          194.0
+        ],
+        [
+          129.99999332427979,
+          178.0,
+          182.99999499320984,
+          249.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          285.99999618530273,
+          128.0,
+          342.99999618530273,
+          193.0
+        ],
+        [
+          127.00000476837158,
+          175.0,
+          181.00000262260437,
+          248.0
+        ]
+      ],
+      "active_hand_bbox_px": null,
+      "crop_bbox_150": [
+        190,
+        96,
+        340,
+        246
+      ],
+      "heatmap_top_bbox_px": [
+        256,
+        145,
+        273,
+        188
+      ]
+    },
+    {
+      "sample_key": "subaction_71_P01_109_71__episode_01_right__frame_011977_right",
+      "rel_sample_dir": "subaction_71_P01_109_71/episode_01_right/frame_011977_right",
+      "image": "images/subaction_71_P01_109_71__episode_01_right__frame_011977_right.png",
+      "subaction_index": 71,
+      "narration_id": "P01_109_71",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 11976,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          320.0000023841858,
+          109.0,
+          361.000009059906,
+          169.0
+        ],
+        [
+          247.000009059906,
+          84.0,
+          296.0000123977661,
+          145.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          320.0000023841858,
+          109.0,
+          361.000009059906,
+          169.0
+        ],
+        [
+          247.000009059906,
+          84.0,
+          296.0000123977661,
+          145.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          320.9999985694885,
+          112.0,
+          363.9999976158142,
+          177.0
+        ],
+        [
+          246.00001287460327,
+          87.0,
+          296.0000123977661,
+          149.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        320.0000023841858,
+        109.0,
+        361.000009059906,
+        169.0
+      ],
+      "crop_bbox_150": [
+        249,
+        45,
+        399,
+        195
+      ],
+      "heatmap_top_bbox_px": [
+        316,
+        110,
+        335,
+        131
+      ]
+    },
+    {
+      "sample_key": "subaction_73_P01_109_73__episode_01_right__frame_012104_right",
+      "rel_sample_dir": "subaction_73_P01_109_73/episode_01_right/frame_012104_right",
+      "image": "images/subaction_73_P01_109_73__episode_01_right__frame_012104_right.png",
+      "subaction_index": 73,
+      "narration_id": "P01_109_73",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 11999,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          142.99999809265137,
+          161.0,
+          206.0000023841858,
+          245.0
+        ],
+        [
+          218.99999356269836,
+          141.0,
+          279.9999918937683,
+          195.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          142.99999809265137,
+          161.0,
+          206.0000023841858,
+          245.0
+        ],
+        [
+          218.99999356269836,
+          141.0,
+          279.9999918937683,
+          195.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          142.00000190734863,
+          159.0,
+          203.9999964237213,
+          241.0
+        ],
+        [
+          217.0000011920929,
+          142.0,
+          276.0000071525574,
+          195.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        218.99999356269836,
+        141.0,
+        279.9999918937683,
+        195.0
+      ],
+      "crop_bbox_150": [
+        249,
+        99,
+        399,
+        249
+      ],
+      "heatmap_top_bbox_px": [
+        317,
+        157,
+        338,
+        186
+      ]
+    },
+    {
+      "sample_key": "subaction_75_P01_109_75__episode_01_right__frame_012295_right",
+      "rel_sample_dir": "subaction_75_P01_109_75/episode_01_right/frame_012295_right",
+      "image": "images/subaction_75_P01_109_75__episode_01_right__frame_012295_right.png",
+      "subaction_index": 75,
+      "narration_id": "P01_109_75",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 11999,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          142.99999809265137,
+          161.0,
+          206.0000023841858,
+          245.0
+        ],
+        [
+          218.99999356269836,
+          141.0,
+          279.9999918937683,
+          195.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          142.99999809265137,
+          161.0,
+          206.0000023841858,
+          245.0
+        ],
+        [
+          218.99999356269836,
+          141.0,
+          279.9999918937683,
+          195.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          142.00000190734863,
+          159.0,
+          203.9999964237213,
+          241.0
+        ],
+        [
+          217.0000011920929,
+          142.0,
+          276.0000071525574,
+          195.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        218.99999356269836,
+        141.0,
+        279.9999918937683,
+        195.0
+      ],
+      "crop_bbox_150": [
+        196,
+        106,
+        346,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        261,
+        187,
+        283,
+        229
+      ]
+    },
+    {
+      "sample_key": "subaction_76_P01_109_76__episode_01_right__frame_012325_right",
+      "rel_sample_dir": "subaction_76_P01_109_76/episode_01_right/frame_012325_right",
+      "image": "images/subaction_76_P01_109_76__episode_01_right__frame_012325_right.png",
+      "subaction_index": 76,
+      "narration_id": "P01_109_76",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 11999,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          142.99999809265137,
+          161.0,
+          206.0000023841858,
+          245.0
+        ],
+        [
+          218.99999356269836,
+          141.0,
+          279.9999918937683,
+          195.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          142.99999809265137,
+          161.0,
+          206.0000023841858,
+          245.0
+        ],
+        [
+          218.99999356269836,
+          141.0,
+          279.9999918937683,
+          195.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          142.00000190734863,
+          159.0,
+          203.9999964237213,
+          241.0
+        ],
+        [
+          217.0000011920929,
+          142.0,
+          276.0000071525574,
+          195.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        218.99999356269836,
+        141.0,
+        279.9999918937683,
+        195.0
+      ],
+      "crop_bbox_150": [
+        306,
+        87,
+        456,
+        237
+      ],
+      "heatmap_top_bbox_px": [
+        413,
+        154,
+        432,
+        171
+      ]
+    },
+    {
+      "sample_key": "subaction_77_P01_109_78__episode_01_left__frame_012335_left",
+      "rel_sample_dir": "subaction_77_P01_109_78/episode_01_left/frame_012335_left",
+      "image": "images/subaction_77_P01_109_78__episode_01_left__frame_012335_left.png",
+      "subaction_index": 77,
+      "narration_id": "P01_109_78",
+      "hand": "left",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12331,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          128.99999713897705,
+          189.0,
+          181.00000262260437,
+          249.0
+        ],
+        [
+          389.00001096725464,
+          135.0,
+          444.9999876022339,
+          212.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          128.99999713897705,
+          189.0,
+          181.00000262260437,
+          249.0
+        ],
+        [
+          389.00001096725464,
+          135.0,
+          444.9999876022339,
+          212.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          121.00000047683716,
+          188.0,
+          171.99999618530273,
+          249.0
+        ],
+        [
+          389.00001096725464,
+          135.0,
+          443.99999141693115,
+          203.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        128.99999713897705,
+        189.0,
+        181.00000262260437,
+        249.0
+      ],
+      "crop_bbox_150": [
+        49,
+        106,
+        199,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        110,
+        197,
+        140,
+        231
+      ]
+    },
+    {
+      "sample_key": "subaction_79_P01_109_77__episode_01_left__frame_012412_left",
+      "rel_sample_dir": "subaction_79_P01_109_77/episode_01_left/frame_012412_left",
+      "image": "images/subaction_79_P01_109_77__episode_01_left__frame_012412_left.png",
+      "subaction_index": 79,
+      "narration_id": "P01_109_77",
+      "hand": "left",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12404,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          138.99999976158142,
+          176.0,
+          199.00000190734863,
+          247.0
+        ],
+        [
+          333.0000071525574,
+          99.0,
+          389.00001096725464,
+          163.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          138.99999976158142,
+          176.0,
+          199.00000190734863,
+          247.0
+        ],
+        [
+          333.0000071525574,
+          99.0,
+          389.00001096725464,
+          163.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          135.9999976158142,
+          171.0,
+          195.99999976158142,
+          245.0
+        ],
+        [
+          329.99999141693115,
+          98.0,
+          385.9999952316284,
+          162.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        138.99999976158142,
+        176.0,
+        199.00000190734863,
+        247.0
+      ],
+      "crop_bbox_150": [
+        76,
+        100,
+        226,
+        250
+      ],
+      "heatmap_top_bbox_px": [
+        132,
+        142,
+        177,
+        187
+      ]
+    },
+    {
+      "sample_key": "subaction_80_P01_109_80__episode_01_right__frame_012424_right",
+      "rel_sample_dir": "subaction_80_P01_109_80/episode_01_right/frame_012424_right",
+      "image": "images/subaction_80_P01_109_80__episode_01_right__frame_012424_right.png",
+      "subaction_index": 80,
+      "narration_id": "P01_109_80",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12407,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          321.99999475479126,
+          98.0,
+          377.9999985694885,
+          166.0
+        ],
+        [
+          128.00000095367432,
+          162.0,
+          189.999995470047,
+          244.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          321.99999475479126,
+          98.0,
+          377.9999985694885,
+          166.0
+        ],
+        [
+          128.00000095367432,
+          162.0,
+          189.999995470047,
+          244.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          314.9999942779541,
+          102.0,
+          371.9999942779541,
+          167.0
+        ],
+        [
+          125.99999499320984,
+          158.0,
+          188.99999928474426,
+          241.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        321.99999475479126,
+        98.0,
+        377.9999985694885,
+        166.0
+      ],
+      "crop_bbox_150": [
+        131,
+        92,
+        281,
+        242
+      ],
+      "heatmap_top_bbox_px": [
+        199,
+        159,
+        219,
+        181
+      ]
+    },
+    {
+      "sample_key": "subaction_81_P01_109_81__episode_01_right__frame_012468_right",
+      "rel_sample_dir": "subaction_81_P01_109_81/episode_01_right/frame_012468_right",
+      "image": "images/subaction_81_P01_109_81__episode_01_right__frame_012468_right.png",
+      "subaction_index": 81,
+      "narration_id": "P01_109_81",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12407,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          321.99999475479126,
+          98.0,
+          377.9999985694885,
+          166.0
+        ],
+        [
+          128.00000095367432,
+          162.0,
+          189.999995470047,
+          244.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          321.99999475479126,
+          98.0,
+          377.9999985694885,
+          166.0
+        ],
+        [
+          128.00000095367432,
+          162.0,
+          189.999995470047,
+          244.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          314.9999942779541,
+          102.0,
+          371.9999942779541,
+          167.0
+        ],
+        [
+          125.99999499320984,
+          158.0,
+          188.99999928474426,
+          241.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        321.99999475479126,
+        98.0,
+        377.9999985694885,
+        166.0
+      ],
+      "crop_bbox_150": [
+        281,
+        28,
+        431,
+        178
+      ],
+      "heatmap_top_bbox_px": [
+        341,
+        86,
+        373,
+        120
+      ]
+    },
+    {
+      "sample_key": "subaction_82_P01_109_82__episode_01_right__frame_012493_right",
+      "rel_sample_dir": "subaction_82_P01_109_82/episode_01_right/frame_012493_right",
+      "image": "images/subaction_82_P01_109_82__episode_01_right__frame_012493_right.png",
+      "subaction_index": 82,
+      "narration_id": "P01_109_82",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12479,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          310.00001335144043,
+          87.0,
+          354.00000858306885,
+          151.0
+        ],
+        [
+          106.00000333786011,
+          172.0,
+          157.99999523162842,
+          248.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          310.00001335144043,
+          87.0,
+          354.00000858306885,
+          151.0
+        ],
+        [
+          106.00000333786011,
+          172.0,
+          157.99999523162842,
+          248.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          101.99999821186066,
+          173.0,
+          157.99999523162842,
+          247.0
+        ],
+        [
+          306.0000014305115,
+          88.0,
+          353.0000123977661,
+          147.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        310.00001335144043,
+        87.0,
+        354.00000858306885,
+        151.0
+      ],
+      "crop_bbox_150": [
+        120,
+        93,
+        270,
+        243
+      ],
+      "heatmap_top_bbox_px": [
+        177,
+        143,
+        221,
+        204
+      ]
+    },
+    {
+      "sample_key": "subaction_83_P01_109_83__episode_01_right__frame_012578_right",
+      "rel_sample_dir": "subaction_83_P01_109_83/episode_01_right/frame_012578_right",
+      "image": "images/subaction_83_P01_109_83__episode_01_right__frame_012578_right.png",
+      "subaction_index": 83,
+      "narration_id": "P01_109_83",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12479,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          310.00001335144043,
+          87.0,
+          354.00000858306885,
+          151.0
+        ],
+        [
+          106.00000333786011,
+          172.0,
+          157.99999523162842,
+          248.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          310.00001335144043,
+          87.0,
+          354.00000858306885,
+          151.0
+        ],
+        [
+          106.00000333786011,
+          172.0,
+          157.99999523162842,
+          248.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          101.99999821186066,
+          173.0,
+          157.99999523162842,
+          247.0
+        ],
+        [
+          306.0000014305115,
+          88.0,
+          353.0000123977661,
+          147.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        310.00001335144043,
+        87.0,
+        354.00000858306885,
+        151.0
+      ],
+      "crop_bbox_150": [
+        267,
+        8,
+        417,
+        158
+      ],
+      "heatmap_top_bbox_px": [
+        329,
+        70,
+        357,
+        99
+      ]
+    },
+    {
+      "sample_key": "subaction_84_P01_109_84__episode_01_right__frame_012634_right",
+      "rel_sample_dir": "subaction_84_P01_109_84/episode_01_right/frame_012634_right",
+      "image": "images/subaction_84_P01_109_84__episode_01_right__frame_012634_right.png",
+      "subaction_index": 84,
+      "narration_id": "P01_109_84",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12631,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          327.00000286102295,
+          90.0,
+          378.99999475479126,
+          152.0
+        ],
+        [
+          114.99999618530273,
+          173.0,
+          174.0000021457672,
+          247.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          327.00000286102295,
+          90.0,
+          378.99999475479126,
+          152.0
+        ],
+        [
+          114.99999618530273,
+          173.0,
+          174.0000021457672,
+          247.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          323.99998712539673,
+          89.0,
+          377.0000023841858,
+          152.0
+        ],
+        [
+          114.99999618530273,
+          171.0,
+          174.0000021457672,
+          245.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        327.00000286102295,
+        90.0,
+        378.99999475479126,
+        152.0
+      ],
+      "crop_bbox_150": [
+        247,
+        25,
+        397,
+        175
+      ],
+      "heatmap_top_bbox_px": [
+        309,
+        89,
+        347,
+        110
+      ]
+    },
+    {
+      "sample_key": "subaction_86_P01_109_86__episode_01_left__frame_012724_left",
+      "rel_sample_dir": "subaction_86_P01_109_86/episode_01_left/frame_012724_left",
+      "image": "images/subaction_86_P01_109_86__episode_01_left__frame_012724_left.png",
+      "subaction_index": 86,
+      "narration_id": "P01_109_86",
+      "hand": "left",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12713,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          185.00000095367432,
+          160.0,
+          247.000009059906,
+          206.0
+        ],
+        [
+          90.00000321865082,
+          165.0,
+          146.9999964237213,
+          235.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          185.00000095367432,
+          160.0,
+          247.000009059906,
+          206.0
+        ],
+        [
+          90.00000321865082,
+          165.0,
+          146.9999964237213,
+          235.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          184.00000476837158,
+          160.0,
+          246.00001287460327,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          164.0,
+          149.99999856948853,
+          234.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        90.00000321865082,
+        165.0,
+        146.9999964237213,
+        235.0
+      ],
+      "crop_bbox_150": [
+        40,
+        104,
+        190,
+        254
+      ],
+      "heatmap_top_bbox_px": [
+        105,
+        168,
+        124,
+        190
+      ]
+    },
+    {
+      "sample_key": "subaction_87_P01_109_87__episode_01_right__frame_012758_right",
+      "rel_sample_dir": "subaction_87_P01_109_87/episode_01_right/frame_012758_right",
+      "image": "images/subaction_87_P01_109_87__episode_01_right__frame_012758_right.png",
+      "subaction_index": 87,
+      "narration_id": "P01_109_87",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12714,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          184.00000476837158,
+          160.0,
+          246.00001287460327,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          164.0,
+          149.99999856948853,
+          234.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          184.00000476837158,
+          160.0,
+          246.00001287460327,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          164.0,
+          149.99999856948853,
+          234.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          181.9999988079071,
+          160.0,
+          242.99999713897705,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          161.0,
+          145.00000405311584,
+          229.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        184.00000476837158,
+        160.0,
+        246.00001287460327,
+        206.0
+      ],
+      "crop_bbox_150": [
+        194,
+        9,
+        344,
+        159
+      ],
+      "heatmap_top_bbox_px": [
+        260,
+        72,
+        284,
+        104
+      ]
+    },
+    {
+      "sample_key": "subaction_88_P01_109_88__episode_01_right__frame_012880_right",
+      "rel_sample_dir": "subaction_88_P01_109_88/episode_01_right/frame_012880_right",
+      "image": "images/subaction_88_P01_109_88__episode_01_right__frame_012880_right.png",
+      "subaction_index": 88,
+      "narration_id": "P01_109_88",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12714,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          184.00000476837158,
+          160.0,
+          246.00001287460327,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          164.0,
+          149.99999856948853,
+          234.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          184.00000476837158,
+          160.0,
+          246.00001287460327,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          164.0,
+          149.99999856948853,
+          234.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          181.9999988079071,
+          160.0,
+          242.99999713897705,
+          206.0
+        ],
+        [
+          92.00000238418579,
+          161.0,
+          145.00000405311584,
+          229.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        184.00000476837158,
+        160.0,
+        246.00001287460327,
+        206.0
+      ],
+      "crop_bbox_150": [
+        105,
+        94,
+        255,
+        244
+      ],
+      "heatmap_top_bbox_px": [
+        175,
+        156,
+        192,
+        174
+      ]
+    },
+    {
+      "sample_key": "subaction_89_P01_109_89__episode_01_left__frame_012999_left",
+      "rel_sample_dir": "subaction_89_P01_109_89/episode_01_left/frame_012999_left",
+      "image": "images/subaction_89_P01_109_89__episode_01_left__frame_012999_left.png",
+      "subaction_index": 89,
+      "narration_id": "P01_109_89",
+      "hand": "left",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 12814,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          268.0000104904175,
+          112.0,
+          322.999990940094,
+          165.0
+        ],
+        [
+          174.0000021457672,
+          142.0,
+          227.00000381469727,
+          214.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          268.0000104904175,
+          112.0,
+          322.999990940094,
+          165.0
+        ],
+        [
+          174.0000021457672,
+          142.0,
+          227.00000381469727,
+          214.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          273.9999876022339,
+          107.0,
+          328.9999952316284,
+          165.0
+        ],
+        [
+          174.0000021457672,
+          143.0,
+          228.0,
+          215.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        174.0000021457672,
+        142.0,
+        227.00000381469727,
+        214.0
+      ],
+      "crop_bbox_150": [
+        14,
+        106,
+        164,
+        256
+      ],
+      "heatmap_top_bbox_px": [
+        75,
+        201,
+        102,
+        237
+      ]
+    },
+    {
+      "sample_key": "subaction_93_P01_109_93__episode_01_right__frame_013134_right",
+      "rel_sample_dir": "subaction_93_P01_109_93/episode_01_right/frame_013134_right",
+      "image": "images/subaction_93_P01_109_93__episode_01_right__frame_013134_right.png",
+      "subaction_index": 93,
+      "narration_id": "P01_109_93",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 13132,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          120.00000429153442,
+          121.0,
+          174.0000021457672,
+          193.0
+        ],
+        [
+          266.99998712539673,
+          51.0,
+          316.99998664855957,
+          102.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          120.00000429153442,
+          121.0,
+          174.0000021457672,
+          193.0
+        ],
+        [
+          266.99998712539673,
+          51.0,
+          316.99998664855957,
+          102.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          124.9999988079071,
+          120.0,
+          174.0000021457672,
+          196.0
+        ],
+        [
+          265.999990940094,
+          51.0,
+          318.0000100135803,
+          103.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        266.99998712539673,
+        51.0,
+        316.99998664855957,
+        102.0
+      ],
+      "crop_bbox_150": [
+        192,
+        0,
+        342,
+        150
+      ],
+      "heatmap_top_bbox_px": [
+        257,
+        48,
+        276,
+        73
+      ]
+    },
+    {
+      "sample_key": "subaction_95_P01_109_95__episode_01_right__frame_015464_right",
+      "rel_sample_dir": "subaction_95_P01_109_95/episode_01_right/frame_015464_right",
+      "image": "images/subaction_95_P01_109_95__episode_01_right__frame_015464_right.png",
+      "subaction_index": 95,
+      "narration_id": "P01_109_95",
+      "hand": "right",
+      "reference_mode": "min_hand_object_iou_pre_contact_fallback",
+      "ref_idx": 15325,
+      "noun": null,
+      "hand_bboxes_px": [
+        [
+          239.0000123977661,
+          124.0,
+          299.99999713897705,
+          199.0
+        ],
+        [
+          164.99999570846558,
+          103.0,
+          221.99999570846558,
+          182.0
+        ]
+      ],
+      "hand_bboxes_low_px": [
+        [
+          239.0000123977661,
+          124.0,
+          299.99999713897705,
+          199.0
+        ],
+        [
+          164.99999570846558,
+          103.0,
+          221.99999570846558,
+          182.0
+        ]
+      ],
+      "neighbor_hand_bboxes_px": [
+        [
+          240.00000858306885,
+          126.0,
+          304.000009059906,
+          199.0
+        ],
+        [
+          164.99999570846558,
+          102.0,
+          227.00000381469727,
+          184.0
+        ]
+      ],
+      "active_hand_bbox_px": [
+        239.0000123977661,
+        124.0,
+        299.99999713897705,
+        199.0
+      ],
+      "crop_bbox_150": [
+        170,
+        65,
+        320,
+        215
+      ],
+      "heatmap_top_bbox_px": [
+        235,
+        114,
+        265,
+        158
+      ]
+    }
+  ]
+}

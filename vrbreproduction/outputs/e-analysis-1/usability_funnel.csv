@@ -1,0 +1,6 @@
+gate,remaining_subactions
+all_public_labelled_subactions (train+validation),76885
+has_verb_and_noun,76885
+has_valid_frame_range,76885
+video_has_hand_and_object_bboxes,76885
+frame_range_within_bbox_coverage,76885

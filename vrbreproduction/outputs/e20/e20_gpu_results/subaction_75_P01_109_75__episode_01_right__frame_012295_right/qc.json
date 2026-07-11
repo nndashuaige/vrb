@@ -1,0 +1,22 @@
+{
+  "sample_key": "subaction_75_P01_109_75__episode_01_right__frame_012295_right",
+  "already_clean": false,
+  "mediapipe_fallback_used": false,
+  "hand_box_count": 2,
+  "sam_scores": [],
+  "mask_area_ratio": 0.1293602658991228,
+  "mask_fallback_bbox": false,
+  "mask_touches_bottom": true,
+  "overlap_heatmap_top": 0.47294372294372294,
+  "overlap_crop150": 0.3648,
+  "passed": {
+    "lama": false
+  },
+  "skin_ratio_after": {
+    "lama": 0.9275806687107607
+  },
+  "boundary_delta": {
+    "lama": 0.0
+  },
+  "elapsed_sec": 0.046298980712890625
+}

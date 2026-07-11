@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "59bfd880a30374e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fab027ae9cc0c1e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca99cfd7dba756e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "plans/e20plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "e20plan"
+            }
+          },
+          {
+            "id": "9a4e4b730f108026",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "meetings/7.9 汇报.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.9 汇报"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6698454b688e101",
+    "type": "split",
+    "children": [
+      {
+        "id": "30fa49c2a2a4d027",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd9af14bda12f5c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "42e31af53d702e56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b125f385df066605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "057d99ed609b48f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a46cb7bbb533456c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89a296361dec0527",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "learning_note/网络结构绘制2_副本2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "网络结构绘制2_副本2 的反向链接列表"
+            }
+          },
+          {
+            "id": "1c8f2db7eed1e01d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "learning_note/网络结构绘制2_副本2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "网络结构绘制2_副本2 的出链列表"
+            }
+          },
+          {
+            "id": "f6149ee3b9b94e05",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d009479c9ee8d494",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "e4fdfd2349bc4fd6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learning_note/网络结构绘制2_副本2.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "网络结构绘制2_副本2 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "9a4e4b730f108026",
+  "lastOpenFiles": [
+    "meetings/会议记录整理_20250521.md",
+    "meetings/7.9 汇报.md",
+    "plans/e20plan.md",
+    "learning_note/实验记录/实验记录e20b.md",
+    "learning_note/实验记录/实验记录e20-a.md",
+    "learning_note/实验记录/实验记录e20.md",
+    "smoothcloud/vrb环境配置流程2.md",
+    "smoothcloud/key.pem",
+    "learning_note/实验记录/实验记录e-analysis-1.md",
+    "learning_note/实验记录/实验记录e18b.md",
+    "learning_note/实验记录/实验记录e18.md",
+    "plans/2026-07-02-e18a-new-contact-episode.zh.md",
+    "plans/2026-07-02-e20-e23-sam3-mask-pipeline.zh.md",
+    "plans/e19方案.md",
+    "plans/2026-06-30-hand-inpaint-reference-e18.zh.md",
+    "learning_note/实验记录/实验记录e19_e18_hand_inpaint_reference.md",
+    "plans/2026-06-30-hand-inpaint-reference-e18.md",
+    "plans",
+    "learning_note/实验记录/实验记录e19a.md",
+    "learning_note/实验记录/实验记录e17.md",
+    "learning_note/6.15-6.18/6.15-6.18 draft.md",
+    "meetings/~$6.18汇报.pptx",
+    "meetings/6.18汇报.pptx",
+    "meetings/intrim.pptx",
+    "meetings/会议记录整理_20260429.md",
+    "期中pre/Slides/Slides-outline.md",
+    "期中pre/Slides/~$intrim.pptx",
+    "期中pre/Slides/6月13日.mov",
+    "期中pre/Slides/P1/6月13日.mov",
+    "期中pre/Slides/intrim_副本.pptx",
+    "期中pre/Intrim_pre_outline.md",
+    "期中pre/Intrim_pre_outline_en.md",
+    "期中pre/Slides/outputs/ppt_review/media/image6.png",
+    "期中pre/Slides/outputs/ppt_review/media/image7.png",
+    "期中pre/Slides/outputs/ppt_review/media/image8.png",
+    "期中pre/Slides/outputs/ppt_review/media/image9.png",
+    "期中pre/Slides/outputs/ppt_review/media/image10.png",
+    "期中pre/Slides/outputs/ppt_review/media/image11.png",
+    "期中pre/Slides/outputs/ppt_review/media/image12.png",
+    "期中pre/Slides/outputs/ppt_review/media/image5.png",
+    "期中pre/Slides/outputs/ppt_review/media/image4.png",
+    "期中pre/Slides/outputs/ppt_review/media/image3.png",
+    "期中pre/Slides/outputs/ppt_review/media",
+    "learning_note/vrb零散学习笔记.md",
+    "learning_note/网络结构绘制2_副本2.md",
+    "期中pre/Slides/outputs/manual-20260604-vrb5/presentations/vrb-midterm-first-five/node_modules/@oai/artifact-tool/node_modules/string-split-by/readme.md"
+  ]
+}

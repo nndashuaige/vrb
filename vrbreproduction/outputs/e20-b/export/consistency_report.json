@@ -1,0 +1,575 @@
+{
+  "e20_keep_count": 56,
+  "limit": 100,
+  "e18b_manifest": "/Users/huhu/Documents/Code/bishe/vrb/vrbreproduction/outputs/e18b/successful_sample_manifest.csv",
+  "keep_set_match": false,
+  "mismatches": [
+    {
+      "e20_rows": [
+        {
+          "subaction_index": 0,
+          "ref_idx": 69,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 1,
+          "ref_idx": 90,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 6,
+          "ref_idx": 511,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 8,
+          "ref_idx": 609,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 9,
+          "ref_idx": 609,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 10,
+          "ref_idx": 711,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 12,
+          "ref_idx": 1068,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 13,
+          "ref_idx": 1146,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 14,
+          "ref_idx": 1256,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 16,
+          "ref_idx": 1258,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 17,
+          "ref_idx": 1420,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 18,
+          "ref_idx": 1467,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 20,
+          "ref_idx": 1826,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 21,
+          "ref_idx": 2087,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 22,
+          "ref_idx": 2140,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 23,
+          "ref_idx": 2211,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 24,
+          "ref_idx": 2311,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 25,
+          "ref_idx": 2338,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 27,
+          "ref_idx": 2462,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 28,
+          "ref_idx": 2462,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 29,
+          "ref_idx": 2508,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 30,
+          "ref_idx": 2697,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 31,
+          "ref_idx": 2941,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 32,
+          "ref_idx": 2941,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 33,
+          "ref_idx": 3086,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 34,
+          "ref_idx": 3119,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 35,
+          "ref_idx": 3354,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 47,
+          "ref_idx": 4636,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 48,
+          "ref_idx": 4636,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 50,
+          "ref_idx": 4659,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 53,
+          "ref_idx": 4937,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 55,
+          "ref_idx": 4959,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 56,
+          "ref_idx": 4959,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 58,
+          "ref_idx": 7130,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 64,
+          "ref_idx": 10142,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 66,
+          "ref_idx": 10195,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 67,
+          "ref_idx": 10114,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 68,
+          "ref_idx": 10114,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 69,
+          "ref_idx": 10242,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 71,
+          "ref_idx": 11976,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 73,
+          "ref_idx": 11999,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 75,
+          "ref_idx": 11999,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 76,
+          "ref_idx": 11999,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 77,
+          "ref_idx": 12331,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 79,
+          "ref_idx": 12404,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 80,
+          "ref_idx": 12407,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 81,
+          "ref_idx": 12407,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 82,
+          "ref_idx": 12479,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 83,
+          "ref_idx": 12479,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 84,
+          "ref_idx": 12631,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 86,
+          "ref_idx": 12713,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 87,
+          "ref_idx": 12714,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 88,
+          "ref_idx": 12714,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 89,
+          "ref_idx": 12814,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 93,
+          "ref_idx": 13132,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 95,
+          "ref_idx": 15325,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        }
+      ],
+      "e18b_rows": [
+        {
+          "subaction_index": 0,
+          "ref_idx": 69,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 1,
+          "ref_idx": 90,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 6,
+          "ref_idx": 511,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 8,
+          "ref_idx": 609,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 9,
+          "ref_idx": 609,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 10,
+          "ref_idx": 711,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 12,
+          "ref_idx": 1068,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 13,
+          "ref_idx": 1146,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 14,
+          "ref_idx": 1256,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 16,
+          "ref_idx": 1258,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 17,
+          "ref_idx": 1420,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 18,
+          "ref_idx": 1467,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 20,
+          "ref_idx": 1826,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 21,
+          "ref_idx": 2087,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 22,
+          "ref_idx": 2140,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 23,
+          "ref_idx": 2211,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 24,
+          "ref_idx": 2311,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 25,
+          "ref_idx": 2338,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 27,
+          "ref_idx": 2462,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 28,
+          "ref_idx": 2462,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 29,
+          "ref_idx": 2508,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 30,
+          "ref_idx": 2697,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 31,
+          "ref_idx": 2941,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 33,
+          "ref_idx": 3086,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 34,
+          "ref_idx": 3119,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 35,
+          "ref_idx": 3354,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 47,
+          "ref_idx": 4636,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 48,
+          "ref_idx": 4636,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 50,
+          "ref_idx": 4659,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 53,
+          "ref_idx": 4937,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 55,
+          "ref_idx": 4959,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 56,
+          "ref_idx": 4959,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 58,
+          "ref_idx": 7130,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 64,
+          "ref_idx": 10142,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 66,
+          "ref_idx": 10195,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 67,
+          "ref_idx": 10114,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 68,
+          "ref_idx": 10114,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 69,
+          "ref_idx": 10242,
+          "reference_mode": "active_hand_invisible_pre_contact"
+        },
+        {
+          "subaction_index": 71,
+          "ref_idx": 11976,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 73,
+          "ref_idx": 11999,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 74,
+          "ref_idx": 12167,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 75,
+          "ref_idx": 11999,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 76,
+          "ref_idx": 11999,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 77,
+          "ref_idx": 12331,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 79,
+          "ref_idx": 12404,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 80,
+          "ref_idx": 12407,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 81,
+          "ref_idx": 12407,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 82,
+          "ref_idx": 12479,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 83,
+          "ref_idx": 12479,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 84,
+          "ref_idx": 12631,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 86,
+          "ref_idx": 12713,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 87,
+          "ref_idx": 12714,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 88,
+          "ref_idx": 12714,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 89,
+          "ref_idx": 12814,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 93,
+          "ref_idx": 13132,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        },
+        {
+          "subaction_index": 95,
+          "ref_idx": 15325,
+          "reference_mode": "min_hand_object_iou_pre_contact_fallback"
+        }
+      ]
+    }
+  ],
+  "manifest": "outputs/e20-a/export/export_manifest.csv"
+}

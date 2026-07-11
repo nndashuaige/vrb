@@ -1,0 +1,1194 @@
+{
+  "started_utc": "2026-07-07T10:11:36Z",
+  "seed": 20260707,
+  "device": "cpu",
+  "backends": "telea",
+  "sam_checkpoint_sha8": null,
+  "samples": [
+    {
+      "sample_key": "subaction_00_P01_109_0__episode_01_left__frame_000088_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.015175104141235352
+    },
+    {
+      "sample_key": "subaction_01_P01_109_1__episode_01_right__frame_000161_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.04057017543859649,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.05591111111111111,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.1599219892735251
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03697633743286133
+    },
+    {
+      "sample_key": "subaction_06_P01_109_8__episode_01_right__frame_000527_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.07075794956140351,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.5351001939237233
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03535032272338867
+    },
+    {
+      "sample_key": "subaction_08_P01_109_7__episode_01_left__frame_000628_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.010760307312011719
+    },
+    {
+      "sample_key": "subaction_09_P01_109_9__episode_01_left__frame_000628_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.010083198547363281
+    },
+    {
+      "sample_key": "subaction_10_P01_109_10__episode_01_left__frame_000774_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.009843826293945312
+    },
+    {
+      "sample_key": "subaction_12_P01_109_12__episode_01_left__frame_001070_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.06477864583333333,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.16962843295638125
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.034575462341308594
+    },
+    {
+      "sample_key": "subaction_13_P01_109_13__episode_01_right__frame_001182_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.10823567708333333,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.29884444444444447,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.3936142140909491
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03985333442687988
+    },
+    {
+      "sample_key": "subaction_14_P01_109_14__episode_01_right__frame_001258_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.05873081140350877,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.7058823529411765,
+      "overlap_crop150": 0.22715555555555556,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.41708380429517194
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03465986251831055
+    },
+    {
+      "sample_key": "subaction_16_P01_109_16__episode_01_left__frame_001345_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.09302186129385964,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.02617777777777778,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.3664224538231349
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03850746154785156
+    },
+    {
+      "sample_key": "subaction_17_P01_109_17__episode_01_left__frame_001422_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.01596765350877193,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": true
+      },
+      "skin_ratio_after": {
+        "lama": 0.053350683148991544
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03132295608520508
+    },
+    {
+      "sample_key": "subaction_18_P01_109_18__episode_01_right__frame_001496_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.034505208333333336,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.1256,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.4714285714285714
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03316831588745117
+    },
+    {
+      "sample_key": "subaction_20_P01_109_20__episode_01_left__frame_001827_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.040004797149122806,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.991578947368421,
+      "overlap_crop150": 0.20755555555555555,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.5549338758901322
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03419208526611328
+    },
+    {
+      "sample_key": "subaction_21_P01_109_21__episode_01_left__frame_002088_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.011123895645141602
+    },
+    {
+      "sample_key": "subaction_22_P01_109_22__episode_01_right__frame_002142_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.010958671569824219
+    },
+    {
+      "sample_key": "subaction_23_P01_109_23__episode_01_right__frame_002214_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0649071408991228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.33675555555555553,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9308099924299773
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03547549247741699
+    },
+    {
+      "sample_key": "subaction_24_P01_109_24__episode_01_left__frame_002325_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.010416984558105469
+    },
+    {
+      "sample_key": "subaction_25_P01_109_25__episode_01_right__frame_002341_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.035721628289473686,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9322545255074054
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03324699401855469
+    },
+    {
+      "sample_key": "subaction_27_P01_109_27__episode_01_right__frame_002468_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.03833436129385965,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.1988888888888889,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9557922769640479
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03407716751098633
+    },
+    {
+      "sample_key": "subaction_28_P01_109_28__episode_01_right__frame_002484_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.03833436129385965,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.1988888888888889,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9557922769640479
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03406167030334473
+    },
+    {
+      "sample_key": "subaction_29_P01_109_29__episode_01_right__frame_002550_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.05449904057017544,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.09417777777777778,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.5879765395894428
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03487682342529297
+    },
+    {
+      "sample_key": "subaction_30_P01_109_30__episode_01_left__frame_002708_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0405359100877193,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.2043111111111111,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9997488699146158
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.034220218658447266
+    },
+    {
+      "sample_key": "subaction_31_P01_109_31__episode_01_left__frame_002968_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.05819969846491228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.2321777777777778,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7909307065217391
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.036149024963378906
+    },
+    {
+      "sample_key": "subaction_32_P01_109_32__episode_01_left__frame_003009_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.05819969846491228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.3598816568047337,
+      "overlap_crop150": 0.30195555555555553,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7909307065217391
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03447294235229492
+    },
+    {
+      "sample_key": "subaction_33_P01_109_33__episode_01_left__frame_003088_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.011342763900756836
+    },
+    {
+      "sample_key": "subaction_34_P01_109_34__episode_01_left__frame_003122_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.010249853134155273
+    },
+    {
+      "sample_key": "subaction_35_P01_109_35__episode_01_left__frame_003356_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.04415090460526316,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.1558974358974359,
+      "overlap_crop150": 0.20653333333333335,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7190173283614828
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03395557403564453
+    },
+    {
+      "sample_key": "subaction_47_P01_109_47__episode_01_left__frame_004648_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.010421037673950195
+    },
+    {
+      "sample_key": "subaction_48_P01_109_48__episode_01_left__frame_004692_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.01003265380859375
+    },
+    {
+      "sample_key": "subaction_50_P01_109_50__episode_01_right__frame_004821_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 1,
+      "sam_scores": [],
+      "mask_area_ratio": 0.031112938596491228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7367892976588629
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03239250183105469
+    },
+    {
+      "sample_key": "subaction_53_P01_109_53__episode_01_right__frame_004947_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 0,
+      "sam_scores": [],
+      "mask_area_ratio": 0.0,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {},
+      "boundary_delta": {},
+      "elapsed_sec": 0.011329412460327148
+    },
+    {
+      "sample_key": "subaction_55_P01_109_55__episode_01_left__frame_005019_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.05876507675438596,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.061733333333333335,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.43035776311219176
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.035691261291503906
+    },
+    {
+      "sample_key": "subaction_56_P01_109_56__episode_01_left__frame_005062_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.05876507675438596,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0268,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.43035776311219176
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03466057777404785
+    },
+    {
+      "sample_key": "subaction_58_P01_109_58__episode_01_right__frame_007132_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.12908614309210525,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.4726666666666667,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9182820220448499
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.04176640510559082
+    },
+    {
+      "sample_key": "subaction_64_P01_109_64__episode_01_left__frame_010144_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.10976905153508772,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.8571428571428571,
+      "overlap_crop150": 0.2720888888888889,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.856767530349701
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03981614112854004
+    },
+    {
+      "sample_key": "subaction_66_P01_109_66__episode_01_left__frame_010197_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.09777617872807018,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.22675555555555554,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.8725148596023775
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.039138078689575195
+    },
+    {
+      "sample_key": "subaction_67_P01_109_67__episode_01_right__frame_010261_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.14574766995614036,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.43478260869565216,
+      "overlap_crop150": 0.27897777777777777,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.6223098516241145
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.04321646690368652
+    },
+    {
+      "sample_key": "subaction_68_P01_109_68__episode_01_right__frame_010269_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.14574766995614036,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.6363636363636364,
+      "overlap_crop150": 0.3403111111111111,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.6223098516241145
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.042353153228759766
+    },
+    {
+      "sample_key": "subaction_69_P01_109_69__episode_01_left__frame_010374_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.12135074013157894,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.27724444444444446,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9550292070096823
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.041326284408569336
+    },
+    {
+      "sample_key": "subaction_71_P01_109_71__episode_01_right__frame_011977_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.09739069353070176,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.45568888888888887,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.3821252638986629
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.039293766021728516
+    },
+    {
+      "sample_key": "subaction_73_P01_109_73__episode_01_right__frame_012104_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1293602658991228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.14577777777777778,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9275806687107607
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.041124582290649414
+    },
+    {
+      "sample_key": "subaction_75_P01_109_75__episode_01_right__frame_012295_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1293602658991228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.47294372294372294,
+      "overlap_crop150": 0.3648,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9275806687107607
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.046298980712890625
+    },
+    {
+      "sample_key": "subaction_76_P01_109_76__episode_01_right__frame_012325_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1293602658991228,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.9275806687107607
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.041839599609375
+    },
+    {
+      "sample_key": "subaction_77_P01_109_78__episode_01_left__frame_012335_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.11793277138157894,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.7666666666666667,
+      "overlap_crop150": 0.2630222222222222,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.6165912031047865
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.04036712646484375
+    },
+    {
+      "sample_key": "subaction_79_P01_109_77__episode_01_left__frame_012412_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.12438322368421052,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.5066666666666667,
+      "overlap_crop150": 0.31777777777777777,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.6841326689504827
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.041217803955078125
+    },
+    {
+      "sample_key": "subaction_80_P01_109_80__episode_01_right__frame_012424_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1386033442982456,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.15,
+      "overlap_crop150": 0.2886666666666667,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7388912104749965
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.04222297668457031
+    },
+    {
+      "sample_key": "subaction_81_P01_109_81__episode_01_right__frame_012468_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1386033442982456,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.32053333333333334,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7388912104749965
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.03545784950256348
+    },
+    {
+      "sample_key": "subaction_82_P01_109_82__episode_01_right__frame_012493_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.11170504385964912,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.1828,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7716383983213848
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.0316309928894043
+    },
+    {
+      "sample_key": "subaction_83_P01_109_83__episode_01_right__frame_012578_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.11170504385964912,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.8238916256157636,
+      "overlap_crop150": 0.24702222222222223,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7716383983213848
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.030225753784179688
+    },
+    {
+      "sample_key": "subaction_84_P01_109_84__episode_01_right__frame_012634_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.12141070449561403,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": true,
+      "overlap_heatmap_top": 0.8421052631578947,
+      "overlap_crop150": 0.2839111111111111,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7694519891356447
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.02978801727294922
+    },
+    {
+      "sample_key": "subaction_86_P01_109_86__episode_01_left__frame_012724_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1142578125,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.3814222222222222,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.8516978516978517
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.028748273849487305
+    },
+    {
+      "sample_key": "subaction_87_P01_109_87__episode_01_right__frame_012758_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.11506304824561403,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.029644444444444445,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.8528198074277854
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.029952049255371094
+    },
+    {
+      "sample_key": "subaction_88_P01_109_88__episode_01_right__frame_012880_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.11506304824561403,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.48413333333333336,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.8528198074277854
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.02984452247619629
+    },
+    {
+      "sample_key": "subaction_89_P01_109_89__episode_01_left__frame_012999_left",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.11289576480263158,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 0.0,
+      "overlap_crop150": 0.0071111111111111115,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7557251908396947
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.029732942581176758
+    },
+    {
+      "sample_key": "subaction_93_P01_109_93__episode_01_right__frame_013134_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.10915227521929824,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.24008888888888888,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.8922335394688978
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.027942180633544922
+    },
+    {
+      "sample_key": "subaction_95_P01_109_95__episode_01_right__frame_015464_right",
+      "already_clean": false,
+      "mediapipe_fallback_used": false,
+      "hand_box_count": 2,
+      "sam_scores": [],
+      "mask_area_ratio": 0.1366502192982456,
+      "mask_fallback_bbox": false,
+      "mask_touches_bottom": false,
+      "overlap_heatmap_top": 1.0,
+      "overlap_crop150": 0.6344444444444445,
+      "passed": {
+        "lama": false
+      },
+      "skin_ratio_after": {
+        "lama": 0.7905733722060253
+      },
+      "boundary_delta": {
+        "lama": 0.0
+      },
+      "elapsed_sec": 0.030864477157592773
+    }
+  ],
+  "finished_utc": "2026-07-07T10:11:38Z"
+}

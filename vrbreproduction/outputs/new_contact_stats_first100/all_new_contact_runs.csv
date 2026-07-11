@@ -1,0 +1,294 @@
+hand,start_frame_0_based,start_frame_1_based,end_frame_0_based,end_frame_1_based,run_length,start_reason,subaction_index,narration_id,narration,sub_start_1_based,sub_stop_1_based
+left,88,89,98,99,11,smoothed_contact_0_to_1,0,P01_109_0,grab rucksack,79,126
+right,93,94,93,94,1,smoothed_contact_0_to_1,0,P01_109_0,grab rucksack,79,126
+right,97,98,156,157,60,smoothed_contact_0_to_1,0,P01_109_0,grab rucksack,79,126
+right,161,162,161,162,1,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+right,166,167,172,173,7,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+left,170,171,172,173,3,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+left,175,176,193,194,19,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+right,178,179,178,179,1,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+right,180,181,183,184,4,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+right,197,198,252,253,56,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+left,198,199,327,328,130,smoothed_contact_0_to_1,1,P01_109_1,open rucksack,153,226
+right,256,257,332,333,77,smoothed_contact_0_to_1,2,P01_109_2,pick up eggs,252,319
+left,362,363,364,365,3,smoothed_contact_0_to_1,3,P01_109_3,put down eggs,319,374
+left,369,370,392,393,24,smoothed_contact_0_to_1,3,P01_109_3,put down eggs,319,374
+right,371,372,374,375,4,smoothed_contact_0_to_1,3,P01_109_3,put down eggs,319,374
+right,527,528,592,593,66,smoothed_contact_0_to_1,6,P01_109_8,pick up potato,500,622
+left,528,529,594,595,67,smoothed_contact_0_to_1,6,P01_109_8,pick up potato,500,622
+left,628,629,641,642,14,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+right,632,633,632,633,1,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+right,637,638,668,669,32,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+left,645,646,652,653,8,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+left,656,657,675,676,20,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+right,673,674,692,693,20,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+left,686,687,687,688,2,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+left,689,690,689,690,1,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+left,720,721,721,722,2,smoothed_contact_0_to_1,8,P01_109_7,put down potatoes,550,734
+left,628,629,641,642,14,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+right,632,633,632,633,1,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+right,637,638,668,669,32,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,645,646,652,653,8,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,656,657,675,676,20,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+right,673,674,692,693,20,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,686,687,687,688,2,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,689,690,689,690,1,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,720,721,721,722,2,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,734,735,770,771,37,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+right,734,735,780,781,47,smoothed_contact_0_to_1,9,P01_109_9,put down potato,625,752
+left,774,775,778,779,5,smoothed_contact_0_to_1,10,P01_109_10,pick up beers,738,845
+right,784,785,976,977,193,smoothed_contact_0_to_1,10,P01_109_10,pick up beers,738,845
+left,785,786,814,815,30,smoothed_contact_0_to_1,10,P01_109_10,pick up beers,738,845
+right,980,981,1002,1003,23,smoothed_contact_0_to_1,11,P01_109_11,open freezer,876,1022
+right,1006,1007,1176,1177,171,smoothed_contact_0_to_1,11,P01_109_11,open freezer,876,1022
+left,1070,1071,1141,1142,72,smoothed_contact_0_to_1,12,P01_109_12,open drawer,1045,1123
+right,1180,1181,1191,1192,12,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1201,1202,1255,1256,55,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+right,1207,1208,1241,1242,35,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+right,1258,1259,1265,1266,8,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1260,1261,1266,1267,7,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1271,1272,1274,1275,4,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+right,1271,1272,1334,1335,64,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1288,1289,1290,1291,3,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1293,1294,1325,1326,33,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1339,1340,1340,1341,2,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1342,1343,1342,1343,1,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+left,1345,1346,1352,1353,8,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+right,1345,1346,1346,1347,2,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+right,1352,1353,1354,1355,3,smoothed_contact_0_to_1,13,P01_109_13,put beer into drawer,1139,1353
+right,1258,1259,1265,1266,8,smoothed_contact_0_to_1,14,P01_109_14,put beer into drawer,1230,1283
+left,1260,1261,1266,1267,7,smoothed_contact_0_to_1,14,P01_109_14,put beer into drawer,1230,1283
+left,1271,1272,1274,1275,4,smoothed_contact_0_to_1,14,P01_109_14,put beer into drawer,1230,1283
+right,1271,1272,1334,1335,64,smoothed_contact_0_to_1,14,P01_109_14,put beer into drawer,1230,1283
+left,1345,1346,1352,1353,8,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+right,1345,1346,1346,1347,2,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+right,1352,1353,1354,1355,3,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+left,1354,1355,1354,1355,1,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+left,1357,1358,1357,1358,1,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+right,1357,1358,1380,1381,24,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+left,1359,1360,1367,1368,9,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+left,1375,1376,1384,1385,10,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+right,1390,1391,1391,1392,2,smoothed_contact_0_to_1,16,P01_109_16,close drawer,1345,1401
+left,1422,1423,1456,1457,35,smoothed_contact_0_to_1,17,P01_109_17,close freezer,1419,1464
+right,1496,1497,1516,1517,21,smoothed_contact_0_to_1,18,P01_109_18,pick up rucksack,1485,1527
+right,1518,1519,1518,1519,1,smoothed_contact_0_to_1,18,P01_109_18,pick up rucksack,1485,1527
+right,1521,1522,1521,1522,1,smoothed_contact_0_to_1,18,P01_109_18,pick up rucksack,1485,1527
+right,1523,1524,1528,1529,6,smoothed_contact_0_to_1,18,P01_109_18,pick up rucksack,1485,1527
+left,1827,1828,1830,1831,4,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+left,1841,1842,1841,1842,1,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+right,1848,1849,1848,1849,1,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+right,1850,1851,1857,1858,8,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+right,1861,1862,1868,1869,8,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+right,1906,1907,1913,1914,8,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+right,1916,1917,1918,1919,3,smoothed_contact_0_to_1,20,P01_109_20,close door,1812,1946
+left,2088,2089,2090,2091,3,smoothed_contact_0_to_1,21,P01_109_21,pick up cup,2084,2120
+right,2092,2093,2094,2095,3,smoothed_contact_0_to_1,21,P01_109_21,pick up cup,2084,2120
+right,2142,2143,2160,2161,19,smoothed_contact_0_to_1,22,P01_109_22,put down cup,2132,2193
+right,2177,2178,2182,2183,6,smoothed_contact_0_to_1,22,P01_109_22,put down cup,2132,2193
+right,2213,2214,2223,2224,11,smoothed_contact_0_to_1,23,P01_109_23,pick up spoon,2206,2236
+left,2325,2326,2355,2356,31,smoothed_contact_0_to_1,24,P01_109_24,open drawer,2269,2332
+right,2341,2342,2341,2342,1,smoothed_contact_0_to_1,25,P01_109_25,put spoon into drawer,2336,2378
+right,2343,2344,2343,2344,1,smoothed_contact_0_to_1,25,P01_109_25,put spoon into drawer,2336,2378
+right,2347,2348,2349,2350,3,smoothed_contact_0_to_1,25,P01_109_25,put spoon into drawer,2336,2378
+right,2354,2355,2356,2357,3,smoothed_contact_0_to_1,25,P01_109_25,put spoon into drawer,2336,2378
+right,2468,2469,2470,2471,3,smoothed_contact_0_to_1,27,P01_109_27,pour hand wash,2466,2505
+right,2476,2477,2479,2480,4,smoothed_contact_0_to_1,27,P01_109_27,pour hand wash,2466,2505
+right,2484,2485,2486,2487,3,smoothed_contact_0_to_1,27,P01_109_27,pour hand wash,2466,2505
+right,2484,2485,2486,2487,3,smoothed_contact_0_to_1,28,P01_109_28,wash hands,2478,2540
+left,2538,2539,2562,2563,25,smoothed_contact_0_to_1,28,P01_109_28,wash hands,2478,2540
+right,2550,2551,2562,2563,13,smoothed_contact_0_to_1,29,P01_109_29,turn on tap,2545,2575
+right,2567,2568,2571,2572,5,smoothed_contact_0_to_1,29,P01_109_29,turn on tap,2545,2575
+right,2573,2574,2573,2574,1,smoothed_contact_0_to_1,29,P01_109_29,turn on tap,2545,2575
+left,2708,2709,2710,2711,3,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2717,2718,2718,2719,2,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2718,2719,2725,2726,8,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2723,2724,2725,2726,3,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2749,2750,2764,2765,16,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2750,2751,2764,2765,15,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2785,2786,2792,2793,8,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2787,2788,2802,2803,16,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2799,2800,2801,2802,3,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2826,2827,2828,2829,3,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2832,2833,2835,2836,4,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2838,2839,2841,2842,4,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2838,2839,2838,2839,1,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2840,2841,2840,2841,1,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2851,2852,2858,2859,8,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2852,2853,2858,2859,7,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2867,2868,2869,2870,3,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2867,2868,2880,2881,14,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2873,2874,2883,2884,11,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2887,2888,2889,2890,3,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2904,2905,2911,2912,8,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2906,2907,2911,2912,6,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2919,2920,2927,2928,9,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2919,2920,2925,2926,7,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+right,2956,2957,2956,2957,1,smoothed_contact_0_to_1,30,P01_109_30,rinse hands,2579,2963
+left,2968,2969,2970,2971,3,smoothed_contact_0_to_1,31,P01_109_31,turn off tap,2967,2989
+left,2978,2979,2984,2985,7,smoothed_contact_0_to_1,31,P01_109_31,turn off tap,2967,2989
+left,3009,3010,3018,3019,10,smoothed_contact_0_to_1,32,P01_109_32,shake hands,3001,3072
+left,3029,3030,3030,3031,2,smoothed_contact_0_to_1,32,P01_109_32,shake hands,3001,3072
+left,3040,3041,3051,3052,12,smoothed_contact_0_to_1,32,P01_109_32,shake hands,3001,3072
+left,3088,3089,3106,3107,19,smoothed_contact_0_to_1,33,P01_109_33,pick up cloth,3084,3140
+left,3121,3122,3123,3124,3,smoothed_contact_0_to_1,33,P01_109_33,pick up cloth,3084,3140
+right,3136,3137,3153,3154,18,smoothed_contact_0_to_1,33,P01_109_33,pick up cloth,3084,3140
+left,3121,3122,3123,3124,3,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3136,3137,3153,3154,18,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3146,3147,3150,3151,5,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3167,3168,3171,3172,5,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3168,3169,3168,3169,1,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3175,3176,3179,3180,5,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3185,3186,3185,3186,1,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3187,3188,3189,3190,3,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3189,3190,3192,3193,4,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3195,3196,3197,3198,3,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3216,3217,3216,3217,1,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3220,3221,3220,3221,1,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3223,3224,3229,3230,7,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3245,3246,3247,3248,3,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3251,3252,3252,3253,2,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3257,3258,3259,3260,3,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3295,3296,3295,3296,1,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3298,3299,3299,3300,2,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3301,3302,3301,3302,1,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3307,3308,3324,3325,18,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+right,3338,3339,3544,3545,207,smoothed_contact_0_to_1,34,P01_109_34,dry hands,3094,3349
+left,3356,3357,3360,3361,5,smoothed_contact_0_to_1,35,P01_109_35,put down cloth,3349,3372
+left,3366,3367,3388,3389,23,smoothed_contact_0_to_1,35,P01_109_35,put down cloth,3349,3372
+left,3392,3393,3418,3419,27,smoothed_contact_0_to_1,36,P01_109_36,pick up potatoes,3374,3496
+left,3424,3425,3424,3425,1,smoothed_contact_0_to_1,36,P01_109_36,pick up potatoes,3374,3496
+left,3449,3450,3540,3541,92,smoothed_contact_0_to_1,36,P01_109_36,pick up potatoes,3374,3496
+left,3549,3550,3550,3551,2,smoothed_contact_0_to_1,37,P01_109_37,put down potatoes,3517,3552
+left,3654,3655,3695,3696,42,smoothed_contact_0_to_1,38,P01_109_38,move potatoes,3640,3706
+left,3718,3719,3728,3729,11,smoothed_contact_0_to_1,39,P01_109_39,open cupboard,3719,3799
+left,3737,3738,3739,3740,3,smoothed_contact_0_to_1,39,P01_109_39,open cupboard,3719,3799
+left,3754,3755,3768,3769,15,smoothed_contact_0_to_1,39,P01_109_39,open cupboard,3719,3799
+right,3760,3761,3771,3772,12,smoothed_contact_0_to_1,39,P01_109_39,open cupboard,3719,3799
+right,3775,3776,3788,3789,14,smoothed_contact_0_to_1,39,P01_109_39,open cupboard,3719,3799
+right,3837,3838,3838,3839,2,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+left,3844,3845,3846,3847,3,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+right,3847,3848,3850,3851,4,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+right,3855,3856,3871,3872,17,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+right,3876,3877,3880,3881,5,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+left,3901,3902,3970,3971,70,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+right,3918,3919,3927,3928,10,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+right,3931,3932,4134,4135,204,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+left,3975,3976,4235,4236,261,smoothed_contact_0_to_1,40,P01_109_40,move pans,3826,4048
+left,4273,4274,4329,4330,57,smoothed_contact_0_to_1,42,P01_109_42,put down pan,4209,4280
+left,4273,4274,4329,4330,57,smoothed_contact_0_to_1,43,P01_109_44,put down pan,4269,4353
+right,4380,4381,4429,4430,50,smoothed_contact_0_to_1,44,P01_109_43,pick up pan,4330,4386
+left,4381,4382,4383,4384,3,smoothed_contact_0_to_1,44,P01_109_43,pick up pan,4330,4386
+right,4380,4381,4429,4430,50,smoothed_contact_0_to_1,45,P01_109_45,put down pan,4379,4432
+left,4381,4382,4383,4384,3,smoothed_contact_0_to_1,45,P01_109_45,put down pan,4379,4432
+left,4386,4387,4388,4389,3,smoothed_contact_0_to_1,45,P01_109_45,put down pan,4379,4432
+left,4511,4512,4515,4516,5,smoothed_contact_0_to_1,46,P01_109_46,pick up cutting board,4510,4604
+left,4520,4521,4527,4528,8,smoothed_contact_0_to_1,46,P01_109_46,pick up cutting board,4510,4604
+left,4538,4539,4546,4547,9,smoothed_contact_0_to_1,46,P01_109_46,pick up cutting board,4510,4604
+left,4554,4555,4560,4561,7,smoothed_contact_0_to_1,46,P01_109_46,pick up cutting board,4510,4604
+left,4564,4565,4599,4600,36,smoothed_contact_0_to_1,46,P01_109_46,pick up cutting board,4510,4604
+right,4598,4599,4602,4603,5,smoothed_contact_0_to_1,46,P01_109_46,pick up cutting board,4510,4604
+left,4648,4649,4658,4659,11,smoothed_contact_0_to_1,47,P01_109_47,close cupboard,4621,4664
+left,4661,4662,4663,4664,3,smoothed_contact_0_to_1,47,P01_109_47,close cupboard,4621,4664
+right,4661,4662,4714,4715,54,smoothed_contact_0_to_1,47,P01_109_47,close cupboard,4621,4664
+left,4692,4693,4705,4706,14,smoothed_contact_0_to_1,48,P01_109_48,put down cutting board,4677,4724
+right,4821,4822,4864,4865,44,smoothed_contact_0_to_1,50,P01_109_50,put down eggs,4794,4827
+left,4856,4857,4856,4857,1,smoothed_contact_0_to_1,51,P01_109_51,move kettle,4832,4867
+right,4907,4908,4907,4908,1,smoothed_contact_0_to_1,52,P01_109_52,open drawer,4904,4942
+right,4917,4918,4920,4921,4,smoothed_contact_0_to_1,52,P01_109_52,open drawer,4904,4942
+left,4929,4930,4929,4930,1,smoothed_contact_0_to_1,52,P01_109_52,open drawer,4904,4942
+right,4947,4948,5115,5116,169,smoothed_contact_0_to_1,53,P01_109_53,pick up peeler,4938,4981
+left,4951,4952,4956,4957,6,smoothed_contact_0_to_1,53,P01_109_53,pick up peeler,4938,4981
+left,4964,4965,4964,4965,1,smoothed_contact_0_to_1,53,P01_109_53,pick up peeler,4938,4981
+left,4970,4971,4972,4973,3,smoothed_contact_0_to_1,53,P01_109_53,pick up peeler,4938,4981
+left,4975,4976,4976,4977,2,smoothed_contact_0_to_1,53,P01_109_53,pick up peeler,4938,4981
+left,4978,4979,4978,4979,1,smoothed_contact_0_to_1,53,P01_109_53,pick up peeler,4938,4981
+left,4978,4979,4978,4979,1,smoothed_contact_0_to_1,54,P01_109_54,close drawer,4977,5004
+left,4981,4982,4981,4982,1,smoothed_contact_0_to_1,54,P01_109_54,close drawer,4977,5004
+left,5019,5020,5026,5027,8,smoothed_contact_0_to_1,55,P01_109_55,move cutting board,5014,5049
+left,5036,5037,5039,5040,4,smoothed_contact_0_to_1,55,P01_109_55,move cutting board,5014,5049
+left,5043,5044,5056,5057,14,smoothed_contact_0_to_1,55,P01_109_55,move cutting board,5014,5049
+left,5062,5063,5067,5068,6,smoothed_contact_0_to_1,56,P01_109_56,pick up potato,5053,5122
+left,5079,5080,5091,5092,13,smoothed_contact_0_to_1,56,P01_109_56,pick up potato,5053,5122
+left,5101,5102,9620,9621,4520,smoothed_contact_0_to_1,56,P01_109_56,pick up potato,5053,5122
+right,5119,5120,5151,5152,33,smoothed_contact_0_to_1,56,P01_109_56,pick up potato,5053,5122
+right,7132,7133,7146,7147,15,smoothed_contact_0_to_1,58,P01_109_58,peel potato,5182,9529
+right,7151,7152,7231,7232,81,smoothed_contact_0_to_1,58,P01_109_58,peel potato,5182,9529
+right,7235,7236,7741,7742,507,smoothed_contact_0_to_1,58,P01_109_58,peel potato,5182,9529
+right,7745,7746,8713,8714,969,smoothed_contact_0_to_1,58,P01_109_58,peel potato,5182,9529
+right,8718,8719,9593,9594,876,smoothed_contact_0_to_1,58,P01_109_58,peel potato,5182,9529
+right,9689,9690,9691,9692,3,smoothed_contact_0_to_1,61,P01_109_61,pick up knife,9668,9762
+left,10144,10145,10153,10154,10,smoothed_contact_0_to_1,64,P01_109_64,pick up potato bit,10119,10183
+left,10173,10174,10175,10176,3,smoothed_contact_0_to_1,64,P01_109_64,pick up potato bit,10119,10183
+left,10182,10183,10182,10183,1,smoothed_contact_0_to_1,64,P01_109_64,pick up potato bit,10119,10183
+left,10173,10174,10175,10176,3,smoothed_contact_0_to_1,65,P01_109_65,put down potato bit,10148,10191
+left,10182,10183,10182,10183,1,smoothed_contact_0_to_1,65,P01_109_65,put down potato bit,10148,10191
+left,10184,10185,10187,10188,4,smoothed_contact_0_to_1,65,P01_109_65,put down potato bit,10148,10191
+left,10197,10198,10199,10200,3,smoothed_contact_0_to_1,66,P01_109_66,move cutting board,10196,10232
+left,10201,10202,10201,10202,1,smoothed_contact_0_to_1,66,P01_109_66,move cutting board,10196,10232
+right,10261,10262,10262,10263,2,smoothed_contact_0_to_1,67,P01_109_67,put down knife,10237,10267
+right,10269,10270,10767,10768,499,smoothed_contact_0_to_1,68,P01_109_68,pick up knife,10264,10300
+left,10276,10277,10370,10371,95,smoothed_contact_0_to_1,68,P01_109_68,pick up knife,10264,10300
+left,10374,10375,10379,10380,6,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+left,10384,10385,11284,11285,901,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+right,10771,10772,11927,11928,1157,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+left,11288,11289,11296,11297,9,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+left,11303,11304,11323,11324,21,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+left,11329,11330,11727,11728,399,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+left,11733,11734,11905,11906,173,smoothed_contact_0_to_1,69,P01_109_69,slice potato,10297,11900
+right,11977,11978,11977,11978,1,smoothed_contact_0_to_1,71,P01_109_71,put down potato slices,11963,11994
+left,11983,11984,11983,11984,1,smoothed_contact_0_to_1,71,P01_109_71,put down potato slices,11963,11994
+right,11983,11984,11984,11985,2,smoothed_contact_0_to_1,71,P01_109_71,put down potato slices,11963,11994
+right,12104,12105,12124,12125,21,smoothed_contact_0_to_1,73,P01_109_73,put down potato slices,12070,12186
+right,12135,12136,12162,12163,28,smoothed_contact_0_to_1,73,P01_109_73,put down potato slices,12070,12186
+left,12169,12170,12179,12180,11,smoothed_contact_0_to_1,73,P01_109_73,put down potato slices,12070,12186
+right,12169,12170,12201,12202,33,smoothed_contact_0_to_1,73,P01_109_73,put down potato slices,12070,12186
+left,12190,12191,12192,12193,3,smoothed_contact_0_to_1,74,P01_109_74,pick up potato slices,12181,12263
+left,12199,12200,12300,12301,102,smoothed_contact_0_to_1,74,P01_109_74,pick up potato slices,12181,12263
+right,12212,12213,12212,12213,1,smoothed_contact_0_to_1,74,P01_109_74,pick up potato slices,12181,12263
+right,12214,12215,12214,12215,1,smoothed_contact_0_to_1,74,P01_109_74,pick up potato slices,12181,12263
+right,12223,12224,12274,12275,52,smoothed_contact_0_to_1,74,P01_109_74,pick up potato slices,12181,12263
+right,12294,12295,12316,12317,23,smoothed_contact_0_to_1,75,P01_109_75,put down potato slices,12267,12332
+right,12325,12326,12328,12329,4,smoothed_contact_0_to_1,75,P01_109_75,put down potato slices,12267,12332
+right,12325,12326,12328,12329,4,smoothed_contact_0_to_1,76,P01_109_76,pick up potato slice,12325,12391
+left,12335,12336,12337,12338,3,smoothed_contact_0_to_1,76,P01_109_76,pick up potato slice,12325,12391
+left,12340,12341,12342,12343,3,smoothed_contact_0_to_1,76,P01_109_76,pick up potato slice,12325,12391
+left,12346,12347,12381,12382,36,smoothed_contact_0_to_1,76,P01_109_76,pick up potato slice,12325,12391
+right,12361,12362,12363,12364,3,smoothed_contact_0_to_1,76,P01_109_76,pick up potato slice,12325,12391
+right,12375,12376,12403,12404,29,smoothed_contact_0_to_1,76,P01_109_76,pick up potato slice,12325,12391
+left,12335,12336,12337,12338,3,smoothed_contact_0_to_1,77,P01_109_78,pick up potato slice,12336,12390
+left,12340,12341,12342,12343,3,smoothed_contact_0_to_1,77,P01_109_78,pick up potato slice,12336,12390
+left,12346,12347,12381,12382,36,smoothed_contact_0_to_1,77,P01_109_78,pick up potato slice,12336,12390
+right,12361,12362,12363,12364,3,smoothed_contact_0_to_1,77,P01_109_78,pick up potato slice,12336,12390
+right,12375,12376,12403,12404,29,smoothed_contact_0_to_1,77,P01_109_78,pick up potato slice,12336,12390
+left,12411,12412,12447,12448,37,smoothed_contact_0_to_1,79,P01_109_77,put down potato slice,12390,12417
+right,12424,12425,12426,12427,3,smoothed_contact_0_to_1,80,P01_109_80,pick up potato slices,12416,12455
+right,12437,12438,12464,12465,28,smoothed_contact_0_to_1,80,P01_109_80,pick up potato slices,12416,12455
+right,12468,12469,12476,12477,9,smoothed_contact_0_to_1,81,P01_109_81,put down potato slices,12458,12480
+right,12493,12494,12496,12497,4,smoothed_contact_0_to_1,82,P01_109_82,pick up potato slice,12484,12562
+right,12502,12503,12574,12575,73,smoothed_contact_0_to_1,82,P01_109_82,pick up potato slice,12484,12562
+right,12578,12579,12584,12585,7,smoothed_contact_0_to_1,83,P01_109_83,put down potato slice,12562,12585
+right,12634,12635,12636,12637,3,smoothed_contact_0_to_1,84,P01_109_84,pick up potato slice,12634,12667
+left,12639,12640,12653,12654,15,smoothed_contact_0_to_1,84,P01_109_84,pick up potato slice,12634,12667
+right,12655,12656,12655,12656,1,smoothed_contact_0_to_1,84,P01_109_84,pick up potato slice,12634,12667
+right,12657,12658,12679,12680,23,smoothed_contact_0_to_1,84,P01_109_84,pick up potato slice,12634,12667
+left,12658,12659,12667,12668,10,smoothed_contact_0_to_1,84,P01_109_84,pick up potato slice,12634,12667
+left,12679,12680,12687,12688,9,smoothed_contact_0_to_1,85,P01_109_85,put down potato slice,12670,12692
+right,12691,12692,12691,12692,1,smoothed_contact_0_to_1,85,P01_109_85,put down potato slice,12670,12692
+left,12724,12725,12724,12725,1,smoothed_contact_0_to_1,86,P01_109_86,pick up potato slice,12723,12753
+left,12726,12727,12726,12727,1,smoothed_contact_0_to_1,86,P01_109_86,pick up potato slice,12723,12753
+left,12729,12730,12749,12750,21,smoothed_contact_0_to_1,86,P01_109_86,pick up potato slice,12723,12753
+right,12758,12759,12765,12766,8,smoothed_contact_0_to_1,87,P01_109_87,put down potato slice,12758,12786
+left,12778,12779,12784,12785,7,smoothed_contact_0_to_1,87,P01_109_87,put down potato slice,12758,12786
+right,12879,12880,13042,13043,164,smoothed_contact_0_to_1,88,P01_109_88,pick up knife,12876,12926
+left,12999,13000,13072,13073,74,smoothed_contact_0_to_1,89,P01_109_89,cut potato slice,12915,13036
+right,13047,13048,13085,13086,39,smoothed_contact_0_to_1,90,P01_109_90,put down knife,13025,13055
+left,13078,13079,13078,13079,1,smoothed_contact_0_to_1,91,P01_109_91,put down potato slice,13065,13090
+left,13080,13081,13081,13082,2,smoothed_contact_0_to_1,91,P01_109_91,put down potato slice,13065,13090
+right,13108,13109,13109,13110,2,smoothed_contact_0_to_1,92,P01_109_92,pick up potato,13096,13121
+left,13110,13111,15502,15503,2393,smoothed_contact_0_to_1,92,P01_109_92,pick up potato,13096,13121
+right,13114,13115,13129,13130,16,smoothed_contact_0_to_1,92,P01_109_92,pick up potato,13096,13121
+right,13134,13135,15460,15461,2327,smoothed_contact_0_to_1,93,P01_109_93,pick up peeler,13126,13155
+right,15464,15465,16952,16953,1489,smoothed_contact_0_to_1,95,P01_109_95,put down potato,15463,15503
+left,15508,15509,15553,15554,46,smoothed_contact_0_to_1,96,P01_109_96,pick up peeler blade,15508,15575
+left,15557,15558,15750,15751,194,smoothed_contact_0_to_1,96,P01_109_96,pick up peeler blade,15508,15575
+left,15760,15761,16142,16143,383,smoothed_contact_0_to_1,97,P01_109_97,fix peeler blade,15574,15772

@@ -1,0 +1,73 @@
+{
+  "sample_key": "subaction_67_P01_109_67__episode_01_right__frame_010261_right",
+  "worker": "e20c",
+  "already_clean": false,
+  "hand_box_count": 4,
+  "box_sources": {
+    "primary": 2,
+    "dino": 1,
+    "low": 0,
+    "neighbor": 1,
+    "dino_skin_dropped": 0
+  },
+  "sam_scores": [
+    0.9006932973861694,
+    0.9712299704551697,
+    0.9852361679077148,
+    0.9184321165084839
+  ],
+  "mask_capped": false,
+  "inpaint_rounds": 2,
+  "passed": {
+    "lama": true,
+    "sd": true
+  },
+  "skin_ratio_after": {
+    "lama": 0.9219547337455725,
+    "sd": 0.7888875547817734
+  },
+  "redetect_score_after": {
+    "lama": 0.0,
+    "sd": 0.0
+  },
+  "redetect_raw_after": {
+    "lama": 0.0,
+    "sd": 0.0
+  },
+  "boundary_gradient_ratio": {
+    "lama": 0.9647310617342639,
+    "sd": 1.2556505901743262
+  },
+  "sharpness": {
+    "lama": 116.80892944335938,
+    "sd": 1877.5755615234375
+  },
+  "sharpness_ratio_vs_original": {
+    "lama": 0.19193297761467654,
+    "sd": 3.0851123277735746
+  },
+  "sd_final_eligible": false,
+  "sdedit_sharpness_ratio": {
+    "lama": 0.6628151620012044,
+    "sd": 0.6316326291118729
+  },
+  "backend_rank": [
+    "lama",
+    "sd"
+  ],
+  "elapsed_sec": 5.443499803543091,
+  "protect_source": "bbox",
+  "protect_sam_valid": false,
+  "protect_area_ratio": 0.012421189692982455,
+  "protect_conflict_frac": 0.54,
+  "label_region_conflict": true,
+  "mask_area_ratio_raw": 0.30990439967105265,
+  "overlap_heatmap_top_raw": 0.5434782608695652,
+  "mask_area_ratio": 0.3081397341008772,
+  "mask_touches_bottom": true,
+  "overlap_heatmap_top": 0.0,
+  "protect_intact_final": true,
+  "overlap_crop150": 0.40884444444444445,
+  "redetect_score_before": 0.4550265967845917,
+  "redetect_raw_before": 0.4550265967845917
+}

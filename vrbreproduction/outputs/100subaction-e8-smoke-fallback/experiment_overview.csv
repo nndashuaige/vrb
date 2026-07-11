@@ -1,2 +1,0 @@
-experiment_id,subactions_total,subactions_success,final_tuple_count,raw_candidate_total,deep_run_candidate_total,contact_gmm_pass,active_object_selected,object_track_success,reference_found,projection_success,mask_gate_pass,cotracker_success,fallback_tracker_success,articulated_success_count,articulated_failure_count,articulated_projection_quality,trajectory_success,heatmap_success,main_failure
-E8,3,2,6,278,22,18,22,18,17,17,17,0,17,0,0,,17,6,contact_points_lt5_after_object_boundary_filter

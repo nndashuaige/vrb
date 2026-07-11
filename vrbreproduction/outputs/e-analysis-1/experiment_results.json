@@ -1,0 +1,231 @@
+{
+  "experiment": "e-analysis-1",
+  "dataset": "EPIC-KITCHENS-100",
+  "usable_data_definition": [
+    "annotation contains verb + noun (对xx物体做xx动作)",
+    "annotation contains valid start_frame/stop_frame",
+    "video covered by official hand-object bboxes release (hand boxes + object boxes, per frame)",
+    "subaction frame range within bbox release frame count"
+  ],
+  "splits_used": [
+    "train",
+    "validation"
+  ],
+  "usability_funnel": [
+    {
+      "gate": "all_public_labelled_subactions (train+validation)",
+      "remaining_subactions": 76885
+    },
+    {
+      "gate": "has_verb_and_noun",
+      "remaining_subactions": 76885
+    },
+    {
+      "gate": "has_valid_frame_range",
+      "remaining_subactions": 76885
+    },
+    {
+      "gate": "video_has_hand_and_object_bboxes",
+      "remaining_subactions": 76885
+    },
+    {
+      "gate": "frame_range_within_bbox_coverage",
+      "remaining_subactions": 76885
+    }
+  ],
+  "num_usable_subactions": 76885,
+  "num_usable_videos": 633,
+  "num_usable_participants": 34,
+  "num_distinct_nouns_raw": 2214,
+  "num_distinct_verbs_raw": 902,
+  "num_distinct_verb_noun_pairs_raw": 12283,
+  "num_distinct_noun_classes": 293,
+  "num_distinct_verb_classes": 97,
+  "num_distinct_verb_noun_class_pairs": 3806,
+  "top10_noun_classes": [
+    {
+      "noun_class_key": "tap",
+      "noun_class": 0,
+      "count": 3997,
+      "percentage": 5.199
+    },
+    {
+      "noun_class_key": "plate",
+      "noun_class": 2,
+      "count": 2887,
+      "percentage": 3.755
+    },
+    {
+      "noun_class_key": "spoon",
+      "noun_class": 1,
+      "count": 2691,
+      "percentage": 3.5
+    },
+    {
+      "noun_class_key": "cupboard",
+      "noun_class": 3,
+      "count": 2676,
+      "percentage": 3.481
+    },
+    {
+      "noun_class_key": "knife",
+      "noun_class": 4,
+      "count": 2515,
+      "percentage": 3.271
+    },
+    {
+      "noun_class_key": "pan",
+      "noun_class": 5,
+      "count": 2472,
+      "percentage": 3.215
+    },
+    {
+      "noun_class_key": "lid",
+      "noun_class": 6,
+      "count": 1978,
+      "percentage": 2.573
+    },
+    {
+      "noun_class_key": "bowl",
+      "noun_class": 7,
+      "count": 1976,
+      "percentage": 2.57
+    },
+    {
+      "noun_class_key": "drawer",
+      "noun_class": 8,
+      "count": 1883,
+      "percentage": 2.449
+    },
+    {
+      "noun_class_key": "glass",
+      "noun_class": 10,
+      "count": 1692,
+      "percentage": 2.201
+    }
+  ],
+  "top10_verb_classes": [
+    {
+      "verb_class_key": "take",
+      "verb_class": 0,
+      "count": 16785,
+      "percentage": 21.831
+    },
+    {
+      "verb_class_key": "put",
+      "verb_class": 1,
+      "count": 13934,
+      "percentage": 18.123
+    },
+    {
+      "verb_class_key": "wash",
+      "verb_class": 2,
+      "count": 8068,
+      "percentage": 10.494
+    },
+    {
+      "verb_class_key": "open",
+      "verb_class": 3,
+      "count": 5680,
+      "percentage": 7.388
+    },
+    {
+      "verb_class_key": "close",
+      "verb_class": 4,
+      "count": 3997,
+      "percentage": 5.199
+    },
+    {
+      "verb_class_key": "insert",
+      "verb_class": 5,
+      "count": 3624,
+      "percentage": 4.714
+    },
+    {
+      "verb_class_key": "turn-on",
+      "verb_class": 6,
+      "count": 2596,
+      "percentage": 3.376
+    },
+    {
+      "verb_class_key": "turn-off",
+      "verb_class": 8,
+      "count": 2072,
+      "percentage": 2.695
+    },
+    {
+      "verb_class_key": "cut",
+      "verb_class": 7,
+      "count": 2034,
+      "percentage": 2.646
+    },
+    {
+      "verb_class_key": "mix",
+      "verb_class": 10,
+      "count": 1861,
+      "percentage": 2.42
+    }
+  ],
+  "top10_verb_noun_class_pairs": [
+    {
+      "verb_class_key": "turn-on",
+      "noun_class_key": "tap",
+      "count": 1985,
+      "percentage": 2.582
+    },
+    {
+      "verb_class_key": "turn-off",
+      "noun_class_key": "tap",
+      "count": 1742,
+      "percentage": 2.266
+    },
+    {
+      "verb_class_key": "open",
+      "noun_class_key": "cupboard",
+      "count": 1569,
+      "percentage": 2.041
+    },
+    {
+      "verb_class_key": "open",
+      "noun_class_key": "drawer",
+      "count": 1084,
+      "percentage": 1.41
+    },
+    {
+      "verb_class_key": "close",
+      "noun_class_key": "cupboard",
+      "count": 1050,
+      "percentage": 1.366
+    },
+    {
+      "verb_class_key": "take",
+      "noun_class_key": "spoon",
+      "count": 1019,
+      "percentage": 1.325
+    },
+    {
+      "verb_class_key": "take",
+      "noun_class_key": "plate",
+      "count": 975,
+      "percentage": 1.268
+    },
+    {
+      "verb_class_key": "put",
+      "noun_class_key": "plate",
+      "count": 915,
+      "percentage": 1.19
+    },
+    {
+      "verb_class_key": "take",
+      "noun_class_key": "knife",
+      "count": 909,
+      "percentage": 1.182
+    },
+    {
+      "verb_class_key": "wash",
+      "noun_class_key": "hand",
+      "count": 854,
+      "percentage": 1.111
+    }
+  ]
+}

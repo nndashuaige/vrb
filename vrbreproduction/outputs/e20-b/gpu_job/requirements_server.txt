@@ -1,0 +1,10 @@
+segment-anything
+simple-lama-inpainting
+diffusers>=0.27
+transformers
+accelerate
+safetensors
+opencv-python-headless
+pillow
+numpy
+torch
